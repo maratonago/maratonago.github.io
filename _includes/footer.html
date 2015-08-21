@@ -1,0 +1,50 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>{{ site.title }}</li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            <a href="https://github.com/{{ site.github_username }}">
+              <span class="icon  icon--github">
+                <i class="fa fa-github"></i>
+              </span>
+
+              <span class="username">{{ site.github_username }}</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.facebook_username %}
+          <li>
+            <a href="https://facebook.com/{{ site.facebook_username }}">
+              <span class="icon  icon--facebook">
+                <i class="fa fa-facebook"></i>
+              </span>
+
+              <span class="username">{{ site.facebook_username }}</span>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">{{ site.description }}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

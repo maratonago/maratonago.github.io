@@ -1,0 +1,14 @@
+# Site settings
+title: Maratona GO
+# email: your-email@domain.com
+description: > 
+  Projeto para divulgação de informação sobre a Maratona de Programação
+  e compartilhamento de conhecimento sobre Competitive Programming.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://maratonago.github.io" # the base hostname & protocol for your site
+facebook_username: maratonago
+github_username:  maratonago
+
+# Build settings
+markdown: kramdown
+
