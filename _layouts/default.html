@@ -7,12 +7,11 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    <a class="paper-button {% if page.home == true %}btn-left" href="#home"{% else %}btn-down" href="{{site.baseurl}}/"{% endif %}></a>
 
+    <section class="page-content">
+        {{ content }}
+    </section>
     {% include footer.html %}
 
   </body>

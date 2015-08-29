@@ -1,14 +1,53 @@
 # Site settings
 title: Maratona GO
-# email: your-email@domain.com
+email: paulocezar.ufg@gmail.com
 description: > 
   Projeto para divulgação de informação sobre a Maratona de Programação
   e compartilhamento de conhecimento sobre Competitive Programming.
+footer_text: '&copy; 2015 Maratona GO. Made with Jekyll using <a href="https://github.com/OnlySomeDood/material-jekyll-ex">Material Jekyll Ex Theme</a>.'
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://maratonago.github.io" # the base hostname & protocol for your site
+
+# Social usernames
 facebook_username: maratonago
 github_username:  maratonago
 
+# Google Analytics tracking Code
+#google_analytics: U-XXXXXX-XA
+
+# Disqus comments shortname
+disqus:
+    shortname: "maratonago" #replace with your disqus comment short name
+
+# Site author attribution
+# Feel free to edit this. I use admin for myself and guest for a guest blogger if needed
+# Theoretically you can have an unlimited number defined.
+# In order to get the ID for your gravitar, login to the gravitar website, click My Gravitars
+# Click view rating then copy the email hash.
+# Be sure to include the appropriate frontmatter in your post to attribute the author
+author_ids: [costap]
+authors:
+  costap:
+    display_name: Paulo Cezar
+    #gravatar: 
+    email: paulocezar.ufg@gmail.com
+    #web: http://paulocezar.github.io
+    github: http://github.com/OnlySomeDood
+    #bio: I am a geek who likes to blog.
+
 # Build settings
 markdown: kramdown
+include: ['_pages', '_assets']
+exculde: ['.sass_cache', 'README.md']
+sass:
+  sass_dir: '_assets/_sass'
+permalink: pretty
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "_pages"
+    values:
+      is_in_nav: true
 

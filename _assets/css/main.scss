@@ -1,0 +1,97 @@
+---
+---
+@charset "utf-8";
+
+
+/**
+* Variables
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+
+$base-font-family: 'Open Sans', sans-serif;
+$code-font: Open Sans, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+$spacing-unit:     30px;
+$darkPrimaryColor:   #0288D1;
+$primaryColor:       #039BE5;
+$lightPrimaryColor:  #29B6F6;
+$textPrimaryColor:   darken(#FFFFFF, 3.5%);
+$accentColor:        #FF5252;
+$primaryTextColor:   #212121;
+$secondaryTextColor: #444444;
+$dividerColor:       #B6B6B6;
+$content-width:    800px;
+$on-palm:          600px;
+$on-tablet:        1000px;
+$on-laptop:        1100px;
+
+
+/**
+* Fonts
+*/
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('fonts/icomoon.eot?-j4rya7');
+  src:url('fonts/icomoon.eot?#iefix-j4rya7') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?-j4rya7') format('truetype'),
+    url('fonts/icomoon.woff?-j4rya7') format('woff'),
+    url('fonts/icomoon.svg?-j4rya7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-down:before { content: "\e60e"; }
+.icon-chevron-left:before { content: "\e60f"; }
+.icon-reply2:before { content: "\e613"; }
+.icon-sun:before  { content: "\e609"; }
+.icon-brightness-contrast:before  { content: "\e60a"; }
+.icon-star-empty:before  { content: "\e60b"; }
+.icon-star-full:before  { content: "\e60c"; }
+.icon-heart:before  { content: "\e60d"; }
+.icon-google-plus2:before  { content: "\e601"; }
+.icon-facebook2:before  { content: "\e600"; }
+.icon-instagram:before  { content: "\e608"; }
+.icon-twitter:before  { content: "\e602"; }
+.icon-feed2:before  { content: "\e603"; }
+.icon-feed3:before  { content: "\e604"; }
+.icon-github:before  { content: "\e605"; }
+.icon-linkedin:before  { content: "\e606"; }
+.icon-linkedin2:before  { content: "\e607"; }
+.icon-drafts:before  { content: "\e075"; }
+.icon-reply:before  { content: "\e082"; }
+
+
+/**
+* Mixins
+*/
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+/**
+* Imports
+*/
+
+@import "base", "layout", "syntax-highlighting";

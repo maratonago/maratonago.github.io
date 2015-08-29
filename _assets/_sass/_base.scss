@@ -1,0 +1,183 @@
+/**
+* Reset some basic elements
+*/
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+* Links
+*/
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+section {
+  a {
+    color: $accentColor;
+  }
+}
+
+
+/**
+* Set `margin-bottom` to maintain vertical rhythm
+*/
+
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+
+/**
+* Images
+*/
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+/**
+* Figures
+*/
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: $small-font-size;
+}
+
+
+
+/**
+* Lists
+*/
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+
+
+/**
+* Headings
+*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+
+
+/**
+* Links
+*/
+
+a {
+  color: $accentColor;
+  text-decoration: none;
+  background: transparent;
+  &:visited {
+    color: darken($accentColor, 15%);
+  }
+  &:hover {
+    color: $primaryTextColor;
+    text-decoration: underline;
+  }
+}
+
+
+
+/**
+* Blockquotes
+*/
+
+blockquote {
+  color: $secondaryTextColor;
+  border-left: 4px solid $dividerColor;
+  padding-left: $spacing-unit / 2;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic;
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
+/**
+* Code formatting
+*/
+pre,
+code {
+  font-family: $code-font;
+  font-size: 15px;
+  background: $primaryTextColor;
+  border-radius: 3px;
+  color: $textPrimaryColor;
+}
+code {
+  padding: 2px 5px;
+}
+pre {
+  padding: 8px 12px;
+  overflow-x: scroll;
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+/**
+* Clearfix
+*/
+*, *:after, *:before  {
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+%clearfix {
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
+/**
+* Icons
+*/
+
+.icon {
+
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+
+    path {
+      fill: $secondaryTextColor;
+    }
+  }
+}
