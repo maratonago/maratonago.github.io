@@ -2,6 +2,8 @@
 layout: default
 ---
 
+
+
 {{ content }}
 <!-- TODO - decidir se coloca ou nao informação sobre autor.. 
 {% assign author = site.authors[page.author] %}
@@ -12,6 +14,11 @@ layout: default
 		<span class="author">{{ author.display_name }}</span>
 	</div>
 -->
+
+  <p class='gh-edit'>
+    <a href="//github.com/{{ site.github_username }}/{{ site.github_username }}.github.io/blob/master/{{ page.path }}" target="_blank"><i class="icon-github"></i>&nbsp;Edit this post on GitHub</a>
+  </p>
+
 {% include disqus.html%}
 <div id="post-nav" class="clearfix">
   {% if page.previous.url %}

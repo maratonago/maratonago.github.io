@@ -49,6 +49,11 @@ section {
   }
 }
 
+  .gh-edit {
+    float: right!important;
+    font-size: 0.9rem;
+  }
+
 /**
 * Site header
 */
@@ -58,6 +63,8 @@ header {
   position: relative;
   padding-top: 13%;
   padding-bottom: 18%;
+
+
   a {
     font-size: 26px;
     line-height: 56px;

@@ -2,7 +2,28 @@
 <div class="content-wrap">
 <header>
   <div class="wrapper">
-    {% if page.path contains '_posts' %}<p class="post-meta">{{ page.date | date: '%-d %B %Y' }}</p>{% else if page.sub %}<p>{{ site.sub }}</p>{% else %}<p>{{ site.description }}</p>{% endif %}
+    {% if page.path contains '_posts' %}
+
+    <p class="post-meta">
+      {% assign m = page.date | date: "%-m" %}
+      {{ page.date | date: "%-d" }} de
+            {% case m %}
+                {% when '1' %}Janeiro
+                {% when '2' %}Fevereiro
+                {% when '3' %}Março
+                {% when '4' %}Abril
+                {% when '5' %}Maio
+                {% when '6' %}Junho
+                {% when '7' %}Julho
+                {% when '8' %}Agosto
+                {% when '9' %}Setembro
+                {% when '10' %}Outubro
+                {% when '11' %}Novembro
+                {% when '12' %}Dezembro
+            {% endcase %}
+          de {{ page.date | date: "%Y" }}
+        </p>
+    {% else if page.sub %}<p>{{ site.sub }}</p>{% else %}<p>{{ site.description }}</p>{% endif %}
     {% if page.title %}{% if page.link %}<a class="linked-post" href="{{ page.link }}">{% endif %}<h1>{% if page.link %}<span class="icon-call-made"></span>{% endif %}{{ page.title }}</h1>{% if page.link %}</a>{% endif %}{% else %}<h1>{{ site.title }}</h1>{% endif %}
   </div>
 </header>
@@ -18,5 +39,6 @@
       {% assign pages = site.pages | sort:"url" %}
       {% for p in pages order:ascending %}{% if p.is_in_nav == true %}<li><a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
       {% endif %}{% endfor %}
-    </ul>
+    </li></ul>
   </nav>
+

@@ -32,8 +32,8 @@ authors:
     #gravatar: 
     email: paulocezar.ufg@gmail.com
     #web: http://paulocezar.github.io
-    github: http://github.com/OnlySomeDood
-    #bio: I am a geek who likes to blog.
+    github: http://github.com/paulocezar
+    #bio:
 
 # Build settings
 markdown: kramdown
@@ -41,7 +41,7 @@ include: ['_pages', '_assets']
 exculde: ['.sass_cache', 'README.md']
 sass:
   sass_dir: '_assets/_sass'
-permalink: pretty
+permalink: /:title
 
 # Defaults
 defaults:
