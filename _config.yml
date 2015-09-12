@@ -13,21 +13,20 @@ facebook_username: maratonago
 github_username:  maratonago
 
 # Google Analytics tracking Code
-#google_analytics: U-XXXXXX-XA
+#google_analytics: ?-??????-??
 
 # Disqus comments shortname
 disqus:
     shortname: "maratonago" #replace with your disqus comment short name
 
 # Site author attribution
-# Feel free to edit this. I use admin for myself and guest for a guest blogger if needed
 # Theoretically you can have an unlimited number defined.
 # In order to get the ID for your gravitar, login to the gravitar website, click My Gravitars
 # Click view rating then copy the email hash.
 # Be sure to include the appropriate frontmatter in your post to attribute the author
-author_ids: [costap]
+author_ids: [paulocezar]
 authors:
-  costap:
+  paulocezar:
     display_name: Paulo Cezar
     #gravatar: 
     email: paulocezar.ufg@gmail.com
@@ -37,6 +36,8 @@ authors:
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
 include: ['_pages', '_assets']
 exculde: ['.sass_cache', 'README.md']
 sass:
