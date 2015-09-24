@@ -6,7 +6,7 @@ categories: analise
 author: paulocezar
 ---
 
-Aconteceu nesse final de semana em sedes espalhadas por todo o país a etapa
+Aconteceu no dia 12 de Setembro em sedes espalhadas por todo o país a etapa
 regional da Maratona de Programação. O resultado completo pode ser conferido
 [aqui][resultados-regional-2015]{:target="_blank"}. Em 2015 a sede Goiânia
 foi uma das maiores do país e recebeu 29 times de 10 instituições de todo o
