@@ -35,6 +35,23 @@ html, body {
     display: block;
 }
 
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+    border:1px solid black;
+}
+
+td {
+    text-align:left;
+    font-weight:normal;
+    vertical-align:middle; 
+    border:1px solid black; 
+    padding:5px;
+}
+
+th {border: 1px solid black; 
+    padding:5px;}
+
 /**
 * Section
 */
@@ -623,3 +640,5 @@ footer {
     padding-bottom: 50%;
   }
 }
+
+
