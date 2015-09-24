@@ -6,7 +6,7 @@ Resolva este problema no:
 [URI][uri-1931]{:target="_blank"}
 
 Se não fosse a restrição de pagar um número par de pedágios, esse problema
-seria facilmente resolvido usando o [algoritmo de Dijkstra][wkp-dijksta]{:target="_blank"}.
+seria facilmente resolvido usando o [algoritmo de Dijkstra][wkp-dijkstra]{:target="_blank"}.
 Bem, acontece que mesmo com essa restrição adicional o problema continua
 sendo facilmente resolvido com o algoritmo de dijstra. :) Para isso basta
 transformar cada vértice $$u$$ do grafo em dois, $$u_0$$ e $$u_1$$, o vértice
