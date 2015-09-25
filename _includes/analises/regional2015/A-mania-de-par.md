@@ -1,7 +1,7 @@
 
 ## A - Mania de Par
 
-Resolva este problema no:
+Resolva este problema:
 [Uva][uva-12950]{:target="_blank"},
 [URI][uri-1931]{:target="_blank"}
 

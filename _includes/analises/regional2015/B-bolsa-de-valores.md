@@ -1,7 +1,7 @@
 
 ## B - Bolsa de Valores
 
-Resolva este problema no:
+Resolva este problema:
 [Uva][uva-12951]{:target="_blank"},
 [URI][uri-1932]{:target="_blank"}
 

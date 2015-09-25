@@ -29,7 +29,7 @@ melhor que uma breve análise da prova desse ano. Confira.
 |C - Tri-du				| balão++		| ad hoc				 |
 |D - Quebra-cabeça		| fácil 		| ad hoc				 |
 |E - Espiral			| médio 		| ad hoc, matemática	 |
-|F - Fatorial			| fácil 		| coin change			 |
+|F - Fatorial			| fácil 		| greedy, coin change	 |
 |G - Guardiões Curiosos	| ? 			| ...					 |
 |H - Praça do Retângulo	| médio 		| ad hoc				 |
 |I - Ominobox			| ?				| ...					 |
