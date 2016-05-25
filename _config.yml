@@ -1,7 +1,7 @@
 # Site settings
 title: Maratona GO
 email: paulocezar.ufg@gmail.com
-description: > 
+description: >
   Projeto para divulgação de informação sobre a Maratona de Programação
   e compartilhamento de conhecimento sobre Competitive Programming.
 footer_text: '&copy; 2015 Maratona GO. Made with Jekyll using <a href="https://github.com/OnlySomeDood/material-jekyll-ex">Material Jekyll Ex Theme</a>.'
@@ -28,7 +28,7 @@ author_ids: [paulocezar]
 authors:
   paulocezar:
     display_name: Paulo Cezar
-    #gravatar: 
+    #gravatar:
     email: paulocezar.ufg@gmail.com
     #web: http://paulocezar.github.io
     github: http://github.com/paulocezar
@@ -43,6 +43,19 @@ exculde: ['.sass_cache', 'README.md']
 sass:
   sass_dir: '_assets/_sass'
 permalink: /:title
+
+gems:
+  - jekyll-coffeescript
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-coffeescript
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
 
 # Defaults
 defaults:
