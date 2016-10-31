@@ -7,11 +7,11 @@ author: paulocezar
 ---
 
 Bem vindos ao novo portal sobre a Maratona de Programação e competitive
-programming em geral do estado de Goiás e de toda a região Centro-Oeste.
+programming em geral do Estado de Goiás e de toda a região Centro-Oeste.
 
-Atualmente temos um página no [Facebook][fb-page] com o intuito de divulgar
+Atualmente, temos um página no [Facebook][fb-page] com o intuito de divulgar
 informações e notícias relacionadas com a Maratona de Programação no estado
-de Goiás. Além disso temos também um [Grupo][fb-group] destinado a alunos,
+de Goiás. Além disso, temos também um [Grupo][fb-group] destinado a alunos,
 professores, ex-competidores e entusiastas da Maratona de Programação no
 estado, também no Facebook. 
 
