@@ -7,6 +7,6 @@ Resolva este problema:
 
 Um exemplo de implementação segue abaixo:
 
-{% gist paulocezar/aa3cd44d6056956cc717e722e8ba8dcb A.py %}
+{% gist wellvolks/b964ba6abb6fc9ea4649ff6687be9759694b9e84 bingo.cpp %}
 
 [uri-2235]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1136
