@@ -8,6 +8,6 @@ O enunciado do problema começa explicando a versão clássica do jogo de Bingo 
 
 Um exemplo de implementação segue abaixo:
 
-{% gist paulocezar/b964ba6abb6fc9ea4649ff6687be9759694b9e84 bingo.cpp %}
+{% gist wellvolks/510018490c4ea9a5787b0c5b258595c3 bingo.cpp %}
 
 [uri-1136]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1136
