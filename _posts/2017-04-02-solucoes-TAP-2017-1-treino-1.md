@@ -30,3 +30,5 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 
 
 {% include analises/Treino-1-TAP-2017-1/Bingo.md %}
+{% include analises/Treino-1-TAP-2017-1/horas_e_minutos.md %}
+
