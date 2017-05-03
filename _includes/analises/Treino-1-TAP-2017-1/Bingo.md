@@ -4,8 +4,9 @@
 Resolva este problema:
 [URI][uri-1136]{:target="_blank"}
 
-O enunciado do problema começa explicando a versão clássica do jogo de Bingo e logo após apresenta uma nova versão chamada **A**lbert-**C**harles-**M**ary.  Nesta versão o caller sorteia uma primeira bola, coloca-a de volta no globo, sorteia uma segunda bola, coloca-a de volta no globo e então anuncia a diferença absoluta entre os números das duas bolas. O problema consiste em descobrir se é possível gerar todos os números de **0** até **N** através destas diferenças levando em consideração as **B** bolas que restaram dentro do globo.  Seja **bi** o valor de alguma bola **i** dentro do globo e **c** um valor entre **0** e **N** inclusive, **c** é gerado se existir alguma bola, dentro do globo, com o valor **bi + c**. Como o valor de **N** ≤ **90**, podemos olhar para todos os valores possíveis de **c**, ou seja, de **0** até **N** e verificar se o valor **bi + c** está dentro do globo.
-
+<p align="justify">
+O enunciado do problema começa explicando a versão clássica do jogo de Bingo e logo após apresenta uma nova versão chamada **A**lbert-**C**harles-**M**ary.  Nesta versão o caller sorteia uma primeira bola, coloca-a de volta no globo, sorteia uma segunda bola, coloca-a de volta no globo e então anuncia a diferença absoluta entre os números das duas bolas. O problema consiste em descobrir se é possível gerar todos os números de <b>0</b> até <b>N</b> através destas diferenças levando em consideração as <b>B</b> bolas que restaram dentro do globo.  Seja <b>bi</b> o valor de alguma bola <b>i</b> dentro do globo e <b>c</b> um valor entre <b>0</b> e <b>N</b> inclusive, <b>c</b> é gerado se existir alguma bola, dentro do globo, com o valor <b>bi + c</b>. Como o valor de <b>N</b> ≤ <b>90</b>, podemos olhar para todos os valores possíveis de <b>c</b>, ou seja, de <b>0</b> até <b>N</b> e verificar se o valor <b>bi + c</b> está dentro do globo.
+</p>
 Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/510018490c4ea9a5787b0c5b258595c3 bingo.cpp %}
