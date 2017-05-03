@@ -28,5 +28,5 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 |K - Guarda Costeira   | 2 	    | matemática, Ad Hoc	                    |
 |=====
 
-{% include analises/Treino-1-TAP-2017-1/Bingo.md %}
+
 
