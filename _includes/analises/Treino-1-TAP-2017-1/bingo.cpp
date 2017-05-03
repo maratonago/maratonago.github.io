@@ -1,3 +1,5 @@
+// Welton Cardoso do Carmo, Treino 1 - TAP 2017/1, Bingo -- O(N*B), C++
+
 #include <bits/stdc++.h>
 #define MAXN 200
 
