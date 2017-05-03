@@ -7,6 +7,6 @@ Resolva este problema:
 
 Um exemplo de implementação segue abaixo:
 
-{% gist wellvolks/b964ba6abb6fc9ea4649ff6687be9759694b9e84 bingo.cpp %}
+{% gist paulocezar/b964ba6abb6fc9ea4649ff6687be9759694b9e84 bingo.cpp %}
 
-[uri-2235]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1136
+[uri-1136]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1136
