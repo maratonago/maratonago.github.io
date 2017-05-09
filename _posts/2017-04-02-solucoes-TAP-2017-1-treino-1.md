@@ -35,4 +35,5 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 {% include analises/Treino-1-TAP-2017-1/led.md %}
 {% include analises/Treino-1-TAP-2017-1/arvore_de_natal.md %}
 {% include analises/Treino-1-TAP-2017-1/trilhos.md %}
+{% include analises/Treino-1-TAP-2017-1/diamantes.md %}
 
