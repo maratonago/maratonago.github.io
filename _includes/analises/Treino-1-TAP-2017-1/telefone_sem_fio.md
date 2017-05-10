@@ -9,8 +9,18 @@ Resolva este problema:
 
 
 <p align="justify">
-O enunciado do problema começa explicando a versão clássica do jogo de Bingo e logo após apresenta uma nova versão chamada <b>A</b>lbert-<b>C</b>harles-<b>M</b>ary.  Nesta versão o caller sorteia uma primeira bola, coloca-a de volta no globo, sorteia uma segunda bola, coloca-a de volta no globo e então anuncia a diferença absoluta entre os números das duas bolas. O problema consiste em descobrir se é possível gerar todos os números de <b>0</b> até <b>N</b> através destas diferenças levando em consideração as <b>B</b> bolas que restaram dentro do globo.  Seja <b>bi</b> o valor de alguma bola <b>i</b> dentro do globo e <b>c</b> um valor entre <b>0</b> e <b>N</b> inclusive, <b>c</b> é gerado se existir alguma bola, dentro do globo, com o valor <b>bi + c</b>. Como o valor de <b>N</b> ≤ <b>90</b>, podemos olhar para todos os valores possíveis de <b>c</b>, ou seja, de <b>0</b> até <b>N</b> e verificar se o valor <b>bi + c</b> está dentro do globo.
+O enunciado começa explicado como funciona a brincadeira do “telefone sem fio” com dois times. Nesse problema, devemos nos atentar aos critérios de desempate: 
 </p>
+<p align="justify">
+ “<i>A equipe vencedora é aquela cuja frase final seja mais próxima da frase original. Para calcular a semelhança entre duas frases de mesmo comprimento você deve contar o número de vezes em que o caractere da frase do time coincide com o caractere da frase original. Ganha o time para o qual o número de coincidências seja máximo.</i> <b>Se os dois times empataram neste critério, a <font color = “red” > primeira vez </font> que um dos times acertou e o outro errou decide.</b>”
+</p>
+<p align="justify">
+Seja <b>FO</b>, <b>F1</b> e <b>F2</b> a frase original, a do primeiro e segundo time, respectivamente. Vamos percorrer a frase original, da esquerda para a direita, e comparar o caractere da posição atual com o caractere das fases dos times na mesma posição. Os quatros casos a seguir podem ocorrer ao compararmos: <b>I)</b> os caracteres são iguais;  <b>II)</b> apenas o caractere da frase do primeiro time difere do original; <b>III)</b>apenas o caractere da frase do segundo time difere do original; <b>IV)</b>ambos os caracteres diferem do original;
+</p>
+<p align="justify">
+Apenas os <b>I</b>,<b>II</b> e <b>III</b> interferem na pontuação dos times. No caso <b>I</b> ambos recebem um ponto. No caso <b>II</b>, apenas o segundo time recebe um ponto e no caso <b>III</b> o primeiro é que recebe um ponto. Note-se que o critério de desempate leva em consideração a primeira ocorrência do caso <b>II</b> ou <b>III</b>. Portanto, se após percorrer a frase original e os times apresentam a mesma pontuação, basta verificar qual dos casos, <b>II</b> e <b>III</b>, ocorreu primeiro. Se for o caso <b>II</b> então o time 2 ganha, caso contrário o time 1 ganha. No entanto, se as pontuações dos times diferem, então o time que tiver a maior pontuação vence. 
+</p>
+
 
 Um exemplo de implementação segue abaixo:
 
