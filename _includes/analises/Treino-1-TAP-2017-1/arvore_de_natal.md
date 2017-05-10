@@ -1,3 +1,4 @@
+<div id="arvore">
 
 ## D - Árvore de Natal
 
@@ -7,6 +8,7 @@ Resolva este problema:
 <p align="justify">
 Implementação...
 </p>
+</div>
 
 Um exemplo de implementação segue abaixo:
 
