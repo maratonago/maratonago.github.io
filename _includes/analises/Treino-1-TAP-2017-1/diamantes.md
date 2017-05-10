@@ -1,6 +1,7 @@
 <div id="diamantes">
 
 </div>
+
 ## G - Diamantes e Areia
 
 Resolva este problema:
