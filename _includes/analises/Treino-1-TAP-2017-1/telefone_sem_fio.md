@@ -12,7 +12,7 @@ Resolva este problema:
 O enunciado começa explicado como funciona a brincadeira do “telefone sem fio” com dois times. Nesse problema, devemos nos atentar aos critérios de desempate: 
 </p>
 <p align="justify">
- “<i>A equipe vencedora é aquela cuja frase final seja mais próxima da frase original. Para calcular a semelhança entre duas frases de mesmo comprimento você deve contar o número de vezes em que o caractere da frase do time coincide com o caractere da frase original. Ganha o time para o qual o número de coincidências seja máximo.</i> <b>Se os dois times empataram neste critério, a <font color = “red” > primeira vez </font> que um dos times acertou e o outro errou decide.</b>”
+ “<i>A equipe vencedora é aquela cuja frase final seja mais próxima da frase original. Para calcular a semelhança entre duas frases de mesmo comprimento você deve contar o número de vezes em que o caractere da frase do time coincide com o caractere da frase original. Ganha o time para o qual o número de coincidências seja máximo.</i> <b>Se os dois times empataram neste critério, a <font color="red"> primeira vez </font> que um dos times acertou e o outro errou decide.</b>”
 </p>
 <p align="justify">
 Seja <b>FO</b>, <b>F1</b> e <b>F2</b> a frase original, a do primeiro e segundo time, respectivamente. Vamos percorrer a frase original, da esquerda para a direita, e comparar o caractere da posição atual com o caractere das fases dos times na mesma posição. Os quatros casos a seguir podem ocorrer ao compararmos: <b>I)</b> os caracteres são iguais;  <b>II)</b> apenas o caractere da frase do primeiro time difere do original; <b>III)</b>apenas o caractere da frase do segundo time difere do original; <b>IV)</b>ambos os caracteres diferem do original;
