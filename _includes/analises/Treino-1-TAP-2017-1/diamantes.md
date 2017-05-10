@@ -1,3 +1,4 @@
+<div id="diamantes">
 
 ## G - Diamantes e Areia
 
@@ -15,6 +16,7 @@ Após processamos todos os caracteres a resposta está armazenada em <b>diamante
 
 
 </p>
+</div>
 Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/6e3d3d8e57d5e61027ce26541f432f27 diamantes.cpp %}
