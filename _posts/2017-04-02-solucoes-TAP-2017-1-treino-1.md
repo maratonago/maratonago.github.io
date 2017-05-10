@@ -23,9 +23,11 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 |F - <a href="#trilhos">Trilhos</a>			        | 3   | pilha                                   |
 |G - <a href="#diamantes">Diamantes e Areia</a>	                            | 2         | contadores, pilha       |
 |H - <a href="#pontos">Pontos de Feno</a>	                    | 3		| mapas, STL maps				                    |
-|I - <a href="#mapa">Mapa do Meistre</a>			                | 2		    | travessia em grafos					                         |
-|J - <a href="#primo">Primo Rápido</a>	                | 2 		| matemática                    |
-|K - <a href="#guarda">Guarda Costeira</a>   | 2 	    | matemática, Ad Hoc	                    |
+|I - <a href="#dama">Dama</a>			                | 1		    | ad hoc				                         |
+|J - <a href="#mapa">Mapa do Meistre</a>			                | 2		    | travessia em grafos					                         |
+|K - <a href="#flores">Flores de Fogo</a>			                | 2		    | geometria					                         |
+|L - <a href="#primo">Primo Rápido</a>	                | 2 		| matemática                    |
+|M - <a href="#guarda">Guarda Costeira</a>   | 2 	    | matemática, Ad Hoc	                    |
 |=====
 
 <p>
