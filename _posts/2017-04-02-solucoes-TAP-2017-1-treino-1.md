@@ -15,7 +15,7 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 
 | Problema				                | Dificuldade	| Técnica relacionada	                                |
 |:--------------------------------------|:-------------:|------------------------------------------------------:|
-|A - Bingo! 		            | 3   	| ad hoc		                                        |
+|<a href="#bingo">A - Bingo!</a> 		            | 3   	| ad hoc		                                        |
 |B - Horas e Minutos	                    | 2	    | ad hoc |
 |C - LED				            | 1		    | string		                                        |
 |D - Árvore de Natal		                    | 2	        | ad hoc, substr                              |
@@ -28,6 +28,9 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 |K - Guarda Costeira   | 2 	    | matemática, Ad Hoc	                    |
 |=====
 
+<p>
+
+</p>
 
 
 {% include analises/Treino-1-TAP-2017-1/Bingo.md %}
