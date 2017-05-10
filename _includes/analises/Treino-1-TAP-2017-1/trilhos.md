@@ -1,5 +1,7 @@
 <div id="trilhos">
 
+</div>
+
 ## F - Trilhos
 
 Resolva este problema:
@@ -16,7 +18,6 @@ Após a chegada de todos os vagões, a sequência fornecida é alcançável se <
 
 </p>
 
-</div>
 Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/e85c8aff230c36af931381ce30378c7c trilhos.cpp %}
