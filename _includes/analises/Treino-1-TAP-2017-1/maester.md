@@ -1,5 +1,7 @@
 <div id="mapa">
 
+</div>
+
 ## J - Maester's Map
 
 Resolva este problema:
@@ -9,7 +11,6 @@ Resolva este problema:
 O enunciado do problema pede para fazer um programa para verificar se um mapa leva ou não a um ponto com um baú de obsidiana. Esse problema pode parecer complicado a primeira vista mas é bem simples, basta começar no canto superior esquerdo e seguir as flechas como descrito no enunciado, ou seja, bem direto, basta implementar o que o enunciado informa. 
 </p>
 
-</div>
 Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/7beb4f58e361060b491fa3238b41dc40 maester.cpp %}
