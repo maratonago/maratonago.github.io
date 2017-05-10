@@ -38,3 +38,5 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 {% include analises/Treino-1-TAP-2017-1/diamantes.md %}
 {% include analises/Treino-1-TAP-2017-1/pontos_de_feno.md %}
 {% include analises/Treino-1-TAP-2017-1/dama.md %}
+{% include analises/Treino-1-TAP-2017-1/maester.md %}
+
