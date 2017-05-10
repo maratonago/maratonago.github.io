@@ -1,6 +1,5 @@
-<div id="bingo">
 
-## A - Bingo!
+## A - Bingo! <div id="bingo">
 
 Resolva este problema:
 [URI][uri-1136]{:target="_blank"}
