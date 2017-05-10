@@ -1,0 +1,16 @@
+## M - Guarda Costeira
+
+Resolva este problema:
+[URI][uri-1247]{:target="_blank"}
+
+<p align="justify">
+Mariazinha solicita um programa que aceite diversos valores e diga, para cada um destes valores, se são primos ou não. Um valor é primo se tem apenas dois divisores: um e o próprio valor.  Como os valores de <b>X &lt; 2147483648 </b>,  <b> &radic;X &lt; 46340</b> e <b>N*&radic;X &lt; 9268000 </b>, podemos procurar um divisor para <b>X</b>, ou seja, precisamos olhar todos os valores até a  <b> &radic;X</b>, visto que o maior divisor possível de <b>X</b> é a raiz quadrada do mesmo. <b>X</b> não é primo se nenhum desses valores dividi ele. Caso contrário <b>X</b> é primo. 
+</p>
+
+
+Um exemplo de implementação segue abaixo:
+
+{% gist wellvolks/9b81d78f04cbe19dd535b2b0108b0c7d guarda_costeira.cpp %}
+
+
+[uri-1247]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1247
