@@ -2,16 +2,16 @@
 ## H - Pontos de Feno
 
 Resolva este problema:
-[URI][uri-1261]{:target="_blank"}
+[URI][uri-1087]{:target="_blank"}
 
 <p align="justify">
-O problema lhe fornece um dicionário <b>Hay Point</b> que contém algumas palavras-chaves e um valor, em dólares americanos, associado a cada uma dessas palavras-chaves. O salário de um funcionário é calculado através  da soma do valor de todas as palavras que aparecem na descrição do cargo deste funcionário. O problema pede que você compute, para cada funcionário, o valor deste salário.  Esse problema é um excelente reposta para a pergunta: “OK! Aprendi como utilizar <b>Map</b> da STL, mas qual problema eu posso praticar?” O contêiner <b>Map</b> da <a href="http://www.geeksforgeeks.org/the-c-standard-template-library-stl/"> STL </a>, em suma, são contêineres associativos que armazenam elementos de forma mapeada. Cada elemento tem um valor de chave e um valor mapeado. Não existem dois valores mapeados que tenham os mesmos valores de chave.
+O problema lhe fornece a posição de uma rainha e pede a quantidade mínima de movimentos necessários para chegar em outra posição do tabuleiro 8x8. A primeira vista parece um problema de grafos, podemos aplicar uma <a href="http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph">busca em largura</a> para descobrir a quantidade mínima de movimentos. Essa abordagem é aceita, mas se paramos para analisar o problema em si, percebemos que existem apenas três casos: I) a posição deseja é a mesma que a posição atual; II) a posição deseja é alcançável com um único movimento; III) a rainha consegue cobrir todas posições do tabuleiro com apenas dois movimentos, logo se a posição não é alcançável com 0 e nem com 1 movimento então, com certeza, é com 2 movimentos.
 </p>
 
 
 Um exemplo de implementação segue abaixo:
 
-{% gist wellvolks/e0afd8b7e49ad0f67d0b9c4ca315c7fb pontos_de_feno.cpp %}
+{% gist wellvolks/e0afd8b7e49ad0f67d0b9c4ca315c7fb dama.cpp %}
 
 
-[uri-1261]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1261
+[uri-1087]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1087
