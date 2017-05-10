@@ -5,15 +5,24 @@ Resolva este problema:
 [URI][uri-1261]{:target="_blank"}
 
 <p align="justify">
-Para cada comboio que chega da direção <b>A</b> continua na direção <b>B</b> com os vagões, reorganizados, de alguma forma.  A ordem que esses vagões chegam é sempre crescente <b>1,2,...,N</b>. Se um vagão entra na estação, ele só pode sair dela caso não tenha outro vagão na sua frente.  A única direção que um vagão, posicionado na estação, pode ir é para a direção <b>B</b>. Então dado uma sequência de vagões, o problema pede para verificar se é possível reproduzir tal sequência. Observe que a estação funciona como se fosse uma <b>pilha de vagões</b>, pois o último vagão que chega é o primeiro a sair, vamos denotar essa pilha de vagões por <b>P</b>. A sequência dada pode ser vista como uma <b>fila de vagões</b>, visto que devemos respeitar a ordem da sequência, vamos denota-la por <b>F </b>. 
+O problema lhe fornece um dicionário <b>Hay Point</b> que contém algumas palavras-chaves e um valor, em dólares americanos, associado a cada uma dessas palavras-chaves. O salário de um funcionário é calculado através  da soma do valor de todas as palavras que aparecem na descrição do cargo deste funcionário. O problema pede que você compute, para cada funcionário, o valor deste salário.  Esse problema é um excelente reposta para a pergunta: “OK! Aprendi como utilizar <b>Map</b> da STL, mas qual problema eu posso praticar?” O contêiner <b>Map</b> da <a href=” http://www.geeksforgeeks.org/the-c-standard-template-library-stl/”> STL </a>, em suma, são contêineres associativos que armazenam elementos de forma mapeada. Cada elemento tem um valor de chave e um valor mapeado. Não existem dois valores mapeados que tenham os mesmos valores de chave.
 </p>
 <p align="justify">
-Um comboio consiste de <b>N</b> vagões, para cada um deles, de <b> 1 até N </b>, verifique se o primeiro vagão em <b>F</b> é igual ao vagão que chegou, se for então o vagão segue na direção <b>B</b> e removemos o primeiro vagão de <b>F</b>. Caso contrário, verifique se existe algum vagão na estação, pois o mesmo pode ser o vagão que deveria sair agora. Se for então remova-o do topo de <b>P</b> e também remova o primeiro vagão de <b>F</b>. Se não for o vagão que deveria sair agora, então empilhe o vagão recém chegado em <b>P</b>.
+Seja  <b>M&lt;string,int&gt; </b> um <b>Map</b> composto pela chave  e valor do tipo <b>string</b> e <b>int</b>, respectivamente, e <b>S</b> uma variável que irá armazena o salário do funcionário. O primeiro passo é inserir todas as palavras-chaves do dicionário e seus respectivos valores em <b>M</b>. O passo seguinte consiste em, para cada palavra da descrição caso a mesma esteja em <b>M</b>, somar o valor associado em <b>S</b>: <b> S = S + M[ palavra ]</b>. Após processar uma descrição da entrada, basta imprimir o valor de <b>S</b>.
 </p>
 <p align="justify">
-Após a chegada de todos os vagões, a sequência fornecida é alcançável se <b>P</b> e <b>F</b> estiverem vazias, pois não sobrou nenhum vagão na estação e a fila de vagões que saíram na direção <b>B</b> foi respeitada, portanto saída deve ser <b>Yes</b>. Caso contrário, a sequência não é alcançável e a saída deve ser <b>No</b>.
+“Certo, mas se eu não programo em C++ devo pular esse problema?” Não meu(minha) jovem. Em <b>Java</b> temos o <a href=”http://www.geeksforgeeks.org/hashmap-treemap-java/”> HashMap</a>. “Mas em C ?” Nesse caso é quando você chora e mãe não ouve =). Brincadeiras à parte, as seguintes abordagens, independente da linguagem, podem ser implementadas:
+</p>
+<p align="justify">
+<b>Força bruta:</b> os valores <b>N</b>, <b>M</b> e <b>|palavra|</b> são pequenos,  portanto uma abordagem com complexidade <b>O(N*M*|palavra|)</b> é aceita. Nesta abordagem, podemos armazenar cada palavra-chave em um vetor e para cada palavra da descrição fazemos uma busca linear nesse vetor, se encontrarmos a palavra no vetor adicionamos à <b>S</b> o valor dela, caso contrário adicionámos o valor <b>0</b>.
+</p>
+<p align="justify">
+<b>Busca binária:</b> podemos diminuir a complexidade da abordagem anterior se ordenarmos  o vetor com as palavras-chaves e ao invés da busca linear, aplicarmos uma <a href=”http://www.geeksforgeeks.org/binary-search/”>busca binária</a>.
+</p>
+<p align="justify">
+<b>Árvore Trie:</b> a <a href=” http://www.geeksforgeeks.org/trie-insert-and-search/”>Trie</a> é uma estrutura de dados de recuperação rápida: <i>re<b>trie</b>val</i>. A complexidade de inserção, remoção e pesquisa são todos na ordem de <b>O(K)</b>, onde <b>K</b> representa o tamanho da palavra. Portanto, podemos inserir todas as palavras-chaves em uma <b>Trie</b> com complexidade <b>O(N*|palavra|)</b> e para cada palavra da descrição pesquisamos se a mesma está presente na <b>Trie</b>, se estiver adicionamos o valor desta palavra à <b>S</b>. 
+</p>
 
-</p>
 Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/644fc2c93b543ae7472c97b24ef96934 pontos_de_feno.cpp %}
