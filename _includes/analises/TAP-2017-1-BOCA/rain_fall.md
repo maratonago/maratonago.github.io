@@ -21,7 +21,7 @@ O primeiro passo é observar que existem três casos possíveis em relação aos
 O segundo passo é computador o valor de <b>C</b>. Note-se que se descobrirmos a taxa de chuva, uma vez que o problema não informa esse valor mas afirma que é constante, podemos calcular o valor de <b>C</b>. Seja <b>R</b> a taxa de chuva ao longo do período fornecido, então:
 </p>
 
-<p align="middle"> <b> C = R*T&#8322; </b> </p>
+<p align="middle"> <b> C = R*T&#8321; </b> </p>
 
 <p align="justify">
 A Figura abaixo ilustra um exemplo do problema fornecido no enunciado.
