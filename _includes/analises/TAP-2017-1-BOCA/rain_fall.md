@@ -57,7 +57,7 @@ Por outro lado, sabemos que o volume observado mais a quantidade de água vazada
  Logo, esses volumes devem ser iguais:
  <p>
  
-<p align="middle"> <b> (R-K)*(T&#8321; - <sup>L</sup>&frasl;<sub>R</sub>) + L &#61; H + k* T&#8322; </b> </p
+<p align="middle"> <b> (R-K)*(T&#8321; - <sup>L</sup>&frasl;<sub>R</sub>) + L &#61; H + k* T&#8322; </b> </p>
 
 <p align="justify">
 Para descobrir a taxa de chuva basta isolar o vaor de <b> R </b>, nesse processo ( fica como exercício ) chegamos em:
