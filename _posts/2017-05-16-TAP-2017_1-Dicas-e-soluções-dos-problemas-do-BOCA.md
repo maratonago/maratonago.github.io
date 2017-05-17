@@ -6,12 +6,26 @@ categories: analise
 author: wellvolks
 ---
 
-Aconteceu em 26 de Abril de 2017 o primeiro treino da disciplina TAP-Tópicos Avançados de Programação. O placar final do treino pode ser visto na imagem abaixo.
+Alguns problemas no BOCA requerem técnicas ou estruturas de dados mais avançadas. Este post tem como objetivo discutir e auxiliar na resolução destes problemas. Fiquem atentos, sempre que possível estaremos atualizando esse post com novas dicas e soluções.
 
-![Placar final do Treino-1 - TAP/2017-1](/_assets/images/Placar-Treino-1-Tap2017-1.png){: .center-image }
+Problemas discutidos:
+
+| Problema				                | Dificuldade	| Técnica relacionada	                                |
+|:--------------------------------------|:-------------:|------------------------------------------------------:|
+|<a href="#rain">Rain Fall</a> 		            | 4   	| matemática		                                        |
+|<a href="#artskjid">Artskjid </a>	                    | 4	    | programação dinâmica |
+|<a href="#hungry">Hungry Fox</a>				            | 5		    | ad hoc		                                        |
+|<a href="#solar">Solar flight</a>			        | 7 		| geometria + segment tree                        |
+|<a href="#code">Code Permutations </a>			        | 7   | programação dinâmica + combinatória                    |
+|<a href="#festa">Festa de aniversario</a>	                    | ?		| ?				                    |
+|=====
+
+<p>
+
+</p>
 
 
-{% include analises/Treino-1-TAP-2017-1/Bingo.md %}
+{% include analises/TAP-2017-1-BOCA/rain_fall.md %}
 
 
 
