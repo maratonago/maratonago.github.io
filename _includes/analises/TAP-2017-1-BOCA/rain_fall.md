@@ -45,7 +45,7 @@ O valor de <b>X</b>, por sua vez, pode ser encontrado como segue:
 Portanto,
 <p>
 
-<p align="middle"> <b> C = (R-K)*(T&#8321; - <sup>L</sup>&frasl;<sub>R</sub>) + L </b> </p
+<p align="middle"> <b> C = (R-K)*(T&#8321; - <sup>L</sup>&frasl;<sub>R</sub>) + L </b> </p>
 
 <p align="justify">
 Por outro lado, sabemos que o volume observado mais a quantidade de água vazada também nos dá o volume máximo de chuva, visto que a água não evapora. Esse volume é dado por:
