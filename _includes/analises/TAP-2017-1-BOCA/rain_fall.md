@@ -27,19 +27,19 @@ A Figura abaixo ilustra um exemplo do problema fornecido no enunciado.
 
 <p align="justify">
 O volume máximo de chuva, <b>C</b>, seguindo a Figura acima, é dado por:
-<p>
+<\p>
 
 <p align="middle"> <b> C = X + L </b> </p>
 
 <p align="justify">
 O valor de <b>X</b>, por sua vez, pode ser encontrado como segue:
-<p>
+<\p>
 
 <p align="middle"> <b> X = (R-K)*(T&#8321; - <sup>L</sup>&frasl;<sub>R</sub>) </b> </p>
 
 <p align="justify">
 Portanto,
-<p>
+<\p>
 
 <p align="middle"> <b> C = (R-K)*(T&#8321; - <sup>L</sup>&frasl;<sub>R</sub>) + L </b> </p>
 
@@ -51,7 +51,6 @@ Por outro lado, sabemos que o volume observado mais a quantidade de água vazada
  
  <p align="justify">
  Logo, esses volumes devem ser iguais:
- <p>
  
 <p align="middle"> <b> (R-K)*(T&#8321; - <sup>L</sup>&frasl;<sub>R</sub>) + L &#61; H + k* T&#8322; </b> </p>
 
@@ -62,12 +61,10 @@ Para descobrir a taxa de chuva basta isolar o vaor de <b> R </b>, nesse processo
 
 <p align="justify">
 Chegamos em uma equação do segundo grau, basta aplicarmos Bhaskara e descobrir o valor de <b>R</b>.
-<p>
+</p>
 
-<p align="middle">
-<p>
  
-<!--Um exemplo de implementação segue abaixo: -->
+<!--Um exemplo de implementação segue abaixo: --!>
 
-<!--{% gist wellvolks/468854028542097e55407afa7a403b2b guarda_costeira.cpp %}-->
+<!--{% gist wellvolks/468854028542097e55407afa7a403b2b guarda_costeira.cpp %}--!>
 
