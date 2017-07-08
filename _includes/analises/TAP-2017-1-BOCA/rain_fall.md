@@ -19,49 +19,6 @@ O segundo passo é computador o valor de <b>C</b>. Note-se que se descobrirmos a
 
 <p align="middle"> <b> C = R*T&#8321; </b> </p>
 
-<p align="justify">
-A Figura abaixo ilustra um exemplo do problema fornecido no enunciado.
-</p>
-
-![Desenho representando a situação mostrada no enunciado](/_assets/images/chuva.png){: .center-image }
-
-<p align="justify">
-O volume máximo de chuva, <b>C</b>, seguindo a Figura acima, é dado por:
-<\p>
-
-<p align="middle"> <b> C = X + L </b> </p>
-
-<p align="justify">
-O valor de <b>X</b>, por sua vez, pode ser encontrado como segue:
-<\p>
-
-<p align="middle"> <b> X = (R-K)*(T&#8321; - <sup>L</sup>&frasl;<sub>R</sub>) </b> </p>
-
-<p align="justify">
-Portanto,
-<\p>
-
-<p align="middle"> <b> C = (R-K)*(T&#8321; - <sup>L</sup>&frasl;<sub>R</sub>) + L </b> </p>
-
-<p align="justify">
-Por outro lado, sabemos que o volume observado mais a quantidade de água vazada também nos dá o volume máximo de chuva, visto que a água não evapora. Esse volume é dado por:
-</p>
-
- <p align="middle"> <b> H + k* T&#8322; </b> </p>
- 
- <p align="justify">
- Logo, esses volumes devem ser iguais:
- 
-<p align="middle"> <b> (R-K)*(T&#8321; - <sup>L</sup>&frasl;<sub>R</sub>) + L &#61; H + k* T&#8322; </b> </p>
-
-<p align="justify">
-Para descobrir a taxa de chuva basta isolar o vaor de <b> R </b>, nesse processo ( fica como exercício ) chegamos em:
-
-<p align="middle"> <b> R<sup>2</sup> * T&#8321; + R * ( - T&#8321; * K - H - K * T&#8322;) + K * L = 0 </b> </p>
-
-<p align="justify">
-Chegamos em uma equação do segundo grau, basta aplicarmos Bhaskara e descobrir o valor de <b>R</b>.
-</p>
 
  
 <!--Um exemplo de implementação segue abaixo: --!>
