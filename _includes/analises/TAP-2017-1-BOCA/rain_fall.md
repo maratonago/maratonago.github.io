@@ -45,3 +45,37 @@ Portanto,
 
 <p align="middle"> <b> C = (R-K)*(T&#8321; - <sup>L</sup>&frasl;<sub>R</sub>) + L </b> </p>
 
+
+
+
+
+
+<p align="justify">
+Por outro lado, sabemos que o volume observado mais a quantidade de água vazada também nos dá o volume máximo de chuva, visto que a água não evapora. Esse volume é dado por:
+</p>
+
+ <p align="middle"> <b> H + k* T&#8322; </b> </p>
+ 
+ <p align="justify">
+ Logo, esses volumes devem ser iguais:
+ </p>
+ 
+<p align="middle"> <b> (R-K)*(T&#8321; - <sup>L</sup>&frasl;<sub>R</sub>) + L &#61; H + k* T&#8322; </b> </p>
+
+<p align="justify">
+Para descobrir a taxa de chuva basta isolar o vaor de <b> R </b>, nesse processo ( fica como exercício ) chegamos em:
+</p>
+
+<p align="middle"> <b> R<sup>2</sup> * T&#8321; + R * ( - T&#8321; * K - H - K * T&#8322;) + K * L = 0 </b> </p>
+
+<p align="justify">
+Chegamos em uma equação do segundo grau, basta aplicarmos Bhaskara e descobrir o valor de <b>R</b>.
+</p>
+
+<p align="middle">
+</p>
+ 
+<!--Um exemplo de implementação segue abaixo: -->
+
+<!--{% gist wellvolks/468854028542097e55407afa7a403b2b guarda_costeira.cpp %}-->
+
