@@ -19,15 +19,15 @@ A solução mais intuitiva é responder a consulta do <b>Tipo 1</b> em <b>O(1)</
 Portanto, como responder a segunda consulta de forma eficiente? O primeiro passo é linearizar a árvore fornecida realizando um precurso em profundidade na mesma. À título de exemplo, suponha uma árvore com <b>N = 15</b> vértices, representada na Figura abiaxo, foi dada como entrada.
 </p>
 
-![a](/_assets/images/tree.png)
+<p><img src="/_assets/images/tree.png" class="center-image"></p>
 
 O processo de linearização é ilustrado na Figura abaixo. Note que cada nó <b>v</b> da árvore agora é mapeado para um valor <font color="blue"> <b>x</b> </font>.
 
-![b](/_assets/images/percurso.png)
+<p><img src="/_assets/images/percurso.png" class="center-image"></p>
 
 Aproveitando o percurso em profundidade, vamos armazenar também a quantidade de nós na subárvore de nó da árvore. Essa quantidade é presentada por <font color="green"> <b>y</b> </font> na Figura a seguir.
 
-![c](/_assets/images/sub.png)
+<p><img src="/_assets/images/sub.png" class="center-image"></p>
 
 
 <!--Um exemplo de implementação segue abaixo: -->
