@@ -27,3 +27,21 @@ A Figura abaixo ilustra um exemplo do problema fornecido no enunciado.
 
 ![Desenho representando a situação mostrada no enunciado](/_assets/images/chuva.png){: .center-image }
 
+<p align="justify">
+O volume máximo de chuva, <b>C</b>, seguindo a Figura acima, é dado por:
+<p>
+
+<p align="middle"> <b> C = X + L </b> </p>
+
+<p align="justify">
+O valor de <b>X</b>, por sua vez, pode ser encontrado como segue:
+<p>
+
+<p align="middle"> <b> X = (R-K)*(T&#8321; - <sup>L</sup>&frasl;<sub>R</sub>) </b> </p>
+
+<p align="justify">
+Portanto,
+<p>
+
+<p align="middle"> <b> C = (R-K)*(T&#8321; - <sup>L</sup>&frasl;<sub>R</sub>) + L </b> </p>
+
