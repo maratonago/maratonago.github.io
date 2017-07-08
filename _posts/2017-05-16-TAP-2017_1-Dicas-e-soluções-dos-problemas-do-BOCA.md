@@ -17,6 +17,7 @@ Problemas discutidos:
 |<a href="#hungry">Hungry Fox</a>				            | 5		    | ad hoc		                                        |
 |<a href="#solar">Solar flight</a>			        | 7 		| geometria + segment tree                        |
 |<a href="#code">Code Permutations </a>			        | 7   | programação dinâmica + combinatória                    |
+|<a href="#convidado">O Convidado </a>			        | 7   | DFS + Sqrt-decomposition                    |
 |<a href="#festa">Festa de aniversario</a>	                    | ?		| ?				                    |
 |=====
 
@@ -27,5 +28,5 @@ Problemas discutidos:
 
 {% include analises/TAP-2017-1-BOCA/rain_fall.md %}
 
-
+{% include analises/TAP-2017-1-BOCA/o_convidado.md %}
 
