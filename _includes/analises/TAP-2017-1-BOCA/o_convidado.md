@@ -45,6 +45,7 @@ Aproveitando o percurso em profundidade, vamos armazenar também a quantidade de
 
 <p>&nbsp;</p>
 
+
 <p align="justify">
 Com o mapeamento e a quantidade de nós na subárovre de cada nó da árvore calculados, podemos representar uma subárvore de um nó <b>v</b> como um intervalo. Por exemplo, o nó <b>11</b> foi mapeado para <b><font color="blue">x</font> [ 11 ] = 2</b> e contém <b><font color="green">y</font> [ 11 ] = 7</b> nós na sua subárvore. Portanto, o intervalo <b>[ <font color="blue">x</font>[ 11 ], <font color="blue">x</font>[ 11 ] + <font color="green">y</font>[ 11 ] - 1 ] = [ 2, 2 + 7 - 1 ] = [ 2, 8 ]</b> pode representar tal subárvore. O restante dos intervalos é mostrado na Figura abaixo. Note-se que cada intervalo é definido em cima do mapeamento reaizado, ou seja, não está relacionado diretamente como valor do nó em si, mas sim com o valor do seu mapeamento. 
 </p>
@@ -77,7 +78,7 @@ O valor de <b>&lfloor;&radic;15&rfloor; = 3</b>, note-se que <b>15</b> é divis�
 <b><font color="blue">Consulta do Tipo 1</font></b>
 
 <p align="justify" >
-Vamos supor a seguinte consulta do Tipo 1, <b>update ( u, val )</b>, uma atualização do valor do nó/vértice <b>v</b> com <b>val</b>. O primeiro passo é descobrir qual o valor do nó <b>v</p> após a linearização. Vamos salvar esse valor em uma variável denominada <b>posicao_correta</b>. Em seguida, basta atualizar o vetor <b>valores</b> na posição <b>posicao_correta</b> com o valor <b>val</b>, ou seja, <b>valores[ posicao_correta ] = val</b>. Certo, mas lembre que temos o vetor <b>vet_s</b> que também deve ser atualizado. Então devemos descobrir a qual bloco o nó <b>v</b> pertence. Seja <b>bloco</b> a variável que armazenará o valor desse bloco, logo <b>bloco = id_b[ posicao_correta ]</b>. Com o indíce correto do bloco, basta procurar um valor no mesmo que seja igual ao valor antigo de <b>valores[ posicao_correta ]</b> e substituí-lo por <b>val</b>. Vamos armazenar essa posição na variável <b>pos_b</b>. Nesse ponto, um dos três casos podem ocorrer:
+Vamos supor a seguinte consulta do Tipo 1, <b>update ( u, val )</b>, uma atualização do valor do nó/vértice <b>v</b> com <b>val</b>. O primeiro passo é descobrir qual o valor do nó <b>v</b> após a linearização. Vamos salvar esse valor em uma variável denominada <b>posicao_correta</b>. Em seguida, basta atualizar o vetor <b>valores</b> na posição <b>posicao_correta</b> com o valor <b>val</b>, ou seja, <b>valores[ posicao_correta ] = val</b>. Certo, mas lembre que temos o vetor <b>vet_s</b> que também deve ser atualizado. Então devemos descobrir a qual bloco o nó <b>v</b> pertence. Seja <b>bloco</b> a variável que armazenará o valor desse bloco, logo <b>bloco = id_b[ posicao_correta ]</b>. Com o indíce correto do bloco, basta procurar um valor no mesmo que seja igual ao valor antigo de <b>valores[ posicao_correta ]</b> e substituí-lo por <b>val</b>. Vamos armazenar essa posição na variável <b>pos_b</b>. Nesse ponto, um dos três casos podem ocorrer:
 </p>
 <p style="margin-left:2cm;" align="justify" ><b>pos_b - 1 <= 1 && vet_s[ bloco ][ pos_b - 1 ] > vet_s[ bloco ][ pos_b ]:</p>Nesse caso basta trocar o valor de <b>vet_s[ bloco ][ pos_b ]</b> com <b>vet_s[ bloco ][ pos_b - 1 ]</b>, então o valor de <b>pos_b</b> deve ser decrementado e o processo é repetido enquanto as condições forem satisfeitas.
 
@@ -89,9 +90,14 @@ O terceiro caso é quando nenhum dos dois casos acima são sastifeitos, logo a a
 
 <p>&nbsp;</p>
 
-<p><img src="/_assets/images/update.gif" class="center-image"></p>
+<p><img src="/_assets/images/update_v2.gif" class="center-image"></p>
 
 <p>&nbsp;</p>
+
+<b><font color="blue">Consulta do Tipo 2</font></b>
+
+
+
 <!--Um exemplo de implementação segue abaixo: -->
 
 <!--{% gist wellvolks/468854028542097e55407afa7a403b2b guarda_costeira.cpp %}-->
