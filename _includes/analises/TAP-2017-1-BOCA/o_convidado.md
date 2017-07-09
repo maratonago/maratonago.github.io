@@ -25,7 +25,9 @@ Portanto, como responder a segunda consulta de forma eficiente? O primeiro passo
 
 <p>&nbsp;</p>
 
+<p align="justify">
 O processo de linearização é ilustrado na Figura abaixo. Note que cada nó <b>v</b> da árvore agora é mapeado para um valor <font color="blue"> <b>x</b> </font>.
+</p>
 
 <p>&nbsp;</p>
 
@@ -33,7 +35,9 @@ O processo de linearização é ilustrado na Figura abaixo. Note que cada nó <b
 
 <p>&nbsp;</p>
 
+<p align="justify">
 Aproveitando o percurso em profundidade, vamos armazenar também a quantidade de nós na subárvore de cada nó da árvore. Essa quantidade é representada por <font color="green"> <b>y</b> </font> na Figura a seguir.
+</p>
 
 <p>&nbsp;</p>
 
@@ -41,32 +45,53 @@ Aproveitando o percurso em profundidade, vamos armazenar também a quantidade de
 
 <p>&nbsp;</p>
 
+<p align="justify">
 Com o mapeamento e a quantidade de nós na subárovre de cada nó da árvore calculados, podemos representar uma subárvore de um nó <b>v</b> como um intervalo. Por exemplo, o nó <b>11</b> foi mapeado para <b><font color="blue">x</font> [ 11 ] = 2</b> e contém <b><font color="green">y</font> [ 11 ] = 7</b> nós na sua subárvore. Portanto, o intervalo <b>[ <font color="blue">x</font>[ 11 ], <font color="blue">x</font>[ 11 ] + <font color="green">y</font>[ 11 ] - 1 ] = [ 2, 2 + 7 - 1 ] = [ 2, 8 ]</b> pode representar tal subárvore. O restante dos intervalos é mostrado na Figura abaixo. Note-se que cada intervalo é definido em cima do mapeamento reaizado, ou seja, não está relacionado diretamente como valor do nó em si, mas sim com o valor do seu mapeamento. 
+</p>
 
 <p>&nbsp;</p>
 
 <p><img src="/_assets/images/range.png" class="center-image"></p>
 
 <p>&nbsp;</p>
-
+<p align="justify">
 O valores calculados até então podem ser armazenados em vetores. Seja <b>id_v</b> o vetor que armazena os valores dos mapeamentos <b><font color="blue">x</font></b>, <b>sub_sz</b> o vetor que armazena os tamanhos <b><font color="green">y</font></b> das subárvores de cada nó mapeado e o vetor <b>valores</b> que armazena os valores fornecidos na entrada. Note-se que o vetor <b>valores</b> leva em consideração o mapeamento realizado, ou seja, o acesso ao valor de um nó <b>v</b> e realizado da seguinte forma: <b>valores [ id_v[ v ] ] </b>. Os indíces serão coloridos de azul para que não esqueça =). A Figura a seguir ilustra tais vetores.
-
+</p>
 <p>&nbsp;</p>
 
 <p><img src="/_assets/images/vetores.png" class="center-image"></p>
 
 <p>&nbsp;</p>
-
+<p align="justify">
 Como a árvore linearizada e "dividida" em intervalos, podemos utilizar a técnica <a href="http://www.geeksforgeeks.org/sqrt-square-root-decomposition-technique-set-1-introduction/">SQRT-Decomposition</a> para responder a consulta do <b>Tipo 2</b> em <b>O(Q*(N/&radic; + &radic;N * lg( N/&radic; )))</b>. Essa técnica é relativamente simples de ser compreendida e deixo como exécicio. 
-
-O valor de <b>&lfloor;&radic;15&rfloor; = 3</b>, note-se que <b>15</b> é divisível por <b>3</b>. Como nem sempre <b>N</b> será divisível por <b>&lfloor;&radic;15&rfloor;</b>, então vamos considerar, nesse exemplo, o tamanho do bloco igual a <b>4</b> para que possa mostrar como tratar tal caso. Seja <b>id_b</b> o vetor que armazena o valor do bloco de cada nó da árvore e <b>vet_s</b> uma matriz com <b>&lceil;N/&lfloor;&radic;15&rfloor;&rceil;</b> linhas e <b>&lfloor;&radic;15&rfloor;</b> colunhas que armazena os valores de cada nó. Note-se que estamos considerando o tamanho do bloco igual a <b>4</b>, logo <b>vet_s</b> terá <b>&lceil;15/4&rceil; = 4</b> linhas e <b>4</b> colunas. Para simplificar as figuras a seguir, considere que cada linha da matriz <b>vet_s</b> foi concatenada uma na frente da outra, formando um vetor. Quando o valor de <b>&lfloor;&radic;15&rfloor;</b> não dividir <b>N</b>, basta completar o último bloco com um valor bem alto, por exemplo <b>1e9</b>, desta forma esses valores não vão influênciar na resposta. O próximo passo é ordenar cada linha (bloco) do vetor <b>vet_s</b>. A Figura a seguir  ilustra os vetores <b>id_b</b> e <b>vet_s</b>, esse último já com os blocos ordenados.
-
+</p>
+<p align="justify">
+O valor de <b>&lfloor;&radic;15&rfloor; = 3</b>, note-se que <b>15</b> é divisível por <b>3</b>. Como nem sempre <b>N</b> será divisível por <b>&lfloor;&radic;15&rfloor;</b>, então vamos considerar, nesse exemplo, o tamanho do bloco igual a <b>4</b> para que possa mostrar como tratar tal caso. Seja <b>id_b</b> o vetor que armazena o valor do bloco de cada nó da árvore e <b>vet_s</b> uma matriz com <b>&lceil;N/&lfloor;&radic;15&rfloor;&rceil;</b> linhas e <b>&lfloor;&radic;15&rfloor;</b> colunas que armazena os valores de cada nó. Note-se que estamos considerando o tamanho do bloco igual a <b>4</b>, logo <b>vet_s</b> terá <b>&lceil;15/4&rceil; = 4</b> linhas e <b>4</b> colunas. Para simplificar as figuras a seguir, considere que cada linha da matriz <b>vet_s</b> foi concatenada uma na frente da outra, formando um vetor. Quando o valor de <b>&lfloor;&radic;15&rfloor;</b> não dividir <b>N</b>, basta completar o último bloco com um valor bem alto, por exemplo <b>1e9</b>, desta forma esses valores não vão influênciar na resposta. O próximo passo é ordenar cada linha (bloco) do vetor <b>vet_s</b>. A Figura a seguir  ilustra os vetores <b>id_b</b> e <b>vet_s</b>, esse último já com os blocos ordenados.
+</p>
 <p>&nbsp;</p>
 
 <p><img src="/_assets/images/blocos.png" class="center-image"></p>
 
 <p>&nbsp;</p>
 
+<b><font color="blue">Consulta do Tipo 1</font></b>
+
+<p align="justify" >
+Vamos supor a seguinte consulta do Tipo 1, <b>update ( u, val )</b>, uma atualização do valor do nó/vértice <b>v</b> com <b>val</b>. O primeiro passo é descobrir qual o valor do nó <b>v</p> após a linearização. Vamos salvar esse valor em uma variável denominada <b>posicao_correta</b>. Em seguida, basta atualizar o vetor <b>valores</b> na posição <b>posicao_correta</b> com o valor <b>val</b>, ou seja, <b>valores[ posicao_correta ] = val</b>. Certo, mas lembre que temos o vetor <b>vet_s</b> que também deve ser atualizado. Então devemos descobrir a qual bloco o nó <b>v</b> pertence. Seja <b>bloco</b> a variável que armazenará o valor desse bloco, logo <b>bloco = id_b[ posicao_correta ]</b>. Com o indíce correto do bloco, basta procurar um valor no mesmo que seja igual ao valor antigo de <b>valores[ posicao_correta ]</b> e substituí-lo por <b>val</b>. Vamos armazenar essa posição na variável <b>pos_b</b>. Nesse ponto, um dos três casos podem ocorrer:
+</p>
+<p style="margin-left:2cm;" align="justify" ><b>pos_b - 1 <= 1 && vet_s[ bloco ][ pos_b - 1 ] > vet_s[ bloco ][ pos_b ]:</p>Nesse caso basta trocar o valor de <b>vet_s[ bloco ][ pos_b ]</b> com <b>vet_s[ bloco ][ pos_b - 1 ]</b>, então o valor de <b>pos_b</b> deve ser decrementado e o processo é repetido enquanto as condições forem satisfeitas.
+
+<p style="margin-left:2cm;" align="justify" ><b>pos_b + 1 <= &lfloor;&radic;N&rfloor; && vet_s[ bloco ][ pos_b + 1 ] < vet_s[ bloco ][ pos_b ]:</p>Nesse caso basta trocar o valor de <b>vet_s[ bloco ][ pos_b ]</b> com <b>vet_s[ bloco ][ pos_b + 1 ]</b>, então o valor de <b>pos_b</b> deve ser incrementado e o processo é repetido enquanto as condições forem satisfeitas.
+
+<p align="justify" >
+O terceiro caso é quando nenhum dos dois casos acima são sastifeitos, logo a atualização está concluída. Um exemplo de atualizaçõa é mostrado no Gif abaixo.
+</p>
+
+<p>&nbsp;</p>
+
+<p><img src="/_assets/images/update.gif" class="center-image"></p>
+
+<p>&nbsp;</p>
 <!--Um exemplo de implementação segue abaixo: -->
 
 <!--{% gist wellvolks/468854028542097e55407afa7a403b2b guarda_costeira.cpp %}-->
