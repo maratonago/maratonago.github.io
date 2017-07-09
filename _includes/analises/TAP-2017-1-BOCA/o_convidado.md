@@ -49,7 +49,7 @@ Com o mapeamento e a quantidade de nós na subárovre de cada nó da árvore cal
 
 <p>&nbsp;</p>
 
-O valores calculados até então podem ser armazenados em vetores. Seja <b>id_v</b> o vetor que armazena os valores dos mapeamentos <b><font color="blue">x</font></b>, <b>sub_sz</b> o vetor que armazena os tamanhos <b><font color="green">y</font></b> das subárvores de cada nó mapeado e o vetor <b>valroes</b> que armazena os valores fornecidos na entrada. Note-se que o vetor <b>valores</b> não considera o mapeamento realizado, ou seja, o acesso ao valor de um nó <b>v</b> e realizado normalmente: <b>valores [ v ] </b>. A Figura a seguir ilustra tais vetores.
+O valores calculados até então podem ser armazenados em vetores. Seja <b>id_v</b> o vetor que armazena os valores dos mapeamentos <b><font color="blue">x</font></b>, <b>sub_sz</b> o vetor que armazena os tamanhos <b><font color="green">y</font></b> das subárvores de cada nó mapeado e o vetor <b>valores</b> que armazena os valores fornecidos na entrada. Note-se que o vetor <b>valores</b> leva em consideração o mapeamento realizado, ou seja, o acesso ao valor de um nó <b>v</b> e realizado da seguinte forma: <b>valores [ id_v[ v ] ] </b>. Os indíces serão coloridos de azul para que não esqueça =). A Figura a seguir ilustra tais vetores.
 
 <p>&nbsp;</p>
 
