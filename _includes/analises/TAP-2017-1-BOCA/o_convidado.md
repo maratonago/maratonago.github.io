@@ -41,11 +41,19 @@ Aproveitando o percurso em profundidade, vamos armazenar também a quantidade de
 
 <p>&nbsp;</p>
 
-Com o mapeamento e a quantidade de nós na subárovre de cada nó da árvore calculados, podemos representar uma subárvore de um nó <b>v</b> como um intervalo. Por exemplo, o nó <b>11</b> foi mapeado para <b><font color="blue"> y</font>[ 11 ] = 2</b> e contém <b><font color="green">y</font> [ 11 ] = 7</b> nós na sua subárvore. Porntanto, o intervalo <b>[ <font color="blue">x</font>[ 11 ], <font color="green">x</font>[ 11 ] + <font color="green">y</font>[ 11 ] - 1 ] = [ 2, 2 + 7 - 1 ] = [ 2, 8 ]</b> representa tal subárvore. O restante dos intervalos é mostrado na Figura abaixo.
+Com o mapeamento e a quantidade de nós na subárovre de cada nó da árvore calculados, podemos representar uma subárvore de um nó <b>v</b> como um intervalo. Por exemplo, o nó <b>11</b> foi mapeado para <b><font color="blue">x</font> [ 11 ] = 2</b> e contém <b><font color="green">y</font> [ 11 ] = 7</b> nós na sua subárvore. Portanto, o intervalo <b>[ <font color="blue">x</font>[ 11 ], <font color="blue">x</font>[ 11 ] + <font color="green">y</font>[ 11 ] - 1 ] = [ 2, 2 + 7 - 1 ] = [ 2, 8 ]</b> pode representar tal subárvore. O restante dos intervalos é mostrado na Figura abaixo. Note-se que cada intervalo é definido em cima do mapeamento reaizado, ou seja, não está relacionado diretamente como valor do nó em si, mas sim com o valor do seu mapeamento. 
 
 <p>&nbsp;</p>
 
 <p><img src="/_assets/images/range.png" class="center-image"></p>
+
+<p>&nbsp;</p>
+
+O valores calculados até então podem ser armazenados em vetores. Seja <b>id_v</b> o vetor que armazena os valores dos mapeamentos <b><font color="blue">x</font></b>, <b>sub_sz</b> o vetor que armazena os tamanhos <b><font color="green">y</font></b> das subárvores de cada nó mapeado e o vetor <b>valroes</b> que armazena os valores fornecidos na entrada. Note-se que o vetor <b>valores</b> não considera o mapeamento realizado, ou seja, o acesso ao valor de um nó <b>v</b> e realizado normalmente: <b>valores [ v ] </b>. A Figura a seguir ilustra tais vetores.
+
+<p>&nbsp;</p>
+
+<p><img src="/_assets/images/vetores.png" class="center-image"></p>
 
 <p>&nbsp;</p>
 
