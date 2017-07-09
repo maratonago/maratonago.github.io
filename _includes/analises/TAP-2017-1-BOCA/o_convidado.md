@@ -57,6 +57,16 @@ O valores calculados até então podem ser armazenados em vetores. Seja <b>id_v<
 
 <p>&nbsp;</p>
 
+Como a árvore linearizada e "dividida" em intervalos, podemos utilizar a técnica <a href="http://www.geeksforgeeks.org/sqrt-square-root-decomposition-technique-set-1-introduction/">SQRT-Decomposition</a> para responder a consulta do <b>Tipo 2</b> em <b>O(Q*(N/&radic; + &radic;N * lg( N/&radic; )))</b>. Essa técnica é relativamente simples de ser compreendida e deixo como exécicio. 
+
+O valor de <b>&lfloor;&radic;15&rfloor; = 3</b>, note-se que <b>15</b> é divisível por <b>3</b>. Como nem sempre <b>N</b> será divisível por <b>&lfloor;&radic;15&rfloor;</b>, então vamos considerar, nesse exemplo, o tamanho do bloco igual a <b>4</b> para que possa mostrar como tratar tal caso. Seja <b>id_b</b> o vetor que armazena o valor do bloco de cada nó da árvore e <b>vet_s</b> uma matriz com <b>&lceil;N/&lfloor;&radic;15&rfloor;&rceil;</b> linhas e <b>&lfloor;&radic;15&rfloor;</b> colunhas. Note-se que estamos considerando o tamanho do bloco igual a <b>4</b>, logo <b>vet_s</b> terá <b>&lceil;15/4&lceil; = 4</b> linhas e <b>4</b> colunhas. Para simplificar as figuras a seguir, considere cada linha da matriz <b>vet_s</b> concatenada uma na frente da outra. A Figura a seguir ilustra tais vetores.
+
+<p>&nbsp;</p>
+
+<p><img src="/_assets/images/blocos.png" class="center-image"></p>
+
+<p>&nbsp;</p>
+
 <!--Um exemplo de implementação segue abaixo: -->
 
 <!--{% gist wellvolks/468854028542097e55407afa7a403b2b guarda_costeira.cpp %}-->
