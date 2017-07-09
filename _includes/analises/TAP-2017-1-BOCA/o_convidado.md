@@ -58,7 +58,6 @@ O valores calculados até então podem ser armazenados em vetores:
 <p style="margin-left:2cm;" align="justify" > <b>id_v :</b> armazena os valores dos mapeamentos <b><font color="blue">x</font></b>;
 <p style="margin-left:2cm;" align="justify" > <b>id_r :</b> armazena o mapeamento reverso dos nós, ou seja, se <b> id_v[ v ] = w</b> então <b>id_r[ w ] = v</b>; 
 <p style="margin-left:2cm;" align="justify" > <b>sub_sz :</b> armazena os tamanhos das subárvores de cada nó mapeado <b><font color="green">y</font></b>;
-<p style="margin-left:2cm;" align="justify" > <b>id_v :</b>
 
 A Figura abaixo ilustra tais vetores.
 
@@ -69,7 +68,7 @@ A Figura abaixo ilustra tais vetores.
 <p>&nbsp;</p>
 
 <p align="justify">
-Como a árvore linearizada e "dividida" em intervalos, podemos utilizar a técnica <a href="http://www.geeksforgeeks.org/sqrt-square-root-decomposition-technique-set-1-introduction/">SQRT-Decomposition</a> para responder a consulta do <b>Tipo 2</b> em <b>O(Q*(N/&radic; + &radic;N * lg( N/&radic; )))</b>. Essa técnica é relativamente simples de ser compreendida e deixo como exercício. 
+Como a árvore linearizada e "dividida" em intervalos, podemos utilizar a técnica <a href="http://www.geeksforgeeks.org/sqrt-square-root-decomposition-technique-set-1-introduction/">SQRT-Decomposition</a> para responder a consulta do <b>Tipo 2</b> em <b>O(Q*(N/&radic;N + &radic;N * lg( N/&radic;N)))</b>. Essa técnica é relativamente simples de ser compreendida e deixo como exercício. 
 </p>
 
 <p align="justify">
@@ -92,11 +91,11 @@ Seja <b>vet_s</b> uma matriz com <b>&lceil;N/&lfloor;&radic;15&rfloor;&rceil;</b
 Vamos supor a seguinte consulta do Tipo 1, <b>atualizar ( no, valor_antigo, valor_novo )</b>, uma atualização do valor do nó <b>no</b> com o valor <b>valor_novo</b>, o <b>valor_antigo</b> é o valor atual do nó, ou seja, <b>valores[ no ]</b>. Seja <b>i</b> o índice do bloco do nó <b>no</b> e <b>j</b> a posição dentro desse bloco. A objeitvo é autalizar o vetor <b>valores</b> e a matriz <b>vet_s</b>. O primeiro é alcançado fazendo a seguinte atribuição <b>valores[ no ] = valor_novo</b>, já o segundo devemos encontrar o valor <b>valor_antigo</b> dentro do bloco, uma busca linear no bloco então e realizado. Encontrado um valor <b>valor_antigo</b>, basta atualiza-lo com o valor <b>valor_no</b>. Devemos manter o bloco ordenado para que a consulta do <b>Tipo 2</b> possa ser realizada corretamente. Nesse ponto, após a troca, três casos podem ocorrer:
 </p>
 
-<p style="margin-left:2cm;" align="justify" ><b>O valor da posição j-1 é maior que o valor_novo:</p> nesse caso basta trocar o valor de <b>vet_s[ i ][ j ]</b> com <b>vet_s[ i ][ j - 1 ]</b>, então o valor de <b>j</b> deve ser decrementado e o processo é repetido enquanto <b>j-1 &re; 0</b> e <b>vet_s[ i ][ j-1 ] > vet_s[ i ][ j ]</b.
+<p style="margin-left:2cm;" align="justify" ><b>O valor da posição j-1 é maior que o valor_novo:</b> nesse caso basta trocar o valor de <b>vet_s[ i ][ j ]</b> com <b>vet_s[ i ][ j - 1 ]</b>, então o valor de <b>j</b> deve ser decrementado e o processo é repetido enquanto <b>j-1 &re; 0</b> e <b>vet_s[ i ][ j-1 ] > vet_s[ i ][ j ]</b.
 
-<p style="margin-left:2cm;" align="justify" ><b>O valor da posição j+1 é menor que o valor_novo:</p> nesse caso basta trocar o valor de <b>vet_s[ i ][ j ]</b> com <b>vet_s[ i ][ j + 1 ]</b>, então o valor de <b>j</b> deve ser incrementado e o processo é repetido enquanto <b>j+1 &le; 4</b> e <b>vet_s[ i ][ j + 1 ] < vet_s[ i ][ j ]</b.
+<p style="margin-left:2cm;" align="justify" ><b>O valor da posição j+1 é menor que o valor_novo:</b> nesse caso basta trocar o valor de <b>vet_s[ i ][ j ]</b> com <b>vet_s[ i ][ j + 1 ]</b>, então o valor de <b>j</b> deve ser incrementado e o processo é repetido enquanto <b>j+1 &le; 4</b> e <b>vet_s[ i ][ j + 1 ] < vet_s[ i ][ j ]</b.
 
-<p style="margin-left:2cm;" align="justify" ><b>Se nenhum dos casos anteriores forem sastifeitos:</p> nesse caso não será necessário deslocar o <b>valor_novo</b>, visto que o bloco já está ordenado.
+<p style="margin-left:2cm;" align="justify" ><b>Se nenhum dos casos anteriores forem sastifeitos:</b> nesse caso não será necessário deslocar o <b>valor_novo</b>, visto que o bloco já está ordenado.
 
 <p align="justify" >
 Um exemplo de atualização é mostrado no Gif abaixo.
