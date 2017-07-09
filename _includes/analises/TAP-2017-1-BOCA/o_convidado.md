@@ -8,15 +8,12 @@
 
 </p>
 <p align="justify">
-O problema consiste em dado uma árvore e os valores associados a cada nó da mesma, o seu programa deve processar dois tipos de consultas:
+O problema consiste em dado uma árvore e os valores inteiros associados a cada nó da mesma, o seu programa deverá ser capaz de  processar dois tipos de consultas:
 <p style="margin-left:2cm;" align="justify" > <b>Tipo 1:</b> dados <b>i</b> e <b>j</b>, fazer a atribuição <b>x[i] = y</b>;</p>
 <p style="margin-left:2cm;" align="justify" > <b>Tipo 2:</b> dados <b>i</b> e <b>y</b>, imprimir a quantidade <b>M</b> de vértices da subárvore de <b>i</b> que tenha valor <b>x[j]</b> &le; y, onde o vértice <b>j</b> pertence à subárvore de <b>i</b>.
 </p>
 <p align="justify">
-A solução mais intuitiva é responder a consulta do <b>Tipo 1</b> em <b>O(1)</b> e realizar um <b>DFS/BFS</b> para responder a constulta do <b>Tipo 2</b>. Essa última será respondinda em <b>O(Q*N)</b>, onde <b>Q</b> representa a quantidade de consultas. Como <b>Q*N</b> &le; <b>10<sup>10</sup></b> essa solução não vai passar no tempo limite de 3 segundos. 
-</p>
-<p align="justify">
-Portanto, como responder a segunda consulta de forma eficiente? O primeiro passo é linearizar a árvore fornecida realizando um precurso em profundidade na mesma. À título de exemplo, suponha uma árvore com <b>N = 15</b> vértices, representada na Figura abiaxo, foi dada como entrada.
+A solução mais intuitiva é responder a consulta do <b>Tipo 1</b> em <b>O(1)</b> e realizar um <b>DFS/BFS</b> para responder a constulta do <b>Tipo 2</b>. Essa última será respondinda em <b>O(Q*N)</b>, onde <b>Q</b> representa a quantidade de consultas. Como <b>Q*N</b> &le; <b>10<sup>10</sup></b> essa solução não vai passar no tempo limite de 3 segundos. Portanto, como responder a segunda consulta de forma eficiente? O primeiro passo é linearizar a árvore fornecida realizando um percurso em profundidade nela. À título de exemplo, suponha uma árvore com <b>N = 15</b> nós, representada na Figura abiaxo.
 </p>
 
 <p>&nbsp;</p>
@@ -26,7 +23,7 @@ Portanto, como responder a segunda consulta de forma eficiente? O primeiro passo
 <p>&nbsp;</p>
 
 <p align="justify">
-O processo de linearização é ilustrado na Figura abaixo. Note que cada nó <b>v</b> da árvore agora é mapeado para um valor <font color="blue"> <b>x</b> </font>.
+O processo de linearização é ilustrado na Figura abaixo. Note que cada nó <b>v</b> da árvore agora é mapeado para um valor <font color="blue"> <b>x</b> </font>, esse valor é o tempo de descoberta do nó.
 </p>
 
 <p>&nbsp;</p>
@@ -36,7 +33,7 @@ O processo de linearização é ilustrado na Figura abaixo. Note que cada nó <b
 <p>&nbsp;</p>
 
 <p align="justify">
-Aproveitando o percurso em profundidade, vamos armazenar também a quantidade de nós na subárvore de cada nó da árvore. Essa quantidade é representada por <font color="green"> <b>y</b> </font> na Figura a seguir.
+Aproveitando o percurso em profundidade, vamos armazenar também o tamanho da subárvore de cada nó da árvore. Essa quantidade é representada por <font color="green"> <b>y</b> </font> na Figura a seguir.
 </p>
 
 <p>&nbsp;</p>
@@ -47,7 +44,7 @@ Aproveitando o percurso em profundidade, vamos armazenar também a quantidade de
 
 
 <p align="justify">
-Com o mapeamento e a quantidade de nós na subárovre de cada nó da árvore calculados, podemos representar uma subárvore de um nó <b>v</b> como um intervalo. Por exemplo, o nó <b>11</b> foi mapeado para <b><font color="blue">x</font> [ 11 ] = 2</b> e contém <b><font color="green">y</font> [ 11 ] = 7</b> nós na sua subárvore. Portanto, o intervalo <b>[ <font color="blue">x</font>[ 11 ], <font color="blue">x</font>[ 11 ] + <font color="green">y</font>[ 11 ] - 1 ] = [ 2, 2 + 7 - 1 ] = [ 2, 8 ]</b> pode representar tal subárvore. O restante dos intervalos é mostrado na Figura abaixo. Note-se que cada intervalo é definido em cima do mapeamento reaizado, ou seja, não está relacionado diretamente como valor do nó em si, mas sim com o valor do seu mapeamento. 
+Com o mapeamento e a quantidade de nós na subárvore de cada nó calculados, podemos representar uma subárvore de um nó <b>v</b> como um intervalo. Por exemplo, o nó <b>11</b> foi mapeado para <b><font color="blue">x</font> [ 11 ] = 2</b> e contém <b><font color="green">y</font> [ 11 ] = 7</b> nós na sua subárvore. Portanto, o intervalo <b>[ <font color="blue">x</font>[ 11 ], <font color="blue">x</font>[ 11 ] + <font color="green">y</font>[ 11 ] - 1 ] = [ 2, 2 + 7 - 1 ] = [ 2, 8 ]</b> pode representar tal subárvore. O restante dos intervalos são mostrados na Figura abaixo. Note-se que cada intervalo é definido em cima do mapeamento reaizado, ou seja, não estão relacionados diretamente com o número do nó em si, mas sim com o valor do seu mapeamento. 
 </p>
 
 <p>&nbsp;</p>
@@ -56,19 +53,33 @@ Com o mapeamento e a quantidade de nós na subárovre de cada nó da árvore cal
 
 <p>&nbsp;</p>
 <p align="justify">
-O valores calculados até então podem ser armazenados em vetores. Seja <b>id_v</b> o vetor que armazena os valores dos mapeamentos <b><font color="blue">x</font></b>, <b>sub_sz</b> o vetor que armazena os tamanhos <b><font color="green">y</font></b> das subárvores de cada nó mapeado e o vetor <b>valores</b> que armazena os valores fornecidos na entrada. Note-se que o vetor <b>valores</b> leva em consideração o mapeamento realizado, ou seja, o acesso ao valor de um nó <b>v</b> e realizado da seguinte forma: <b>valores [ id_v[ v ] ] </b>. Os indíces serão coloridos de azul para que não esqueça =). A Figura a seguir ilustra tais vetores.
-</p>
+O valores calculados até então podem ser armazenados em vetores:
+  
+<p style="margin-left:2cm;" align="justify" > <b>id_v :</b> armazena os valores dos mapeamentos <b><font color="blue">x</font></b>;
+<p style="margin-left:2cm;" align="justify" > <b>id_r :</b> armazena o mapeamento reverso dos nós, ou seja, se <b> id_v[ v ] = w</b> então <b>id_r[ w ] = v</b>; 
+<p style="margin-left:2cm;" align="justify" > <b>sub_sz :</b> armazena os tamanhos das subárvores de cada nó mapeado <b><font color="green">y</font></b>;
+<p style="margin-left:2cm;" align="justify" > <b>id_v :</b>
+
+A Figura abaixo ilustra tais vetores.
+
 <p>&nbsp;</p>
 
 <p><img src="/_assets/images/vetores.png" class="center-image"></p>
 
 <p>&nbsp;</p>
+
 <p align="justify">
-Como a árvore linearizada e "dividida" em intervalos, podemos utilizar a técnica <a href="http://www.geeksforgeeks.org/sqrt-square-root-decomposition-technique-set-1-introduction/">SQRT-Decomposition</a> para responder a consulta do <b>Tipo 2</b> em <b>O(Q*(N/&radic; + &radic;N * lg( N/&radic; )))</b>. Essa técnica é relativamente simples de ser compreendida e deixo como exécicio. 
+Como a árvore linearizada e "dividida" em intervalos, podemos utilizar a técnica <a href="http://www.geeksforgeeks.org/sqrt-square-root-decomposition-technique-set-1-introduction/">SQRT-Decomposition</a> para responder a consulta do <b>Tipo 2</b> em <b>O(Q*(N/&radic; + &radic;N * lg( N/&radic; )))</b>. Essa técnica é relativamente simples de ser compreendida e deixo como exercício. 
 </p>
+
 <p align="justify">
-O valor de <b>&lfloor;&radic;15&rfloor; = 3</b>, note-se que <b>15</b> é divisível por <b>3</b>. Como nem sempre <b>N</b> será divisível por <b>&lfloor;&radic;15&rfloor;</b>, então vamos considerar, nesse exemplo, o tamanho do bloco igual a <b>4</b> para que possa mostrar como tratar tal caso. Seja <b>id_b</b> o vetor que armazena o valor do bloco de cada nó da árvore e <b>vet_s</b> uma matriz com <b>&lceil;N/&lfloor;&radic;15&rfloor;&rceil;</b> linhas e <b>&lfloor;&radic;15&rfloor;</b> colunas que armazena os valores de cada nó. Note-se que estamos considerando o tamanho do bloco igual a <b>4</b>, logo <b>vet_s</b> terá <b>&lceil;15/4&rceil; = 4</b> linhas e <b>4</b> colunas. Para simplificar as figuras a seguir, considere que cada linha da matriz <b>vet_s</b> foi concatenada uma na frente da outra, formando um vetor. Quando o valor de <b>&lfloor;&radic;15&rfloor;</b> não dividir <b>N</b>, basta completar o último bloco com um valor bem alto, por exemplo <b>1e9</b>, desta forma esses valores não vão influênciar na resposta. O próximo passo é ordenar cada linha (bloco) do vetor <b>vet_s</b>. A Figura a seguir  ilustra os vetores <b>id_b</b> e <b>vet_s</b>, esse último já com os blocos ordenados.
+O valor de <b>&lfloor;&radic;15&rfloor; = 3</b>, note-se que <b>15</b> é divisível por <b>3</b>. Como <b>N</b> pode não ser divisível por <b>&lfloor;&radic;15&rfloor;</b>, então vamos considerar, para esse exemplo, o tamanho do bloco igual a <b>4</b> para que possamos mostrar como tratar tal caso. Para acessar o bloco correto, dado um nó, basta realizar a seguinte operação de divião <b> &lfloor;(id_v[ no ] - 1) / 4&rfloor;</b>. Já a posição dentro do bloco, basta descobrir o resto da divisão <b>(id_v[ no ] - 1) % 4</b>. Quando o valor de <b>&lfloor;&radic;15&rfloor;</b> não dividir <b>N</b>, basta completar o último bloco com um valor bem alto, por exemplo <b>1e9</b>, desta forma esses valores não vão influênciar na resposta. 
 </p>
+
+<p align="justify">
+Seja <b>vet_s</b> uma matriz com <b>&lceil;N/&lfloor;&radic;15&rfloor;&rceil;</b> linhas e <b>&lfloor;&radic;15&rfloor;</b> colunas que armazena os valores de cada nó em blocos. Perceba que estamos considerando o tamanho do bloco igual a <b>4</b>, logo <b>vet_s</b> terá <b>&lceil;15/4&rceil; = 4</b> linhas e <b>4</b> colunas. O próximo passo é ordenar cada bloco/linha dessa matriz. Para simplificar a islustrações a seguir, considere que cada bloco/linha da matriz <b>vet_s</b> foi concatenada uma na frente da outra, formando um vetor. A Figura a seguir ilustra a matriz <b>vet_s</b> com os valores nos blocos já ordenados.
+</p>
+
 <p>&nbsp;</p>
 
 <p><img src="/_assets/images/blocos.png" class="center-image"></p>
@@ -78,14 +89,17 @@ O valor de <b>&lfloor;&radic;15&rfloor; = 3</b>, note-se que <b>15</b> é divis�
 <b><font color="blue">Consulta do Tipo 1</font></b>
 
 <p align="justify" >
-Vamos supor a seguinte consulta do Tipo 1, <b>update ( u, val )</b>, uma atualização do valor do nó/vértice <b>v</b> com <b>val</b>. O primeiro passo é descobrir qual o valor do nó <b>v</b> após a linearização. Vamos salvar esse valor em uma variável denominada <b>posicao_correta</b>. Em seguida, basta atualizar o vetor <b>valores</b> na posição <b>posicao_correta</b> com o valor <b>val</b>, ou seja, <b>valores[ posicao_correta ] = val</b>. Certo, mas lembre que temos o vetor <b>vet_s</b> que também deve ser atualizado. Então devemos descobrir a qual bloco o nó <b>v</b> pertence. Seja <b>bloco</b> a variável que armazenará o valor desse bloco, logo <b>bloco = id_b[ posicao_correta ]</b>. Com o indíce correto do bloco, basta procurar um valor no mesmo que seja igual ao valor antigo de <b>valores[ posicao_correta ]</b> e substituí-lo por <b>val</b>. Vamos armazenar essa posição na variável <b>pos_b</b>. Nesse ponto, um dos três casos podem ocorrer:
+Vamos supor a seguinte consulta do Tipo 1, <b>atualizar ( no, valor_antigo, valor_novo )</b>, uma atualização do valor do nó <b>no</b> com o valor <b>valor_novo</b>, o <b>valor_antigo</b> é o valor atual do nó, ou seja, <b>valores[ no ]</b>. Seja <b>i</b> o índice do bloco do nó <b>no</b> e <b>j</b> a posição dentro desse bloco. A objeitvo é autalizar o vetor <b>valores</b> e a matriz <b>vet_s</b>. O primeiro é alcançado fazendo a seguinte atribuição <b>valores[ no ] = valor_novo</b>, já o segundo devemos encontrar o valor <b>valor_antigo</b> dentro do bloco, uma busca linear no bloco então e realizado. Encontrado um valor <b>valor_antigo</b>, basta atualiza-lo com o valor <b>valor_no</b>. Devemos manter o bloco ordenado para que a consulta do <b>Tipo 2</b> possa ser realizada corretamente. Nesse ponto, após a troca, três casos podem ocorrer:
 </p>
-<p style="margin-left:2cm;" align="justify" ><b>pos_b - 1 <= 1 && vet_s[ bloco ][ pos_b - 1 ] > vet_s[ bloco ][ pos_b ]:</p>Nesse caso basta trocar o valor de <b>vet_s[ bloco ][ pos_b ]</b> com <b>vet_s[ bloco ][ pos_b - 1 ]</b>, então o valor de <b>pos_b</b> deve ser decrementado e o processo é repetido enquanto as condições forem satisfeitas.
 
-<p style="margin-left:2cm;" align="justify" ><b>pos_b + 1 <= &lfloor;&radic;N&rfloor; && vet_s[ bloco ][ pos_b + 1 ] < vet_s[ bloco ][ pos_b ]:</p>Nesse caso basta trocar o valor de <b>vet_s[ bloco ][ pos_b ]</b> com <b>vet_s[ bloco ][ pos_b + 1 ]</b>, então o valor de <b>pos_b</b> deve ser incrementado e o processo é repetido enquanto as condições forem satisfeitas.
+<p style="margin-left:2cm;" align="justify" ><b>O valor da posição j-1 é maior que o valor_novo:</p> nesse caso basta trocar o valor de <b>vet_s[ i ][ j ]</b> com <b>vet_s[ i ][ j - 1 ]</b>, então o valor de <b>j</b> deve ser decrementado e o processo é repetido enquanto <b>j-1 &re; 0</b> e <b>vet_s[ i ][ j-1 ] > vet_s[ i ][ j ]</b.
+
+<p style="margin-left:2cm;" align="justify" ><b>O valor da posição j+1 é menor que o valor_novo:</p> nesse caso basta trocar o valor de <b>vet_s[ i ][ j ]</b> com <b>vet_s[ i ][ j + 1 ]</b>, então o valor de <b>j</b> deve ser incrementado e o processo é repetido enquanto <b>j+1 &le; 4</b> e <b>vet_s[ i ][ j + 1 ] < vet_s[ i ][ j ]</b.
+
+<p style="margin-left:2cm;" align="justify" ><b>Se nenhum dos casos anteriores forem sastifeitos:</p> nesse caso não será necessário deslocar o <b>valor_novo</b>, visto que o bloco já está ordenado.
 
 <p align="justify" >
-O terceiro caso é quando nenhum dos dois casos acima são sastifeitos, logo a atualização está concluída. Um exemplo de atualizaçõa é mostrado no Gif abaixo.
+Um exemplo de atualização é mostrado no Gif abaixo.
 </p>
 
 <p>&nbsp;</p>
