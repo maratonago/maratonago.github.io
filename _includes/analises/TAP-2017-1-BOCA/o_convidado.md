@@ -92,10 +92,13 @@ Vamos supor a seguinte consulta do Tipo 1, <b>atualizar ( no, valor_antigo, valo
 </p>
 
 <p style="margin-left:2cm;" align="justify" ><b>O valor da posição j-1 é maior que o valor_novo:</b> nesse caso basta trocar o valor de <b>vet_s[ i ][ j ]</b> com <b>vet_s[ i ][ j - 1 ]</b>, então o valor de <b>j</b> deve ser decrementado e o processo é repetido enquanto <b>j-1 &re; 0</b> e <b>vet_s[ i ][ j-1 ] > vet_s[ i ][ j ]</b.
+</p>
 
 <p style="margin-left:2cm;" align="justify" ><b>O valor da posição j+1 é menor que o valor_novo:</b> nesse caso basta trocar o valor de <b>vet_s[ i ][ j ]</b> com <b>vet_s[ i ][ j + 1 ]</b>, então o valor de <b>j</b> deve ser incrementado e o processo é repetido enquanto <b>j+1 &le; 4</b> e <b>vet_s[ i ][ j + 1 ] < vet_s[ i ][ j ]</b.
+</p>
 
 <p style="margin-left:2cm;" align="justify" ><b>Se nenhum dos casos anteriores forem sastifeitos:</b> nesse caso não será necessário deslocar o <b>valor_novo</b>, visto que o bloco já está ordenado.
+</p>
 
 <p align="justify" >
 Um exemplo de atualização é mostrado no Gif abaixo.
