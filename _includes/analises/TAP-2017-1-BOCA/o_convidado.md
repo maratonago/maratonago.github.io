@@ -76,12 +76,12 @@ O valor de <b>&lfloor;&radic;15&rfloor; = 3</b>, note-se que <b>15</b> é divis�
 </p>
 
 <p align="justify">
-Seja <b>vet_s</b> uma matriz com <b>&lceil;N/&lfloor;&radic;15&rfloor;&rceil;</b> linhas e <b>&lfloor;&radic;15&rfloor;</b> colunas que armazena os valores de cada nó em blocos. Perceba que estamos considerando o tamanho do bloco igual a <b>4</b>, logo <b>vet_s</b> terá <b>&lceil;15/4&rceil; = 4</b> linhas e <b>4</b> colunas. O próximo passo é ordenar cada bloco/linha dessa matriz. Para simplificar as islustrações a seguir, considere que cada bloco/linha da matriz <b>vet_s</b> foi concatenada uma na frente da outra, formando um vetor. A Figura a seguir ilustra a matriz <b>vet_s</b> com os valores nos blocos já ordenados.
+Seja <b>vet_s</b> uma matriz com <b>&lceil;N/&lfloor;&radic;15&rfloor;&rceil;</b> linhas e <b>&lfloor;&radic;15&rfloor;</b> colunas que armazena os valores de cada nó em blocos. Perceba que estamos considerando o tamanho do bloco igual a <b>4</b>, logo <b>vet_s</b> terá <b>&lceil;15/4&rceil; = 4</b> linhas e <b>4</b> colunas. O próximo passo é ordenar cada bloco/linha dessa matriz. Para simplificar as islustrações a seguir, considere que cada bloco/linha da matriz <b>vet_s</b> foi concatenada uma na frente da outra, formando um vetor. O Gif a seguir ilustra a matriz <b>vet_s</b> e o processo de preenchimento da mesma.
 </p>
 
 <p>&nbsp;</p>
 
-<p><img src="/_assets/images/blocos.png" class="center-image"></p>
+<p><img src="/_assets/images/blocos.gif" class="center-image"></p>
 
 <p>&nbsp;</p>
 
