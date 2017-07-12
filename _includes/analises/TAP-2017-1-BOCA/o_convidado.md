@@ -100,16 +100,16 @@ Vamos supor a seguinte consulta do Tipo 1, <b>atualizar ( no, valor_antigo, valo
 <p style="margin-left:2cm;" align="justify" ><b>Se nenhum dos casos anteriores forem sastifeitos:</b> nesse caso não será necessário deslocar o <b>valor_novo</b>, visto que o bloco já está ordenado.
 </p>
 
-<!--
+
 <p align="justify" >
-Um exemplo de atualização é mostrado no Gif abaixo.
-</p> !-->
+Um exemplo dos passos da atualização é mostrado no Figura abaixo.
+</p> 
 
-<!-- <p>&nbsp;</p> !-->
+<p>&nbsp;</p> 
 
-<!-- <p><img src="/_assets/images/update_v2.gif" class="center-image"></p> !-->
+<p><img src="/_assets/images/bk.png" class="center-image"></p> 
 
-<!-- <p>&nbsp;</p> !-->
+ <p>&nbsp;</p> 
 
 <b><font color="blue">Consulta do Tipo 2</font></b>
 
