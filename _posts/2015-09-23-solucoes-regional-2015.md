@@ -32,7 +32,7 @@ melhor que uma breve análise da prova desse ano. Confira.
 |F - Fatorial			| fácil 		| greedy, coin change	 |
 |G - Guardiões Curiosos	| difícil		| grafos, programação dinâmica |
 |H - Praça do Retângulo	| médio 		| ad hoc				 |
-|I - Ominobox			| difícil		| ...					 |
+|I - Ominobox			| difícil++		| ...					 |
 |J - Jogo de Estratégia	| balão++ 		| ad hoc				 |
 |K - Palíndromo			| fácil/médio 	| programação dinâmica	 |
 |L - Loteria			| difícil		| algebra linear, eliminação gaussiana |

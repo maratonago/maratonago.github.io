@@ -22,7 +22,6 @@ Se o jogador 1 roubar:
 					Senão o jogador 2 ganha
 
 
-
 {% gist paulocezar/3fd8f228b74e6696ac5f04827f5e0510 C.cpp %}
 
 [uri-2059]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/2059
