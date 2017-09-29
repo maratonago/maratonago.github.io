@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "TAP-2017/1 Treino 1"
+title:  "TAP-2017/2 Treino 2"
 tags: [maratona de programação, tópicos avançados de programação, problemset, analise]
 categories: analise
 author: wellvolks
 ---
 
-Aconteceu em 26 de Abril de 2017 o primeiro treino da disciplina TAP-Tópicos Avançados de Programação. O placar final do treino pode ser visto na imagem abaixo.
+Aconteceu em 27 de Outubro de 2017 o segundo treino da disciplina TAP-Tópicos Avançados de Programação. O placar final do treino pode ser visto na imagem abaixo.
 
-![Placar final do Treino-1 - TAP/2017-1](/_assets/images/Placar-Treino-2-Tap2017-2.jpg){: .center-image }
+![Placar final do Treino-2 - TAP/2017-2](/_assets/images/Placar-Treino-2-Tap2017-2.jpg){: .center-image }
 
 
 A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los é apresentado na tabela abaixo.
