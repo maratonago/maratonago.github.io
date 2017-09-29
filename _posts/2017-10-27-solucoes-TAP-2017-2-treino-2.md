@@ -8,7 +8,7 @@ author: wellvolks
 
 Aconteceu em 27 de Outubro de 2017 o segundo treino da disciplina TAP-Tópicos Avançados de Programação. O placar final do treino pode ser visto na imagem abaixo.
 
-![Placar final do Treino-2 - TAP/2017-2](/_assets/images/Placar-Treino-2-Tap2017-2.jpg){: .center-image }
+![Placar final do Treino-2 - TAP/2017-2](/_assets/images/Placar-Treino-2-Tap2017-2.JPG){: .center-image }
 
 
 A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los é apresentado na tabela abaixo.
