@@ -10,24 +10,19 @@ Aconteceu em 27 de Outubro de 2017 o segundo treino da disciplina TAP-Tópicos A
 
 ![Placar final do Treino-2 - TAP/2017-2](/_assets/images/Placar-Treino-2-Tap2017-2.JPG){: .center-image }
 
-<!--
-A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los é apresentado na tabela abaixo.
+
+A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los são apresentados na tabela abaixo.
 
 | Problema				                | Dificuldade	| Técnica relacionada	                                |
 |:--------------------------------------|:-------------:|------------------------------------------------------:|
-|A - <a href="#bingo">Bingo!</a> 		            | 3   	| ad hoc		                                        |
-|B - <a href="#horas">Horas e Minutos</a>	                    | 2	    | ad hoc |
-|C - <a href="#led">LED</a>				            | 1		    | string		                                        |
-|D - <a href="#arvore">Árvore de Natal</a>		                    | 2	        | ad hoc, substr                              |
-|E - <a href="#telefone">Telefone Sem Fio</a>			        | 2 		| contadores                        |
-|F - <a href="#trilhos">Trilhos</a>			        | 3   | pilha                                   |
-|G - <a href="#diamantes">Diamantes e Areia</a>	                            | 2         | contadores, pilha       |
-|H - <a href="#pontos">Pontos de Feno</a>	                    | 3		| mapas, STL maps				                    |
-|I - <a href="#dama">Dama</a>			                | 1		    | ad hoc				                         |
-|J - <a href="#mapa">Mapa do Meistre</a>			                | 2		    | travessia em grafos					                         |
-|K - <a href="#flores">Flores de Fogo</a>			                | 2		    | geometria					                         |
-|L - <a href="#primo">Primo Rápido</a>	                | 2 		| matemática                    |
-|M - <a href="#guarda">Guarda Costeira</a>   | 2 	    | matemática, Ad Hoc	                    |
+|A - <a href="#bingo">Perfection</a> 		            |  ?  	| ?		                                        |
+|B - <a href="#horas">Peter's Smokes</a>	                    | 	?    | ? |
+|C - <a href="#led">Goldbach's Conjecture</a>				            | 	?	    | ?		                                        |
+|D - <a href="#arvore">Prime Factors</a>		                    |	  ?     | ?                              |
+|E - <a href="#telefone">ID Codes</a>			        |  ?		| ?                        |
+|F - <a href="#trilhos">What is the Median?</a>			        |  ?  | ?                                   |
+|G - <a href="#diamantes">Hardwood Species</a>	                            |    ?      | ?       |
+|H - <a href="#pontos">Jolly Jumpers</a>	                    | ? 	| ?				                    |
 |=====
 
 <p>
@@ -44,4 +39,3 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 {% include analises/Treino-2-TAP-2017-2/hardwood_species.md %}
 {% include analises/Treino-2-TAP-2017-2/jolly_jumpers.md %}
 
--->
