@@ -35,18 +35,13 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 </p>
 
 
-{% include analises/Treino-1-TAP-2017-1/Bingo.md %}
-{% include analises/Treino-1-TAP-2017-1/horas_e_minutos.md %}
-{% include analises/Treino-1-TAP-2017-1/led.md %}
-{% include analises/Treino-1-TAP-2017-1/arvore_de_natal.md %}
-{% include analises/Treino-1-TAP-2017-1/telefone_sem_fio.md %}
-{% include analises/Treino-1-TAP-2017-1/trilhos.md %}
-{% include analises/Treino-1-TAP-2017-1/diamantes.md %}
-{% include analises/Treino-1-TAP-2017-1/pontos_de_feno.md %}
-{% include analises/Treino-1-TAP-2017-1/dama.md %}
-{% include analises/Treino-1-TAP-2017-1/maester.md %}
-{% include analises/Treino-1-TAP-2017-1/flores_de_fogo.md %}
-{% include analises/Treino-1-TAP-2017-1/primo_rapido.md %}
-{% include analises/Treino-1-TAP-2017-1/guarda_costeira.md %}
+{% include analises/Treino-2-TAP-2017-2/perfection.md %}
+{% include analises/Treino-2-TAP-2017-2/smokes.md %}
+{% include analises/Treino-2-TAP-2017-2/conjecture.md %}
+{% include analises/Treino-2-TAP-2017-2/prime_factors.md %}
+{% include analises/Treino-2-TAP-2017-2/id_codes.md %}
+{% include analises/Treino-2-TAP-2017-2/median.md %}
+{% include analises/Treino-2-TAP-2017-2/hardwood_species.md %}
+{% include analises/Treino-2-TAP-2017-2/jolly_jumpers.md %}
 
 -->
