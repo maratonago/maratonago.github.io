@@ -8,11 +8,11 @@ author: wellvolks
 
 Aconteceu em 27 de Outubro de 2017 o segundo treino da disciplina TAP-Tópicos Avançados de Programação. O placar final do treino pode ser visto na imagem abaixo.
 
-![Placar final do Treino-2 - TAP/2017-2](/_assets/images/Placar-Treino-2-Tap2017-2.JPG){: .center-image }
+<!-- ![Placar final do Treino-2 - TAP/2017-2](/_assets/images/Placar-Treino-2-Tap2017-2.JPG){: .center-image } --!>
 
 
 A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los são apresentados na tabela abaixo.
-
+<!--
 | Problema				                | Dificuldade	| Técnica relacionada	                                |
 |:--------------------------------------|:-------------:|------------------------------------------------------:|
 |A - <a href="#bingo">Perfection</a> 		            |  ?  	| ?		                                        |
@@ -24,11 +24,10 @@ A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas 
 |G - <a href="#diamantes">Hardwood Species</a>	                            |    ?      | ?       |
 |H - <a href="#pontos">Jolly Jumpers</a>	                    | ? 	| ?				                    |
 |=====
+--!>
+<!-- <p> --!>
 
-<p>
-
-</p>
-
+<!-- </p> --!>
 
 <!--
 {% include analises/Treino-2-TAP-2017-2/perfection.md %}
