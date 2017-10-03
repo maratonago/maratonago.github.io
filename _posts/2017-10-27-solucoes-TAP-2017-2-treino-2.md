@@ -30,6 +30,7 @@ A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas 
 </p>
 
 
+<!--
 {% include analises/Treino-2-TAP-2017-2/perfection.md %}
 {% include analises/Treino-2-TAP-2017-2/smokes.md %}
 {% include analises/Treino-2-TAP-2017-2/conjecture.md %}
@@ -38,4 +39,4 @@ A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas 
 {% include analises/Treino-2-TAP-2017-2/median.md %}
 {% include analises/Treino-2-TAP-2017-2/hardwood_species.md %}
 {% include analises/Treino-2-TAP-2017-2/jolly_jumpers.md %}
-
+--!>
