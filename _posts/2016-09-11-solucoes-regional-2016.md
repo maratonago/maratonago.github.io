@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Regional da Maratona de Programação 2016"
+title:  "Regional da Maratona de Programação <br> 2016"
 tags: [maratona de programação, regional, 2016, problemset, analise]
 categories: analise
 author: paulocezar
