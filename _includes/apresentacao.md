@@ -151,7 +151,6 @@ $$
 Bem, pra começar é isso. O site está só começando e e ainda tem muito o que
 evoluir. Acompanhem, participem e comecem a contribuir o quanto antes.
 
-
 [topcoder]:     https://www.topcoder.com/challenge-details/30051072/?type=develop
 [gh-pages]:     https://pages.github.com/
 [jekyll]:       http://jekyllrb.com

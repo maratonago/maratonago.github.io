@@ -4,4 +4,4 @@ title: Materiais
 permalink: /materiais/
 ---
 
-{% include material/stl.md %}
+{% include material/material.md %}
