@@ -20,20 +20,20 @@ classificou para a fase nacional da maratona que acontecerá nos dias
 A prova esse ano estava bem interessante e foi composta de 12 questões.
 As dicas de soluções dos juizes podem ser encontradas [aqui][solucoes-juizes-2016]{:target="_blank"}. Além delas abaixo podem ser encontradas algumas explicações mais elaboradas e exemplos de implementação.
 
-| Problema				                | Dificuldade	| Técnica relacionada	                                |
+| Problema                              | Dificuldade   | Técnica relacionada                                   |
 |:--------------------------------------|:-------------:|------------------------------------------------------:|
-|A - Andando no tempo 		            | balão++   	| ad hoc		                                        |
-|B - Batata quente	                    | difícil	    | sqrt decomposition (mo algorithm), BIT, busca binária |
-|C - Containers				            | médio		    | dijkstra		                                        |
-|D - Divisores		                    | fácil	        | divisibilidade, lcm, gcd                              |
-|E - Estatística Hexa			        | médio 		| programação dinâmica, bitmasks                        |
-|F - Fundindo Árvores			        | fácil/médio   | ad hoc, grafos, dfs                                   |
-|G - Go--	                            | fácil         | prefix sum, busca binária, programação dinâmica       |
-|H - huaauhahhuahau	                    | balão++		| palindromos, strings				                    |
-|I - Isósceles			                | fácil		    | ad hoc					                            |
-|J - Jogos Olímpicos	                | difícil 		| geometria, line sweep, convex hull                    |
-|K - Kit de encolhimento de polígonos   | difícil 	    | geometria, programação dinâmica	                    |
-|L - Ladrilhos			                | fácil		    | flood fill, bfs, dfs                                  |
+|A - Andando no tempo                   | balão++       | ad hoc                                                |
+|B - Batata quente                      | difícil       | sqrt decomposition (mo algorithm), BIT, busca binária |
+|C - Containers                         | médio         | dijkstra                                              |
+|D - Divisores                          | fácil         | divisibilidade, lcm, gcd                              |
+|E - Estatística Hexa                   | médio         | programação dinâmica, bitmasks                        |
+|F - Fundindo Árvores                   | fácil/médio   | ad hoc, grafos, dfs                                   |
+|G - Go--                               | fácil         | prefix sum, busca binária, programação dinâmica       |
+|H - huaauhahhuahau                     | balão++       | palindromos, strings                                  |
+|I - Isósceles                          | fácil         | ad hoc                                                |
+|J - Jogos Olímpicos                    | difícil       | geometria, line sweep, convex hull                    |
+|K - Kit de encolhimento de polígonos   | difícil       | geometria, programação dinâmica                       |
+|L - Ladrilhos                          | fácil         | flood fill, bfs, dfs                                  |
 |=====
 
 
@@ -50,5 +50,5 @@ As dicas de soluções dos juizes podem ser encontradas [aqui][solucoes-juizes-2
 {% include analises/regional2016/K-kit-de-encolhimento-de-poligonos.md %}
 {% include analises/regional2016/L-ladrilhos.md %}
 
-[resultados-regional-2016]:	http://maratona.ime.usp.br/vagas16.html
+[resultados-regional-2016]: http://maratona.ime.usp.br/vagas16.html
 [solucoes-juizes-2016]: http://maratona.ime.usp.br/prim-fase16/SolucoesdaRegionaldaMaratona2016.pdf

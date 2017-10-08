@@ -25,7 +25,6 @@ section {
   }
 }
 
-
 /**
 * Set `margin-bottom` to maintain vertical rhythm
 */
@@ -37,7 +36,6 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
-
 /**
 * Images
 */
@@ -45,7 +43,6 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-
 
 /**
 * Figures
@@ -58,8 +55,6 @@ figcaption {
   font-size: $small-font-size;
 }
 
-
-
 /**
 * Lists
 */
@@ -70,16 +65,12 @@ li {
   }
 }
 
-
-
 /**
 * Headings
 */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
-
-
 
 /**
 * Links
@@ -98,8 +89,6 @@ a {
   }
 }
 
-
-
 /**
 * Blockquotes
 */
@@ -115,8 +104,6 @@ blockquote {
     margin-bottom: 0;
   }
 }
-
-
 
 /**
 * Code formatting
@@ -142,7 +129,6 @@ pre {
   }
 }
 
-
 /**
 * Clearfix
 */
@@ -154,6 +140,7 @@ pre {
   padding:0;
   margin:0;
 }
+
 %clearfix {
 
   &:after {
@@ -162,7 +149,6 @@ pre {
     clear: both;
   }
 }
-
 
 /**
 * Icons
