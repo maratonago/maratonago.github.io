@@ -16,10 +16,10 @@
 
 [Union Find][unionfind]
 
-[stl]:        https://github.com/maratonago/maratonago.github.io/raw/master/_includes/attached_files/c_plus_plus/slides_tap.pdf
-[listas]:     https://github.com/maratonago/maratonago.github.io/raw/master/_includes/attached_files/data_structures/10-listas-encadeadas.pdf
-[pilhas]:     https://github.com/maratonago/maratonago.github.io/raw/master/_includes/attached_files/data_structures/11-pilhas.pdf
-[filas]:      https://github.com/maratonago/maratonago.github.io/raw/master/_includes/attached_files/data_structures/12-filas.pdf
-[arvores]:    https://github.com/maratonago/maratonago.github.io/raw/master/_includes/attached_files/data_structures/13-arvores.pdf
+[stl]:        https://github.com/maratonago/maratonago.github.io/raw/master/_includes/attached_files/c_plus_plus/slides_tap_stl.pdf
+[listas]:     https://github.com/maratonago/maratonago.github.io/raw/master/_includes/attached_files/data_structures/10-lista-encadeada.pdf
+[pilhas]:     https://github.com/maratonago/maratonago.github.io/raw/master/_includes/attached_files/data_structures/11-pilha.pdf
+[filas]:      https://github.com/maratonago/maratonago.github.io/raw/master/_includes/attached_files/data_structures/12-fila.pdf
+[arvores]:    https://github.com/maratonago/maratonago.github.io/raw/master/_includes/attached_files/data_structures/13-arvore.pdf
 [kdtree]:     https://github.com/maratonago/maratonago.github.io/raw/master/_includes/attached_files/data_structures/tap-kdtree.pdf
 [unionfind]:  https://github.com/maratonago/maratonago.github.io/raw/master/_includes/attached_files/data_structures/union-find.pdf
