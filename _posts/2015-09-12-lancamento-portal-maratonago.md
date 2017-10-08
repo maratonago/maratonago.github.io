@@ -22,5 +22,5 @@ participação de estudantes/professores/ex-alunos de outras instituições.
 
 {% include apresentacao.md %}
 
-[fb-page]:	https://www.facebook.com/maratonago/		
-[fb-group]:	https://www.facebook.com/groups/maratonago/ 
+[fb-page]:  https://www.facebook.com/maratonago/
+[fb-group]: https://www.facebook.com/groups/maratonago/

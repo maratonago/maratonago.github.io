@@ -22,20 +22,20 @@ A prova esse ano foi composta de 12 questões e pra começar a contribuir com o
 portal, aproveitando o clima de competição que ainda não se dissipou, nada
 melhor que uma breve análise da prova desse ano. Confira.
 
-| Problema				| Dificuldade	| Técnica relacionada	 |
+| Problema              | Dificuldade   | Técnica relacionada    |
 |:----------------------|:-------------:|-----------------------:|
-|A - Mania de Par 		| fácil			| grafos, dijkstra		 |
-|B - Bolsa de Valores	| fácil/médio	| programação dinâmica	 |
-|C - Tri-du				| balão++		| ad hoc				 |
-|D - Quebra-cabeça		| fácil 		| ad hoc				 |
-|E - Espiral			| médio 		| ad hoc, matemática	 |
-|F - Fatorial			| fácil 		| greedy, coin change	 |
-|G - Guardiões Curiosos	| difícil		| grafos, programação dinâmica |
-|H - Praça do Retângulo	| médio 		| ad hoc				 |
-|I - Ominobox			| difícil++		| ...					 |
-|J - Jogo de Estratégia	| balão++ 		| ad hoc				 |
-|K - Palíndromo			| fácil/médio 	| programação dinâmica	 |
-|L - Loteria			| difícil		| algebra linear, eliminação gaussiana |
+|A - Mania de Par       | fácil         | grafos, dijkstra       |
+|B - Bolsa de Valores   | fácil/médio   | programação dinâmica   |
+|C - Tri-du             | balão++       | ad hoc                 |
+|D - Quebra-cabeça      | fácil         | ad hoc                 |
+|E - Espiral            | médio         | ad hoc, matemática     |
+|F - Fatorial           | fácil         | greedy, coin change    |
+|G - Guardiões Curiosos | difícil       | grafos, programação dinâmica |
+|H - Praça do Retângulo | médio         | ad hoc                 |
+|I - Ominobox           | difícil++     | ...                    |
+|J - Jogo de Estratégia | balão++       | ad hoc                 |
+|K - Palíndromo         | fácil/médio   | programação dinâmica   |
+|L - Loteria            | difícil       | algebra linear, eliminação gaussiana |
 |=====
 
 
@@ -52,4 +52,4 @@ melhor que uma breve análise da prova desse ano. Confira.
 {% include analises/regional2015/K-palindromo.md %}
 {% include analises/regional2015/L-loteria.md %}
 
-[resultados-regional-2015]:	http://maratona.ime.usp.br/vagas15.html
+[resultados-regional-2015]: http://maratona.ime.usp.br/vagas15.html
