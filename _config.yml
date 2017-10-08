@@ -4,7 +4,7 @@ email: paulocezar.ufg@gmail.com
 description: >
   Projeto para divulgação de informação sobre a Maratona de Programação
   e compartilhamento de conhecimento sobre Competitive Programming.
-footer_text: '&copy; 2015 Maratona GO. Made with Jekyll using <a href="https://github.com/OnlySomeDood/material-jekyll-ex">Material Jekyll Ex Theme</a>.'
+footer_text: '&copy; 2017 Maratona GO. Made with Jekyll using <a href="https://github.com/OnlySomeDood/material-jekyll-ex">Material Jekyll Ex Theme</a>.'
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://maratonago.github.io" # the base hostname & protocol for your site
 
