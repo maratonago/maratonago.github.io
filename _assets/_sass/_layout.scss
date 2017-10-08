@@ -80,7 +80,10 @@ section {
 * Site header
 */
 header {
-  background: #000000 ; 
+  background-color: $primaryColor;
+  background-image: url(https://github.com/maratonago/maratonago.github.io/raw/master/_assets/images/header.png); 
+  background-position: 10% 10%;
+  background-repeat: no-repeat;
   color: $textPrimaryColor;
   position: relative;
   padding-top: 13%;
