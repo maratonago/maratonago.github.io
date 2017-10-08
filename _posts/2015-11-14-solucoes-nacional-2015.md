@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nacional da Maratona de Programação 2015"
+title:  "Nacional da Maratona de Programação <br> 2015"
 tags: [maratona de programação, nacional, 2015, problemset, analise]
 categories: analise
 author: viniciusmalloc
