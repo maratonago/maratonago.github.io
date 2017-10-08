@@ -6,9 +6,11 @@ categories: analise
 author: wellvolks
 ---
 
-Aconteceu em 26 de Abril de 2017 o primeiro treino da disciplina TAP-Tópicos Avançados de Programação. O placar final do treino pode ser visto na imagem abaixo.
+Aconteceu em 26 de Abril de 2017 o primeiro treino da disciplina TAP - Tópicos
+Avançados de Programação. O placar final do treino pode ser visto na imagem
+abaixo.
 
-![Placar final do Treino-1 - TAP/2017-1](/_assets/images/Placar-Treino-1-Tap2017-1.png){: .center-image }
+![Placar final do Treino-1 - TAP/2017-1](/_assets/images/placar-treino-1-tap-2017-1.png){: .center-image }
 
 
 A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los é apresentado na tabela abaixo.
