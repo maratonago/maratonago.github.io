@@ -12,7 +12,7 @@ regional da Maratona de Programação. O resultado completo pode ser conferido
 foi uma das maiores do país e recebeu 29 times de 10 instituições de todo o
 estado. As 10 melhores equipes podem ser vistas na imagem abaixo.
 
-![Top 10 - Regional Maratona de Programação 2015 - Sede Goiânia](/_assets/images/top10-goiania.png){: .center-image }
+![Top 10 - Regional Maratona de Programação 2015 - Sede Goiânia](/_assets/images/gogo-results-2015.png){: .center-image }
 
 As equipes "11 balões e 3 segredos" do INF-UFG e "Turkeys" da UnB se
 classificaram para a fase nacional da maratona que acontecerá nos dias

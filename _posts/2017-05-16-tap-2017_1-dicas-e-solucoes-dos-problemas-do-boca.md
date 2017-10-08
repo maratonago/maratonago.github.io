@@ -6,7 +6,10 @@ categories: analise
 author: wellvolks
 ---
 
-Alguns problemas no BOCA requerem técnicas ou estruturas de dados mais avançadas. Este post tem como objetivo discutir e auxiliar na resolução destes problemas. Fiquem atentos, sempre que possível estaremos atualizando esse post com novas dicas e soluções.
+Alguns problemas no BOCA requerem técnicas ou estruturas de dados mais avançadas.
+Este post tem como objetivo discutir e auxiliar na resolução destes problemas.
+Fiquem atentos, sempre que possível estaremos atualizando esse post com novas
+dicas e soluções.
 
 Problemas discutidos:
 

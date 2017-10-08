@@ -8,10 +8,11 @@ author: paulocezar
 
 Aconteceu no dia 10 de Setembro em sedes espalhadas por todo o país a etapa
 regional da Maratona de Programação. O resultado completo pode ser conferido
-[aqui][resultados-regional-2016]{:target="_blank"}. Em 2016 a sede Goiânia recebeu 21 times de 8 instituições de todo o
-estado. As 10 melhores equipes podem ser vistas na imagem abaixo.
+[aqui][resultados-regional-2016]{:target="_blank"}. Em 2016 a sede Goiânia
+recebeu 21 times de 8 instituições de todo o estado. As 10 melhores equipes
+podem ser vistas na imagem abaixo.
 
-![Top 10 - Regional Maratona de Programação 2016 - Sede Goiânia](/_assets/images/2016-top10-goiania.png){: .center-image }
+![Top 10 - Regional Maratona de Programação 2016 - Sede Goiânia](/_assets/images/gogo-results-2016.png){: .center-image }
 
 A equipe "Where are the monkeys?" do INF-UFG se
 classificou para a fase nacional da maratona que acontecerá nos dias
