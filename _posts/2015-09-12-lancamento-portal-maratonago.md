@@ -20,6 +20,7 @@ de fora da UFG e para tentar contornar esse problema surgiu a idéia da criaçã
 de um ambiente bastante colaborativo, onde desde o inicio contaremos com a
 participação de estudantes/professores/ex-alunos de outras instituições.
 
+<br>
 {% include apresentacao.md %}
 
 [fb-page]:  https://www.facebook.com/maratonago/

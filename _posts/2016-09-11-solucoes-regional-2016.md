@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Regional da Maratona de Programação <br> 2016"
+title:  "Regional da Maratona de Programação 2016"
 tags: [maratona de programação, regional, 2016, problemset, analise]
 categories: analise
 author: paulocezar
@@ -18,7 +18,7 @@ classificou para a fase nacional da maratona que acontecerá nos dias
 11 e 12 de Novembro em Belo Horizonte. Boa sorte!
 
 A prova esse ano estava bem interessante e foi composta de 12 questões.
-As dicas de soluções dos juizes podem ser encontradas [aqui][solucoes-juizes-2016]{:target="_blank"}. Além delas abaixo podem ser encontradas algumas explicações mais elaboradas e exemplos de implementação.
+As dicas de soluções dos juizes podem ser encontradas [aqui][solucoes-juizes-2016]{:target="_blank"}. Além disso, algumas explicações mais elaboradas e exemplos de implementação podem ser encontradas abaixo.
 
 | Problema                              | Dificuldade   | Técnica relacionada                                   |
 |:--------------------------------------|:-------------:|------------------------------------------------------:|
@@ -36,18 +36,18 @@ As dicas de soluções dos juizes podem ser encontradas [aqui][solucoes-juizes-2
 |L - Ladrilhos                          | fácil         | flood fill, bfs, dfs                                  |
 |=====
 
-
-{% include analises/regional2016/A-andando-no-tempo.md %}
-{% include analises/regional2016/B-batata-quente.md %}
-{% include analises/regional2016/C-containers.md %}
-{% include analises/regional2016/D-divisores.md %}
-{% include analises/regional2016/E-estatistica-hexa.md %}
-{% include analises/regional2016/F-fundindo-arvores.md %}
-{% include analises/regional2016/G-go.md %}
-{% include analises/regional2016/H-huaauhahhuahau.md %}
-{% include analises/regional2016/I-isosceles.md %}
-{% include analises/regional2016/J-jogos-olimpicos.md %}
-{% include analises/regional2016/K-kit-de-encolhimento-de-poligonos.md %}
+<br>
+{% include analises/regional2016/A-andando-no-tempo.md %} <br>
+{% include analises/regional2016/B-batata-quente.md %} <br>
+{% include analises/regional2016/C-containers.md %} <br>
+{% include analises/regional2016/D-divisores.md %} <br>
+{% include analises/regional2016/E-estatistica-hexa.md %} <br>
+{% include analises/regional2016/F-fundindo-arvores.md %} <br>
+{% include analises/regional2016/G-go.md %} <br>
+{% include analises/regional2016/H-huaauhahhuahau.md %} <br>
+{% include analises/regional2016/I-isosceles.md %} <br>
+{% include analises/regional2016/J-jogos-olimpicos.md %} <br>
+{% include analises/regional2016/K-kit-de-encolhimento-de-poligonos.md %} <br>
 {% include analises/regional2016/L-ladrilhos.md %}
 
 [resultados-regional-2016]: http://maratona.ime.usp.br/vagas16.html
