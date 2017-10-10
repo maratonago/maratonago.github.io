@@ -1,3 +1,4 @@
+<div id="magic"></div>
 
 ## Magic Trick
 
