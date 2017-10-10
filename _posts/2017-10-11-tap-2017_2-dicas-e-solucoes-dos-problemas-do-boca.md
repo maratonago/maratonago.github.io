@@ -17,8 +17,8 @@ Problemas discutidos:
 |:-----------------------------------------|:-------------:|------------------------------------:|
 |<a href="#favourite">Favourite Times</a>  | 2             | Ad hoc                              |
 |<a href="#magic">Magic Trick</a>          | 1             | Ad hoc                              |
-|<a href="#complexity">Complexity</a>      | 1             | Ad hoc                              |
-|<a href="#excellence">Excellence</a>      | 1             | Ad hoc                              |
+|<a href="#complexity">Complexity</a>      | 1             | Ordenação                           |
+|<a href="#excellence">Excellence</a>      | 1             | Ordenação                           |
 |<a href="#class">Class Time</a>           | 1             | Ordenação                           |
 |<a href="#triangle">Triangle</a>          | 1             | Geometria                           |
 |<a href="#blur">Blur</a>                  | 2             | Implementação                       |
