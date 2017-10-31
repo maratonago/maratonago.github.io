@@ -42,9 +42,9 @@ include: ['_pages', '_assets']
 exculde: ['.sass_cache', 'README.md']
 sass:
   sass_dir: '_assets/_sass'
-permalink: /:title
+permalink: /:year/:month/:day/:title
 
-gems:
+plugins:
   - jekyll-coffeescript
   - jekyll-gist
   - jekyll-mentions
