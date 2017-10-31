@@ -36,4 +36,16 @@ Dicas para solucionar os problemas e exemplos de implementação podem ser encon
 |K - Kill the Werewolf                  | médio         | graphs, max flow               |
 |=====
 
+<br>
+{% include analises/nacional2016/A-assigning.md %} <br>
+{% include analises/nacional2016/B-back.md %} <br>
+{% include analises/nacional2016/C-counting.md %} <br>
+{% include analises/nacional2016/D-dating.md %} <br>
+{% include analises/nacional2016/F-farm.md %} <br>
+{% include analises/nacional2016/G-game.md %} <br>
+{% include analises/nacional2016/H-hotel.md %} <br>
+{% include analises/nacional2016/I-internet.md %} <br>
+{% include analises/nacional2016/J-just.md %} <br>
+{% include analises/nacional2016/K-kill.md %}
+
 [resultados-nacional-2016]:	http://maratona.ime.usp.br/hist/2016/index.html
