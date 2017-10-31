@@ -25,7 +25,7 @@ Dicas para solucionar os problemas e exemplos de implementação podem ser encon
 | Problema                              | Dificuldade   | Técnica relacionada            |
 |:--------------------------------------|:-------------:|-------------------------------:|
 |A - Assigning Teams                    | balão++       | ad hoc                         |
-|B - Back to the Future                 | fácil/médio   | ad hoc, graphs                 |
+|B - Back to the Future                 | fácil/médio   | greedy, graphs                 |
 |C - Counting Self-Rotating Subsets     | médio/difícil | combinatorics, geometry        |
 |D - Dating On-Line                     | fácil         | ad hoc, geometry               |
 |F - Farm robot                         | balão++       | ad hoc, implementation         |
