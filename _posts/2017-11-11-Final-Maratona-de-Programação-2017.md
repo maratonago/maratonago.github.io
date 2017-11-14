@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Time do INF/UFG fica em 2ª lugar no Collegiate Cup Brazil 2017"
+title:  "Time do INF/UFG fica em 12ª lugar na <br> Final Brasileira da XXII Maratona de Programação"
 tags: [maratona de programação, Collegiate Cup Brazil, INF, UFG, pombo-fumado, pombo fumado]
 categories: resultados de competições
 author: wellvolks
