@@ -14,6 +14,7 @@ Bruninho é um rapaz experto <font color="green"> (não quer ganhar cuecas e mei
 Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/e4c0417f4e196aefe68d13ea2c8e0ed1 largePresents.c %}
+
 {% gist wellvolks/bf865ddd4d8821e9d94a7465e15f04bb largePresents.cpp %}
 
 [uri-2720]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/2720
