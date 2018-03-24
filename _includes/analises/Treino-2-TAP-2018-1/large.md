@@ -8,7 +8,7 @@ Resolva este problema:
 
 
 <p align="justify">
-O enunciado do problema começa explicando a versão clássica do jogo de Bingo e logo após apresenta uma nova versão chamada <b>A</b>lbert-<b>C</b>harles-<b>M</b>ary.  Nesta versão o caller sorteia uma primeira bola, coloca-a de volta no globo, sorteia uma segunda bola, coloca-a de volta no globo e então anuncia a diferença absoluta entre os números das duas bolas. O problema consiste em descobrir se é possível gerar todos os números de <b>0</b> até <b>N</b> através destas diferenças levando em consideração as <b>B</b> bolas que restaram dentro do globo.  Seja <b>bi</b> o valor de alguma bola <b>i</b> dentro do globo e <b>c</b> um valor entre <b>0</b> e <b>N</b> inclusive, <b>c</b> é gerado se existir alguma bola, dentro do globo, com o valor <b>bi + c</b>. Como o valor de <b>N</b> ≤ <b>90</b>, podemos olhar para todos os valores possíveis de <b>c</b>, ou seja, de <b>0</b> até <b>N</b> e verificar se o valor <b>bi + c</b> está dentro do globo.
+Bruninho é um rapaz experto <font color="green"> (não quer ganhar cuecas e meias de presente)  &#9786; </font>, irá escolher, dentre os <b>N</b> presentes, os <b>K</b> que tenham os <b>maiores volumes</b>. O que pode causar um pouco de confusão neste problema é como o mesmo pede para listar, na saída, os <b>K</b> presentes selecionados. Tais presentes devem ser listados em ordem crescente levando em consideração os seus respectivos <b>ID's</b>, ou seja, basicamente basta ordenar os presentes pelo critério do maior <b>volume</b>, depois selecionar os <b>K</b> primeiros (maiores volumes) e ordená-los pelo critério do menor <b>ID</b>. Agora só imprimir estes <b>ID's</b>.
 </p>
 
 Um exemplo de implementação segue abaixo:
