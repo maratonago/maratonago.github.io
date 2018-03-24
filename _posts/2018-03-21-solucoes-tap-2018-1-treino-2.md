@@ -33,19 +33,5 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 |=====
 
 <br>
-<!--
-{% include analises/Treino-2-TAP-2018-1/elf.md %} <br>
-{% include analises/Treino-2-TAP-2018-1/christmas.md %} <br>
-{% include analises/Treino-2-TAP-2018-1/large.md %} <br>
-{% include analises/Treino-2-TAP-2018-1/indecision.md %} <br>
-{% include analises/Treino-2-TAP-2018-1/senha.md %} <br>
-{% include analises/Treino-2-TAP-2018-1/array.md %} <br>
-{% include analises/Treino-2-TAP-2018-1/maquina.md %} <br>
-{% include analises/Treino-2-TAP-2018-1/event.md %} <br>
-{% include analises/Treino-2-TAP-2018-1/tribol.md %} <br>
-{% include analises/Treino-2-TAP-2018-1/arrumando.md %} <br>
-{% include analises/Treino-2-TAP-2018-1/sub.md %} <br>
-{% include analises/Treino-2-TAP-2018-1/fazendo.md %} <br>
-{% include analises/Treino-2-TAP-2018-1/media.md %}
-//-->
+
 
