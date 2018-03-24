@@ -17,19 +17,19 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 
 | Problema                                                  | Dificuldade   | Técnica relacionada      |
 |:----------------------------------------------------------|:-------------:|-------------------------:|
-|A - <a href="#elf">Elf Time</a>                            | 3             | ad hoc                   |
-|B - <a href="#christmas">Christmas Lights</a>              | 2             | ad hoc                   |
-|C - <a href="#large">Large Presents</a>                    | 1             | string                   |
-|D - <a href="#indecision">Indecision of Reindeers</a>      | 2             | ad hoc, substr           |
-|E - <a href="#senha">Senha Fixa</a>                        | 2             | contadores               |
-|F - <a href="#array">Array Hash</a>                        | 3             | pilha                    |
-|G - <a href="#maquina">Máquina de Café</a>                 | 2             | contadores, pilha        |
-|H - <a href="#event">Event</a>                             | 3             | mapas, STL maps          |
-|I - <a href="#tribol">Tribol</a>                           | 1             | ad hoc                   |
-|J - <a href="#arrumando">Arrumando as Tarefas</a>          | 2             | travessia em grafos      |
-|K - <a href="#sub">Sub-prime</a>                           | 2             | geometria                |
-|L - <a href="#fazendo">Fazendo Pandorgas</a>               | 2             | matemática               |
-|M - <a href="#media">Média 2</a>                           | 2             | matemática, Ad Hoc       |
+|A - <a href="#elf">Elf Time</a>                            | 1             | ad hoc                   |
+|B - <a href="#christmas">Christmas Lights</a>              | 1             | bitmask                  |
+|C - <a href="#large">Large Presents</a>                    | 2             | ordenação                |
+|D - <a href="#indecision">Indecision of Reindeers</a>      | 1             | ad hoc                   |
+|E - <a href="#senha">Senha Fixa</a>                        | 1             | implementação            |
+|F - <a href="#array">Array Hash</a>                        | 1             | string                   |
+|G - <a href="#maquina">Máquina de Café</a>                 | 2             | ad hoc                   |
+|H - <a href="#event">Event</a>                             | 1             | matemática               |
+|I - <a href="#tribol">Tribol</a>                           | 2             | ad hoc                   |
+|J - <a href="#arrumando">Arrumando as Tarefas</a>          | 2             | ordenação                |
+|K - <a href="#sub">Sub-prime</a>                           | 2             | ad hoc                   |
+|L - <a href="#fazendo">Fazendo Pandorgas</a>               | 1             | matemática               |
+|M - <a href="#media">Média 2</a>                           | 1             | matemática               |
 |=====
 
 <br>
