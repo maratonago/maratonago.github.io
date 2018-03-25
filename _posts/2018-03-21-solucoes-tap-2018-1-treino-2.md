@@ -46,4 +46,5 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 
 {% include analises/Treino-2-TAP-2018-1/array.md %} 
 
+{% include analises/Treino-2-TAP-2018-1/maquina.md %}
 
