@@ -8,13 +8,21 @@ Resolva este problema:
 
 <p align="justify">
 A chave deste problema está em perceber que basta colocar a máquina de café em cada andar e computar o custo total de subidas/decidas de escada para o andar que a mesma esteja. Suponha que no:
+</p>
+
+<p align="justify">
+<b><i>1ª andar:</i></b> cada um dos <b>A<sub>2</sub></b> e <b>A<sub>3</sub></b> funcionários gastarão, respectivamente, <b>2</b> e <b>4</b> minutos. Portanto, um total de <b>2&centerdot;</b><b>A<sub>2</sub></b> <b>+</b> <b>4&centerdot;</b><b>A<sub>3</sub></b> minutos serão necessários;
+ </p>
  
-<b><i>1ª andar:</i></b> cada um dos <b>A<sub>2<sub></b> e <b>A<sub>3</sub></b> funcionários gastarão, respectivamente, <b>2</b> e <b>4</b> minutos. Portanto, um total de <b>2&centerdot;</b><b>A<sub>2<sub></b> <b>+</b> <b>4&centerdot;</b><b>A<sub>3</sub></b> minutos serão necessários;
- 
-<b><i>2ª andar:</i></b> cada um dos <b>A<sub>1<sub></b> e <b>A<sub>3</sub></b> funcionários gastarão <b>2</b> minutos. Logo, um total de <b>2&centerdot;</b><b>A<sub>1<sub></b> <b>+</b> <b>2&centerdot;</b>A<sub>3</sub></b> minutos serão necessários;
- 
-<b><i>3ª andar:</i></b> cada um dos <b>A<sub>1<sub></b> e <b>A<sub>2</sub></b> funcionários gastarão, respectivamente, <b>4</b> e <b>2</b> minutos. Assim, um total de <b>4&centerdot;</b><b>A<sub>1<sub></b> <b>+</b> <b>2&centerdot;</b><b>A<sub>2</sub></b> minutos serão necessários;
- 
+<p align="justify"> 
+<b><i>2ª andar:</i></b> cada um dos <b>A<sub>1</sub></b> e <b>A<sub>3</sub></b> funcionários gastarão <b>2</b> minutos. Logo, um total de <b>2&centerdot;</b><b>A<sub>1</sub></b> <b>+</b> <b>2&centerdot;</b>A<sub>3</sub></b> minutos serão necessários;
+</p>
+
+<p align="justify">
+<b><i>3ª andar:</i></b> cada um dos <b>A<sub>1</sub></b> e <b>A<sub>2</sub></b> funcionários gastarão, respectivamente, <b>4</b> e <b>2</b> minutos. Assim, um total de <b>4&centerdot;</b><b>A<sub>1</sub></b> <b>+</b> <b>2&centerdot;</b><b>A<sub>2</sub></b> minutos serão necessários;
+</p>
+
+p align="justify">
 A resposta será o menor tempo necessário das três opções citadas acima.
 
 </p>
