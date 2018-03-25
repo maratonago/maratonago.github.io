@@ -22,7 +22,7 @@ A chave deste problema está em perceber que basta colocar a máquina de café e
 <b><i>3ª andar:</i></b> cada um dos <b>A<sub>1</sub></b> e <b>A<sub>2</sub></b> funcionários gastarão, respectivamente, <b>4</b> e <b>2</b> minutos. Assim, um total de <b>4&centerdot;</b><b>A<sub>1</sub></b> <b>+</b> <b>2&centerdot;</b><b>A<sub>2</sub></b> minutos serão necessários;
 </p>
 
-p align="justify">
+<p align="justify">
 A resposta será o menor tempo necessário das três opções citadas acima.
 
 </p>
