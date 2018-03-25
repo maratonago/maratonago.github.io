@@ -7,7 +7,7 @@ Resolva este problema:
 [URI][uri-1114]{:target="_blank"}
 
 <p align="justify">
-![Alt Text](/_assets/images/giphy.gif)
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
 </p>
 
 Um exemplo de implementação segue abaixo:
