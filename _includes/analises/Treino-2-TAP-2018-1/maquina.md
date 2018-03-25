@@ -7,7 +7,16 @@ Resolva este problema:
 [URI][uri-2670]{:target="_blank"}
 
 <p align="justify">
-O enunciado do problema começa explicando a versão clássica do jogo de Bingo e logo após apresenta uma nova versão chamada <b>A</b>lbert-<b>C</b>harles-<b>M</b>ary.  Nesta versão o caller sorteia uma primeira bola, coloca-a de volta no globo, sorteia uma segunda bola, coloca-a de volta no globo e então anuncia a diferença absoluta entre os números das duas bolas. O problema consiste em descobrir se é possível gerar todos os números de <b>0</b> até <b>N</b> através destas diferenças levando em consideração as <b>B</b> bolas que restaram dentro do globo.  Seja <b>bi</b> o valor de alguma bola <b>i</b> dentro do globo e <b>c</b> um valor entre <b>0</b> e <b>N</b> inclusive, <b>c</b> é gerado se existir alguma bola, dentro do globo, com o valor <b>bi + c</b>. Como o valor de <b>N</b> ≤ <b>90</b>, podemos olhar para todos os valores possíveis de <b>c</b>, ou seja, de <b>0</b> até <b>N</b> e verificar se o valor <b>bi + c</b> está dentro do globo.
+A chave deste problema está em perceber que basta colocar a máquina de café em cada andar e computar o custo total de subidas/decidas de escada para o andar que a mesma esteja. Suponha que no:
+ 
+<b><i>1ª andar:</i></b> cada um dos <b>A<sub>2<sub></b> e <b>A<sub>3</sub></b> funcionários gastarão, respectivamente, <b>2</b> e <b>4</b> minutos. Portanto, um total de <b>2&centerdot;</b><b>A<sub>2<sub></b> <b>+</b> <b>4&centerdot;</b><b>A<sub>3</sub></b> minutos serão necessários;
+ 
+<b><i>2ª andar:</i></b> cada um dos <b>A<sub>1<sub></b> e <b>A<sub>3</sub></b> funcionários gastarão <b>2</b> minutos. Logo, um total de <b>2&centerdot;</b><b>A<sub>1<sub></b> <b>+</b> <b>2&centerdot;</b>A<sub>3</sub></b> minutos serão necessários;
+ 
+<b><i>3ª andar:</i></b> cada um dos <b>A<sub>1<sub></b> e <b>A<sub>2</sub></b> funcionários gastarão, respectivamente, <b>4</b> e <b>2</b> minutos. Assim, um total de <b>4&centerdot;</b><b>A<sub>1<sub></b> <b>+</b> <b>2&centerdot;</b><b>A<sub>2</sub></b> minutos serão necessários;
+ 
+A resposta será o menor tempo necessário das três opções citadas acima.
+
 </p>
 
 Um exemplo de implementação segue abaixo:
