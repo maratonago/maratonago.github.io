@@ -7,7 +7,7 @@ Resolva este problema:
 [URI][uri-1875]{:target="_blank"}
 
 <p align="justify">
-O enunciado do problema começa explicando a versão clássica do jogo de Bingo e logo após apresenta uma nova versão chamada <b>A</b>lbert-<b>C</b>harles-<b>M</b>ary.  Nesta versão o caller sorteia uma primeira bola, coloca-a de volta no globo, sorteia uma segunda bola, coloca-a de volta no globo e então anuncia a diferença absoluta entre os números das duas bolas. O problema consiste em descobrir se é possível gerar todos os números de <b>0</b> até <b>N</b> através destas diferenças levando em consideração as <b>B</b> bolas que restaram dentro do globo.  Seja <b>bi</b> o valor de alguma bola <b>i</b> dentro do globo e <b>c</b> um valor entre <b>0</b> e <b>N</b> inclusive, <b>c</b> é gerado se existir alguma bola, dentro do globo, com o valor <b>bi + c</b>. Como o valor de <b>N</b> ≤ <b>90</b>, podemos olhar para todos os valores possíveis de <b>c</b>, ou seja, de <b>0</b> até <b>N</b> e verificar se o valor <b>bi + c</b> está dentro do globo.
+Olhando para as regras do jogo podemos montar uma matriz <b>M</b> para armazenar as pontuações possíveis. Formalmente, seja <b>M[ X ][ Y ] = w </b> tal que <b>X</b>, <b>Y ∈ {'R'</b>, <b>'G'</b>, <b>'B'}</b>, <b>X ≠ Y</b> e <b> w  ∈ {1, 2}</b>. Por exemplo, <b>M[ 'R' ][ 'G' ] = 2</b>, uma vez que o time <b>'R'</b> marca um gol no time <b>'G'</b> e como está a esquerda do seu adversário a pontuação será o <b>dobro</b>. Mapeado as pontuações, basta computar os saldos de gols dos times e imprimir uma das possíveis repostas (trempate, empate e time com o maior saldo de gols) seguindo os critérios estabelecidos no enunciado.
 </p>
 
 Um exemplo de implementação segue abaixo:
