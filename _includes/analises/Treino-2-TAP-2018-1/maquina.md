@@ -7,7 +7,7 @@ Resolva este problema:
 [URI][uri-2670]{:target="_blank"}
 
 <p align="justify">
-A chave deste problema está em perceber que basta colocar a máquina de café em cada andar e computar o custo total de subidas/decidas de escada para o andar que a mesma esteja. Suponha que no:
+A chave deste problema está em perceber que basta colocar a máquina de café em cada andar e computar o custo total de subidas/decidas de escada para o andar em que a mesma foi colocada. Suponha que no:
 </p>
 
 <p align="justify">
