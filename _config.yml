@@ -13,7 +13,7 @@ facebook_username: maratonago
 github_username:  maratonago
 
 # Google Analytics tracking Code
-google_analytics: UA-116574142-1
+google_analytics: 'UA-116574142-1'
 
 # Disqus comments shortname
 disqus:
