@@ -41,7 +41,7 @@ A próxima operação válida é de inserção, mas não há espaço em disco pa
 
 ![HD com um bloco livre de tamanho 4192Kb](/_assets/images/Hd_6.png){: .center-image }
 
-Note a mágica dos "ponteiros" ocorrendo =). Com um bloco de tamanho <b>6656Kb</b> livre o arquivo <b>arq0001</b> pode ser inserido:
+Note a mágica dos "ponteiros" ocorrendo =). Com um bloco livre de tamanho <b>6656Kb</b> o arquivo <b>arq0001</b> com tamanho <b>5120Kb</b> pode ser inserido:
 
 ![HD com um bloco livre de tamanho 4192Kb](/_assets/images/Hd_7.png){: .center-image }
 
