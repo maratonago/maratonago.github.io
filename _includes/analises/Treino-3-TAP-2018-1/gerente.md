@@ -23,30 +23,30 @@ O primeiro passo é converter a unidade do disco de <b>8Mb</b> para <b>8192Kb</b
 
 A primeira operação é do tipo <b>insere</b>. Deseja-se inserir o arquivo <b>arq0001</b> de tamanho <b>4096Kb</b> (<b>4Mb</b>). Tal operação é possível uma vez que <b>hd</b> existe um bloco livre de tamanho <b>8192Kb</b>.
 
-![HD com um bloco livre de tamanho 4192Kb](/_assets/images/Hd_2.png){: .center-image }
+![Inserção do arquivo arq0001](/_assets/images/Hd_2.png){: .center-image }
 
 O <b>hd</b> agora tem dois blocos, o primeiro e o segundo de tamanho <b>4096Kb</b>, mas o primeiro contendo o arquivo <b>arq0001</b> e o segundo livre. Observe que agora o mapa <b>arquivos</b> tem um "ponteiro" do arquivo <b>arq0001</b> para o bloco no qual foi alocado. De forma análoga, a próxima operação é realizada:
 
-![HD com um bloco livre de tamanho 4192Kb](/_assets/images/Hd_3.png){: .center-image }
+![Inserção do arquivo arq0002](/_assets/images/Hd_3.png){: .center-image }
 
 A seguinte também:
 
-![HD com um bloco livre de tamanho 4192Kb](/_assets/images/Hd_4.png){: .center-image }
+![Inserção do arquivo arq0003](/_assets/images/Hd_4.png){: .center-image }
 
 A próxima operação é de remoção, como já é sabido o bloco cujo o arquivo <b>arq0001</b> está alocado a operação pode ser realizada diretamente. Agora um novo bloco com tamanho <b>4096Kb</b> está livre (a próxima operação é ignorada já que o arquivo não está alocado no <b>hd</b>):
 
-![HD com um bloco livre de tamanho 4192Kb](/_assets/images/Hd_5.png){: .center-image }
+![Remoção do arquivo arq0001](/_assets/images/Hd_5.png){: .center-image }
 
 A próxima operação válida é de inserção, mas não há espaço em disco para o arquivo <b>arq0001</b>. Seguindo as instruções do enunciado do problema, uma operação de otimização deve ser realizada. O <b>hd</b> então ficará desta forma:
 
-![HD com um bloco livre de tamanho 4192Kb](/_assets/images/Hd_6.png){: .center-image }
+![Estado do hd após otimização](/_assets/images/Hd_6.png){: .center-image }
 
 Note a mágica dos "ponteiros" ocorrendo =). Com um bloco livre de tamanho <b>6656Kb</b> o arquivo <b>arq0001</b> com tamanho <b>5120Kb</b> pode ser inserido:
 
-![HD com um bloco livre de tamanho 4192Kb](/_assets/images/Hd_7.png){: .center-image }
+![Inserção do arquivo arq0005](/_assets/images/Hd_7.png){: .center-image }
 
 Um exemplo de implementação segue abaixo:
 
-{% gist leandrovianna/518090303067210ca2cfad8cbf88fd2a facil-rujia-liu.cpp %}
+{% gist leandrovianna/8c1aa815af97b7b232a159c8767dc4fa gerente.cpp %}
 
-[uri-1424]: https://www.urionlinejudge.com.br/judge/pt/problems/view/1369
+[uri-1369]: https://www.urionlinejudge.com.br/judge/pt/problems/view/1369
