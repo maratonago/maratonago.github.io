@@ -19,6 +19,7 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 |:----------------------------------------------------------------|:-----------:|--------------------:|
 | C - <a href="#papai-noel">Tradutor do Papai Noel</a>            | 2           | map                 |
 | F - <a href="#facil-rujia-liu">Problema Fácil de Rujia Liu?</a> | 1           | vector, array       |
+| H - <a href="#gerente">Gerente de Espaço</a>                    | 8           | list, map           |
 | =====
 
 <br>
@@ -28,3 +29,4 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 
 {% include analises/Treino-3-TAP-2018-1/facil-rujia-liu.md %}
 
+{% include analises/Treino-3-TAP-2018-1/gerente.md %}
