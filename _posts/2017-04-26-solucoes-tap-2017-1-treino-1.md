@@ -33,6 +33,7 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 |=====
 
 <br>
+{% include analises/Treino-3-TAP-2018-1/gerente.md %} <br>
 {% include analises/Treino-1-TAP-2017-1/Bingo.md %} <br>
 {% include analises/Treino-1-TAP-2017-1/horas_e_minutos.md %} <br>
 {% include analises/Treino-1-TAP-2017-1/led.md %} <br>
