@@ -47,6 +47,6 @@ Note a mágica dos "ponteiros" ocorrendo =). Com um bloco livre de tamanho <b>66
 
 Um exemplo de implementação segue abaixo:
 
-{% gist leandrovianna/8c1aa815af97b7b232a159c8767dc4fa gerente.cpp %}
+{% gist wellvolks/8c1aa815af97b7b232a159c8767dc4fa gerente.cpp %}
 
 [uri-1369]: https://www.urionlinejudge.com.br/judge/pt/problems/view/1369
