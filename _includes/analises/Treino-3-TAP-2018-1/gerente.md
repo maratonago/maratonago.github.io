@@ -37,7 +37,7 @@ A próxima operação é de remoção, como já é sabido o bloco cujo o arquivo
 
 ![Remoção do arquivo arq0001](/_assets/images/Hd_5.png){: .center-image }
 
-A próxima operação válida é de inserção, mas não há espaço em disco para o arquivo <b>arq0001</b>. Seguindo as instruções do enunciado do problema, uma operação de otimização deve ser realizada. O <b>hd</b> então ficará desta forma:
+A próxima operação válida é de inserção, mas não há espaço em disco para o arquivo <b>arq0001</b>. Seguindo as instruções do enunciado do problema, uma operação de otimização deve ser realizada. O <b>hd</b> então ficará dessa forma:
 
 ![Estado do hd após otimização](/_assets/images/Hd_6.png){: .center-image }
 
