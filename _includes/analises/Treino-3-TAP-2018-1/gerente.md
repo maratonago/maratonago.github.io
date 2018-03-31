@@ -15,7 +15,7 @@ Para representar o disco pode-se utilizar a estrutura de dados <a href = "http:/
 
 Antes de explicar a solução acredito que seja melhor explicar pelo menos um caso de teste. Assim ficará mais simples de entender a solução empregada. Tal caso de teste é apresentado a seguir:
 
-{% gist leandrovianna/63e277f25b536cd5cbbef1fdcc4fb0cc  teste.in %}
+{% gist wellvolks/63e277f25b536cd5cbbef1fdcc4fb0cc  teste.in %}
 
 O primeiro passo é converter a unidade do disco de <b>8Mb</b> para <b>8192Kb</b>. No inicio o <b>hd</b> tem um único bloco livre com o tamanho da sua capacidade:
 
