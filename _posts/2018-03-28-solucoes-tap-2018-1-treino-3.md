@@ -10,7 +10,7 @@ Aconteceu em 28 de Março de 2018 o terceiro treino da disciplina TAP - Tópicos
 Avançados de Programação. O placar final do treino pode ser visto na imagem
 abaixo.
 
-[//]: #comment ![Placar final do Treino-2 - TAP/2018-1](/_assets/images/placar-treino-2-tap-2018-1.PNG){: .center-image }
+[//]: #comment ![Placar final do Treino-3 - TAP/2018-1](/_assets/images/placar-treino-3-tap-2018-1.png){: .center-image }
 
 
 A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los é apresentado na tabela abaixo.
