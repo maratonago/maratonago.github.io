@@ -55,7 +55,7 @@ A ideia aqui é percorrer todo o <b>hd</b> procurando os blocos que têm tamanho
 <font color = "blue" ><b>Remoção</b></font>
 O primeiro passo é verificar se o arquivo está no <b>hd</b> (linha 2). Caso não esteja não há nada a ser feito. Por outro lado, se estiver deve-se remove-lo. Lembre que o <b>map</b> arquivos mantem o "ponteiro" para o bloco que tem o arquivo em si armazenado, basta remove-lo da lista e dos arquivos. Note que antes da remoção em si, três situações podem ocorrer. Os mesmo são ilustrados a seguir:
 
-![Inserção do arquivo arq0005](/_assets/images/situacoes.png){:height="461px" width="1053px" .center-image}
+![Situações antes de uma remoção](/_assets/images/situacoes.png){:height="650px" width="1053px" .center-image}
 
 Na primeira situação o arquivo que será removido está do lado esquerdo de um bloco livre. Neste caso após a remoção deve-se realizar o <b>merge</b> dos blocos, gerando assim um único bloco com o valor do tamanho obtido pela soma dos valores dos tamanhos do bloco que continha o arquivo com o bloco livre. A segunda situação o arquivo que será removido está entre dois blocos livres. De forma parecida com a primeira situação, será realizado o <b>merge</b> do bloco que tinha o arquivo com os blocos da direita e da esquerda. Na terceira situação o procedimento é análogo a primeira situação, mas no caso o <b>merge</b> é realizado com o bloco da esquerda. Estas operações de <b>merge</b> são mostrada a seguir:
 
