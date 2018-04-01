@@ -19,7 +19,7 @@ Antes de explicar a solução acredito que seja melhor explicar pelo menos um ca
 
 O primeiro passo é converter a unidade do disco de <b>8Mb</b> para <b>8192Kb</b>. No inicio o <b>hd</b> tem um único bloco livre com o tamanho da sua capacidade:
 
-![HD com um bloco livre de tamanho 4192Kb](/_assets/images/Hd_1.png){: .center-image }
+![HD com um bloco livre de tamanho 4192Kb](/_assets/images/Hd_1.png ){: .center-image }
 
 A primeira operação é do tipo <b>insere</b>. Deseja-se inserir o arquivo <b>arq0001</b> de tamanho <b>4096Kb</b> (<b>4Mb</b>). Tal operação é possível uma vez que <b>hd</b> existe um bloco livre de tamanho <b>8192Kb</b>.
 
@@ -45,7 +45,34 @@ Note a mágica dos "ponteiros" ocorrendo =). Com um bloco livre de tamanho <b>66
 
 ![Inserção do arquivo arq0005](/_assets/images/Hd_7.png){: .center-image }
 
-Um exemplo de implementação segue abaixo:
+Portanto, a ideia é simular o <b>hd</b> como uma lista de blocos. Cada um destes blocos têm um tamanho em <b>Kb</b> e podem ser do tipo <b>LIVRE</b> ou <b>OCUPADO</b>. A seguir serão mostrados como implementar as operações no <b>hd</b>:
+
+<font color = "blue" ><b>Inserção</b></font>
+A ideia aqui é percorrer todo o <b>hd</b> procurando os blocos que têm tamanho maior ou igual ao tamanho do arquivo que se deseja inserir. Note que a função <b>insere</b> encontra a posição cujo o bloco comporta tal arquivo e seja o menor possível dentre os que comporta. Após definido o bloco, basta inserir o arquivo no mesmo, caso o bloco seja maior que o arquivo então um pedaço do bloco ainda estará disponível, assim basta inseri-lo no <b>hd</b> para que possa ser utilizado por outro arquivo.
+
+{% gist wellvolks/0009e277010678fc1b3f11589d162b19 insere.cpp %}
+
+<font color = "blue" ><b>Remoção</b></font>
+O primeiro passo é verificar se o arquivo está no <b>hd</b> (linha 2). Caso não esteja não há nada a ser feito. Por outro lado, se estiver deve-se remove-lo. Lembre que o <b>map</b> arquivos mantem o "ponteiro" para o bloco que tem o arquivo em si armazenado, basta remove-lo da lista e dos arquivos. Note que antes da remoção em si, três situações podem ocorrer. Os mesmo são ilustrados a seguir:
+
+![Inserção do arquivo arq0005](/_assets/images/situacoes.png){: .center-image }
+
+Na primeira situação o arquivo que será removido está do lado esquerdo de um bloco livre. Neste caso após a remoção deve-se realizar o <b>merge</b> dos blocos, gerando assim um único bloco com o valor do tamanho obtido pela soma dos valores dos tamanhos do bloco que continha o arquivo com o bloco livre. A segunda situação o arquivo que será removido está entre dois blocos livres. De forma parecida com a primeira situação, será realizado o <b>merge</b> do bloco que tinha o arquivo com os blocos da direita e da esquerda. Na terceira situação o procedimento é análogo a primeira situação, mas no caso o <b>merge</b> é realizado com o bloco da esquerda. Estas operações de <b>merge</b> são mostrada a seguir:
+
+{% gist wellvolks/cc3ef4cdd2b2afe8a3a0fd92ae0d184b remove.cpp %}
+
+<font color = "blue" ><b>Otimização</b></font>
+
+Para realizar a operação de otimização basta percorrer todo o <b>hd</b> e ir contabilizando e removendo os blocos livre. No final basta criar um novo bloco com o tamanho contabilizado até então, desde que o mesmo não tenha valor zero. Segue o exemplo de implementação de tal operação: 
+
+{% gist wellvolks/f4c500237b942628266ffa9f1f47f546 otimizacao.cpp %}
+
+Após todas as operações terem sido realizadas, a útltima etapa consiste em percorrer o <b>hd</b> e computar a porcentagem de espaço livre em cada bloco de tamanho igual ao tamanho do bloco dividido por <b>8</b>, vamos armazenar tal valor em uma variável chamada <b>limite</b>. Note que os blocos do <b>hd</b> em si podem ter tamanhos maiores ou menores que o <b>limite</b>. Cada bloco é do tipo <b>LIVRE</b> ou <b>OCUPADO</b>, vamos outras duas variáveis: <b>livre</b> e <b>ocupado</b>. Elas irão manter o acumulado dos tamanhos dos blocos do tipo <b>LIVRE</b> e <b>OCUPADO</b>, respectivamente. Então ao percorrer os blocos do <b>hd</b>, partindo do inicio para o final, se <b>livre + ocupado ≥ limite</b> então um novo bloco de tamanho <b>limite</b> foi preenchido e devemos imprimir a porcentagem de espaço livre do mesmo. O bloco atual observado fez ultrapassar o <b>limite</b>, se o mesmo for do tipo <b>LIVRE</b> então a variável <b>ocupado</b> deve ser zerada, por outro lado, se for do tipo <b>OCUPADO</b> então a variável <b>livre</b> é que deve ser zerada. Mas por quê? Note que se o valor <b>limite</b> foi atingindo ou ultrapassado, então um novo bloco de tamanho <b>limite</b> deve ser "preenchido". Se o bloco atual é do tipo <b>LVIRE<b> então o acumulado em <b>ocupado</b> não irá afetar o novo bloco, da mesma que o acumulado em <b>livre</b> não afetará se o tipo for <b>OCUPADO</b>.
+
+{% gist wellvolks/49bc54e7ef43e5e4437d38c50665f531 print.cpp %}
+
+
+A implementação completa segue abaixo:
 
 {% gist wellvolks/8c1aa815af97b7b232a159c8767dc4fa gerente.cpp %}
 
