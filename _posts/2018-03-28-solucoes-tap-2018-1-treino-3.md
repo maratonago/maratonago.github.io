@@ -20,6 +20,7 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 | A - <a href="#abreviacoes">Abreviações</a>                      | 3           | map, ad hoc         |
 | B - <a href="#supermarket">Supermarket Line</a>                 | 1           | priority_queue      |
 | C - <a href="#papai-noel">Tradutor do Papai Noel</a>            | 2           | map                 |
+| E - <a href="#teclado">Teclado Quebrado</a>                     | 1           | list                |
 | F - <a href="#facil-rujia-liu">Problema Fácil de Rujia Liu?</a> | 1           | vector, array       |
 | H - <a href="#gerente">Gerente de Espaço</a>                    | 6           | list, map           |
 | =====
@@ -31,6 +32,8 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 {% include analises/Treino-3-TAP-2018-1/supermarket.md %}
 
 {% include analises/Treino-3-TAP-2018-1/papai-noel.md %}
+
+{% include analises/Treino-3-TAP-2018-1/teclado.md %}
 
 {% include analises/Treino-3-TAP-2018-1/facil-rujia-liu.md %}
 
