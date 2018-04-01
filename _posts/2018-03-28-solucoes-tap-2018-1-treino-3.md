@@ -23,6 +23,7 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 | D - <a href="#estacionamento_linear">Estacionamento Lienar</a>    | 2           | stack               |
 | E - <a href="#teclado">Teclado Quebrado</a>                       | 1           | list                |
 | F - <a href="#facil-rujia-liu">Problema Fácil de Rujia Liu?</a>   | 1           | vector, array       |
+| G - <a href="#ida">Ida à feira</a>                                | 1           | map                 |
 | H - <a href="#gerente">Gerente de Espaço</a>                      | 6           | list, map           |
 | M - <strike><a href="#gerente">Acordes Intergaláticos</a></strike>| 7           | segment tree        |
 | =====
@@ -40,5 +41,7 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 {% include analises/Treino-3-TAP-2018-1/teclado.md %}
 
 {% include analises/Treino-3-TAP-2018-1/facil-rujia-liu.md %}
+
+{% include analises/Treino-3-TAP-2018-1/ida.md %}
 
 {% include analises/Treino-3-TAP-2018-1/gerente.md %}
