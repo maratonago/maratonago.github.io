@@ -19,7 +19,7 @@ Antes de explicar em mais detalhes a solução vamos simular as três operaçõe
 
 O primeiro passo é converter a unidade do disco de <b>8Mb</b> para <b>8192Kb</b>. No inicio o <b>hd</b> tem um único bloco livre com o tamanho da sua capacidade:
 
-![HD com um bloco livre de tamanho 4192Kb](/_assets/images/Hd_1.png ){:height="1754px" width="767px" .center-image}
+![HD com um bloco livre de tamanho 4192Kb](/_assets/images/Hd_1.png ){:height="767px" width="1754px" .center-image}
 
 A primeira operação é do tipo <b>insere</b>. Deseja-se inserir o arquivo <b>arq0001</b> de tamanho <b>4096Kb</b> (<b>4Mb</b>). Tal operação é possível uma vez que <b>hd</b> existe um bloco livre de tamanho <b>8192Kb</b>.
 
