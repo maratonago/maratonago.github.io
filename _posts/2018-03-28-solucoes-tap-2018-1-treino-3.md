@@ -26,6 +26,7 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 | G - <a href="#ida">Ida à feira</a>                                | 1           | map                 |
 | H - <a href="#gerente">Gerente de Espaço</a>                      | 6           | list, map           |
 | I - <a href="#especies">Espécies de Madeira</a>                   | 1           | map                 |
+| J - <a href="#pontos">Pontos de Feno</a>                          | 1           | map                 |
 | M - <strike><a href="#gerente">Acordes Intergaláticos</a></strike>| 7           | segment tree        |
 | =====
 
@@ -48,3 +49,5 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 {% include analises/Treino-3-TAP-2018-1/gerente.md %}
 
 {% include analises/Treino-3-TAP-2018-1/especies.md %}
+
+{% include analises/Treino-3-TAP-2018-1/pontos.md %}
