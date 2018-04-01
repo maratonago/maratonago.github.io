@@ -23,27 +23,27 @@ O primeiro passo é converter a unidade do disco de <b>8Mb</b> para <b>8192Kb</b
 
 A primeira operação é do tipo <b>insere</b>. Deseja-se inserir o arquivo <b>arq0001</b> de tamanho <b>4096Kb</b> (<b>4Mb</b>). Tal operação é possível uma vez que <b>hd</b> existe um bloco livre de tamanho <b>8192Kb</b>.
 
-![Inserção do arquivo arq0001](/_assets/images/Hd_2.png){: .center-image }
+![Inserção do arquivo arq0001](/_assets/images/Hd_2.png){:height="461px" width="1053px" .center-image}
 
 O <b>hd</b> agora tem dois blocos, o primeiro e o segundo de tamanho <b>4096Kb</b>, mas o primeiro contendo o arquivo <b>arq0001</b> e o segundo livre. Observe que agora o mapa <b>arquivos</b> tem um "ponteiro" do arquivo <b>arq0001</b> para o bloco no qual foi alocado. De forma análoga, a próxima operação é realizada:
 
-![Inserção do arquivo arq0002](/_assets/images/Hd_3.png){: .center-image }
+![Inserção do arquivo arq0002](/_assets/images/Hd_3.png){:height="461px" width="1053px" .center-image}
 
 A seguinte também:
 
-![Inserção do arquivo arq0003](/_assets/images/Hd_4.png){: .center-image }
+![Inserção do arquivo arq0003](/_assets/images/Hd_4.png){:height="461px" width="1053px" .center-image}
 
 A próxima operação é de remoção, como já é sabido o bloco cujo o arquivo <b>arq0001</b> está alocado a operação pode ser realizada diretamente. Agora um novo bloco com tamanho <b>4096Kb</b> está livre (a próxima operação é ignorada já que o arquivo não está alocado no <b>hd</b>):
 
-![Remoção do arquivo arq0001](/_assets/images/Hd_5.png){: .center-image }
+![Remoção do arquivo arq0001](/_assets/images/Hd_5.png){:height="461px" width="1053px" .center-image}
 
 A próxima operação válida é de inserção, mas não há espaço em disco para o arquivo <b>arq0001</b>. Seguindo as instruções do enunciado do problema, uma operação de otimização deve ser realizada. O <b>hd</b> então ficará dessa forma:
 
-![Estado do hd após otimização](/_assets/images/Hd_6.png){: .center-image }
+![Estado do hd após otimização](/_assets/images/Hd_6.png){:height="461px" width="1053px" .center-image}
 
 Note a mágica dos "ponteiros" ocorrendo =). Com um bloco livre de tamanho <b>6656Kb</b> o arquivo <b>arq0001</b> com tamanho <b>5120Kb</b> pode ser inserido:
 
-![Inserção do arquivo arq0005](/_assets/images/Hd_7.png){: .center-image }
+![Inserção do arquivo arq0005](/_assets/images/Hd_7.png){:height="461px" width="1053px" .center-image}
 
 Portanto, a ideia é simular o <b>hd</b> como uma lista de blocos. Cada um destes blocos têm um tamanho em <b>Kb</b> e podem ser do tipo <b>LIVRE</b> ou <b>OCUPADO</b>. A seguir será mostrado como implementar as três operações no <b>hd</b>:
 
@@ -55,7 +55,7 @@ A ideia aqui é percorrer todo o <b>hd</b> procurando os blocos que têm tamanho
 <font color = "blue" ><b>Remoção</b></font>
 O primeiro passo é verificar se o arquivo está no <b>hd</b> (linha 2). Caso não esteja não há nada a ser feito. Por outro lado, se estiver deve-se remove-lo. Lembre que o <b>map</b> arquivos mantem o "ponteiro" para o bloco que tem o arquivo em si armazenado, basta remove-lo da lista e dos arquivos. Note que antes da remoção em si, três situações podem ocorrer. Os mesmo são ilustrados a seguir:
 
-![Inserção do arquivo arq0005](/_assets/images/situacoes.png){: .center-image }
+![Inserção do arquivo arq0005](/_assets/images/situacoes.png){:height="461px" width="1053px" .center-image}
 
 Na primeira situação o arquivo que será removido está do lado esquerdo de um bloco livre. Neste caso após a remoção deve-se realizar o <b>merge</b> dos blocos, gerando assim um único bloco com o valor do tamanho obtido pela soma dos valores dos tamanhos do bloco que continha o arquivo com o bloco livre. A segunda situação o arquivo que será removido está entre dois blocos livres. De forma parecida com a primeira situação, será realizado o <b>merge</b> do bloco que tinha o arquivo com os blocos da direita e da esquerda. Na terceira situação o procedimento é análogo a primeira situação, mas no caso o <b>merge</b> é realizado com o bloco da esquerda. Estas operações de <b>merge</b> são mostrada a seguir:
 
