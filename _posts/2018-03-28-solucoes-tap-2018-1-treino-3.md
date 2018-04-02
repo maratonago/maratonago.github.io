@@ -28,6 +28,7 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 | I - <a href="#especies">Espécies de Madeira</a>                     | 1           | map                         |
 | J - <a href="#pontos">Pontos de Feno</a>                            | 1           | map                         |
 | K - <a href="#eu_posso">Eu Posso Adivinhar a Estrutura de Dados!</a>| 2           | queue, priority_queue, stack|
+| L - <a href="#jogando">Jogando Cartas Fora</a>                      | 2           | queue                       |
 | M - <strike><a href="#gerente">Acordes Intergaláticos</a></strike>  | 7           | segment tree                |
 | =====
 
@@ -54,4 +55,6 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 {% include analises/Treino-3-TAP-2018-1/pontos.md %}
 
 {% include analises/Treino-3-TAP-2018-1/eu_posso.md %}
+
+{% include analises/Treino-3-TAP-2018-1/jogando.md %}
 
