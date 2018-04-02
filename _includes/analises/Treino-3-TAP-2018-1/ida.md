@@ -6,7 +6,7 @@
 Resolva este problema:
 [URI][uri-1281]{:target="_blank"}
 
-Este problema também pode ser resolvido com uma busca linear no vetor com os preços para cada item que deseja comprar. No entanto, uma forma mais eficiente é armazenar os itens, juntamente com os preços, em uma estrutura de dados <a href = "http://www.cplusplus.com/reference/map/map/"><b>map</b></a><b> < string, double > </b>. Ou seja, para cada nome (chave)de um item associamos ao seu custo (valor). Basta percorrer a lista de compras e ir computando o custo total da compra.  
+Este problema também pode ser resolvido com uma busca linear no vetor com os preços para cada item que deseja comprar. No entanto, uma forma mais eficiente é armazenar os itens, juntamente com os preços, em uma estrutura de dados <a href = "http://www.cplusplus.com/reference/map/map/"><b>map</b></a><b> < string, double > </b>. Ou seja, para cada nome (chave) de um item associamos ao seu custo (valor). Basta percorrer a lista de compras e ir computando o custo total da compra.  
 
 Um exemplo de implementação segue abaixo:
 
