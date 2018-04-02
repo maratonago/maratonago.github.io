@@ -6,7 +6,7 @@
 Resolva este problema:
 [URI][uri-1246]{:target="_blank"}
 
-Uma da formas de resolver este problema é através da simulação do estacionamento pela estrutura <a href="http://www.cplusplus.com/reference/map/map/"><b>map</b></a> <b>< int, int ></b>. A ideia é simular os espaços livres do estacionamento, desta forma a chave do <b>map</b> é composta pelo inicio do segmento livre e o valor o final de tal segmento. Podemos manter também um <b>vetor<b> de <a href="http://www.cplusplus.com/reference/utility/pair/"><b>pair</b></a> <b>< int, int ></b>, onde cada posição representa uma placa de um carro e o <b>pair</b> armazena o inicio e o final do segmento do estacionamento onde o carro está estacionado. Para efeito de entendimento vamos olhar para o segundo caso de teste:
+Uma da formas de resolver este problema é através da simulação do estacionamento pela estrutura <a href="http://www.cplusplus.com/reference/map/map/"><b>map</b></a> <b>< int, int ></b>. A ideia é simular os espaços livres do estacionamento, desta forma a chave do <b>map</b> é composta pelo inicio do segmento livre e o valor o final de tal segmento. Podemos manter também um <b>vetor</b> de <a href="http://www.cplusplus.com/reference/utility/pair/"><b>pair</b></a> <b>< int, int ></b>, onde cada posição representa uma placa de um carro e o <b>pair</b> armazena o inicio e o final do segmento do estacionamento onde o carro está estacionado. Para efeito de entendimento vamos olhar para o segundo caso de teste:
 
 <font color = "blue">Tamanho do estacionamento igual a 30</font>
 ![Estacionamento](/_assets/images/est1.png ){:height="461px" width="1053px" .center-image}
