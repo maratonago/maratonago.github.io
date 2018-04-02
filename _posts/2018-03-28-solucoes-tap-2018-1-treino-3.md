@@ -43,5 +43,22 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 
 {% include analises/Treino-3-TAP-2018-1/estacionamento_linear.md %}
 
+{% include analises/Treino-3-TAP-2018-1/teclado.md %}
+
+{% include analises/Treino-3-TAP-2018-1/facil-rujia-liu.md %}
+
+{% include analises/Treino-3-TAP-2018-1/ida.md %}
+
+{% include analises/Treino-3-TAP-2018-1/gerente.md %}
+
+{% include analises/Treino-3-TAP-2018-1/especies.md %}
+
+{% include analises/Treino-3-TAP-2018-1/pontos.md %}
+
+{% include analises/Treino-3-TAP-2018-1/eu_posso.md %}
+
+{% include analises/Treino-3-TAP-2018-1/jogando.md %}
+
+{% include analises/Treino-3-TAP-2018-1/estacionamento.md %}
 
 
