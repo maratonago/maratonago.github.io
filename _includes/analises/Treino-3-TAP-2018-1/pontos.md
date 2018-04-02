@@ -6,7 +6,7 @@
 Resolva este problema:
 [URI][uri-1261]{:target="_blank"}
 
-Uma das forma de resolver este problema de maneira eficiente é utilizando a estrutura de dados <a href="http://www.cplusplus.com/reference/map/map/"><b>map</b></a><b> < string, int > </b> para o dicionário. A chave será a palavra e o valor o total, em dólar, associado a tal palavra. Assim, a solução consiste em percorrer as palavras informadas e adicionar, caso a palavra lida esteja no dicionário, ao salário do funcionário.
+Uma das forma de resolver este problema de maneira eficiente é utilizando a estrutura de dados <a href="http://www.cplusplus.com/reference/map/map/"><b>map</b></a><b> < string, int > </b> para o dicionário. A chave será a palavra e o valor o total, em dólar, associado a tal palavra. Assim, a solução consiste em percorrer as palavras informadas e adicionar o seu valor, caso a palavra lida esteja no dicionário, ao salário do funcionário.
 
 Um exemplo de implementação segue abaixo:
 
