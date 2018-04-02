@@ -15,20 +15,20 @@ abaixo.
 
 A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los é apresentado na tabela abaixo.
 
-| Problema                                                            | Dificuldade | Técnica relacionada |
-|:--------------------------------------------------------------------|:-----------:|--------------------:|
-| A - <a href="#abreviacoes">Abreviações</a>                          | 3           | map, ad hoc         |
-| B - <a href="#supermarket">Supermarket Line</a>                     | 1           | priority_queue      |
-| C - <a href="#papai-noel">Tradutor do Papai Noel</a>                | 2           | map                 |
-| D - <a href="#estacionamento_linear">Estacionamento Lienar</a>      | 2           | stack               |
-| E - <a href="#teclado">Teclado Quebrado</a>                         | 1           | list                |
-| F - <a href="#facil-rujia-liu">Problema Fácil de Rujia Liu?</a>     | 1           | vector, array       |
-| G - <a href="#ida">Ida à feira</a>                                  | 1           | map                 |
-| H - <a href="#gerente">Gerente de Espaço</a>                        | 6           | list, map           |
-| I - <a href="#especies">Espécies de Madeira</a>                     | 1           | map                 |
-| J - <a href="#pontos">Pontos de Feno</a>                            | 1           | map                 |
-| K - <a href="#eu_posso">Eu Posso Adivinhar a Estrutura de Dados!</a>| 1           | map                 |
-| M - <strike><a href="#gerente">Acordes Intergaláticos</a></strike>  | 7           | segment tree        |
+| Problema                                                            | Dificuldade | Técnica relacionada         |
+|:--------------------------------------------------------------------|:-----------:|----------------------------:|
+| A - <a href="#abreviacoes">Abreviações</a>                          | 3           | map, ad hoc                 |
+| B - <a href="#supermarket">Supermarket Line</a>                     | 1           | priority_queue              |
+| C - <a href="#papai-noel">Tradutor do Papai Noel</a>                | 2           | map                         |
+| D - <a href="#estacionamento_linear">Estacionamento Lienar</a>      | 2           | stack                       |
+| E - <a href="#teclado">Teclado Quebrado</a>                         | 1           | list                        |
+| F - <a href="#facil-rujia-liu">Problema Fácil de Rujia Liu?</a>     | 1           | vector, array               |
+| G - <a href="#ida">Ida à feira</a>                                  | 1           | map                         |
+| H - <a href="#gerente">Gerente de Espaço</a>                        | 6           | list, map                   |
+| I - <a href="#especies">Espécies de Madeira</a>                     | 1           | map                         |
+| J - <a href="#pontos">Pontos de Feno</a>                            | 1           | map                         |
+| K - <a href="#eu_posso">Eu Posso Adivinhar a Estrutura de Dados!</a>| 2           | queue, priority_queue, stack|
+| M - <strike><a href="#gerente">Acordes Intergaláticos</a></strike>  | 7           | segment tree                |
 | =====
 
 <br>
