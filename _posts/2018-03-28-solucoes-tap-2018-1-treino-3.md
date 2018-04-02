@@ -51,3 +51,6 @@ A prova foi composta por 13 problemas. Os níveis dos problemas e as respectivas
 {% include analises/Treino-3-TAP-2018-1/especies.md %}
 
 {% include analises/Treino-3-TAP-2018-1/pontos.md %}
+
+{% include analises/Treino-3-TAP-2018-1/eu_posso.md %}
+
