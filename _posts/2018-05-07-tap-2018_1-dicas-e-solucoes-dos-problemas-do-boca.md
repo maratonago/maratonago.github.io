@@ -11,7 +11,7 @@ Problemas discutidos:
 
 | Problema                                 | Dificuldade   | Técnica relacionada                 |
 |:-----------------------------------------|:-------------:|------------------------------------:|
-|<a href="#rain">	Imperador Kaktus</a>     |     <img src=\"[1]\" width="9" height="15">        |                           |
+|<a href="#rain">	Imperador Kaktus</a>     |      ![1]       |                           |
 |<a href="#artskjid">	Recruta militar</a>  | 4             |                 |
 |<a href="#hungry">Entregador de pizza</a> | 5             |                              |
 |<a href="#solar">Oxigenio</a>             | 7             |             |
@@ -26,4 +26,6 @@ Problemas discutidos:
 <!--{% include analises/TAP-2017-1-BOCA/rain_fall.md %} <br>
 {% include analises/TAP-2017-1-BOCA/o_convidado.md %}
 
- [1]: https://github.com/maratonago/maratonago.github.io/raw/master/_assets/images/bal%C3%A3o.png
+ [1]: /_assets/images/balao.png 
+ 
+ <!--//<img%src="https://github.com/maratonago/maratonago.github.io/raw/master/_assets/images/bal%C3%A3o.png"%width="9"%height="15">
