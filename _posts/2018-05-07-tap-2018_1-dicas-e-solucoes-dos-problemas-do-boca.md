@@ -11,7 +11,7 @@ Problemas discutidos:
 
 | Problema                                 | Dificuldade   | Técnica relacionada                 |
 |:-----------------------------------------|:-------------:|------------------------------------:|
-|<a href="#rain">	Imperador Kaktus</a>     |     <img src=[1] width="9" height="15>        |                           |
+|<a href="#rain">	Imperador Kaktus</a>     |     <img src=\"[1]\" width="9" height="15>        |                           |
 |<a href="#artskjid">	Recruta militar</a>  | 4             |                 |
 |<a href="#hungry">Entregador de pizza</a> | 5             |                              |
 |<a href="#solar">Oxigenio</a>             | 7             |             |
