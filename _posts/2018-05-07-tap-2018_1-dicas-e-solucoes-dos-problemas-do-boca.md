@@ -1,5 +1,6 @@
+---
 layout: post
-title:  "TAP-2018/1 - Dicas e soluções dos problemas do BOCA"
+title:  "TAP-2018/1 - Dicas e soluções dos <br> problemas do BOCA"
 tags: [maratona de programação, tópicos avançados de programação, problemset, analise]
 categories: analise
 author: wellvolks
@@ -23,9 +24,6 @@ Problemas discutidos:
 |=====
 
 <br>
-<!--{% include analises/TAP-2017-1-BOCA/rain_fall.md %} <br>
-{% include analises/TAP-2017-1-BOCA/o_convidado.md %}
 
  [1]: /_assets/images/balao.png 
  
- <!--//<img%src="https://github.com/maratonago/maratonago.github.io/raw/master/_assets/images/bal%C3%A3o.png"%width="9"%height="15">
