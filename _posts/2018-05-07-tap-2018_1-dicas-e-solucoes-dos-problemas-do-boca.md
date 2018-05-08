@@ -25,6 +25,6 @@ Problemas discutidos:
 
 <br>
 
-
-
  [2]: /_assets/images/balao.png
+ 
+{% include analises/TAP-2018-1-BOCA/imperador.md %}
