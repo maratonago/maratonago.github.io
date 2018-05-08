@@ -12,7 +12,7 @@ Alguns pontos importantes que devemos observar no problema são:
 
 <li>O <b>Pintor e os três pequenos Ouriços</b> não podem passar através das rochas e nem por campos inundados.</li>
 
-<li>A toca do <b>Castor</b> nunca será inundada. (Note então que a água não irá expandir através da toca do <b>Castor</b>).</li>
+<li>A toca do <b>Castor</b> nunca será inundada. (Note que a água não irá expandir através da toca do <b>Castor</b>).</li>
 
 <li>O <b>Pintor e os três pequenos Ouriços</b> deslocam-se simultaneamente com a inundação. Mas o <b>Pintor e os três pequenos Ouriços</b> não podem se mover para um campo que está prestes a ser inundado no mesmo instante (minuto).</li>
 </ul>
