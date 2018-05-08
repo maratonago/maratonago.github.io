@@ -5,12 +5,12 @@
 
 Alguns pontos importantes que devemos observar no problema são: 
 <ul>
-  <li>A cada minuto a inundação se expande também para todos os campos vazios que têm pelo menos um lado comum com um campo alagado.
+&nbsp&nbsp&nbsp&nbsp<li>A cada minuto a inundação se expande também para todos os campos vazios que têm pelo menos um lado comum com um campo alagado.
 O <b>Pintor e os três pequenos Ouriços</b> não podem passar através das rochas e nem por campos inundados.</li>
 
-  <li>A toca do <b>Castor</b> nunca será inundada. (Note então que a água não irá expandir através da toca do <b>Castor</b>).</li>
+&nbsp&nbsp&nbsp&nbsp<li>A toca do <b>Castor</b> nunca será inundada. (Note então que a água não irá expandir através da toca do <b>Castor</b>).</li>
 
-  <li>O <b>Pintor e os três pequenos Ouriços</b> deslocam-se simultaneamente com a inundação. Mas o <b>Pintor e os três pequenos Ouriços</b> não podem se mover para um campo que está prestes a ser inundado no mesmo instante (minuto).</li>
+&nbsp&nbsp&nbsp&nbsp<li>O <b>Pintor e os três pequenos Ouriços</b> deslocam-se simultaneamente com a inundação. Mas o <b>Pintor e os três pequenos Ouriços</b> não podem se mover para um campo que está prestes a ser inundado no mesmo instante (minuto).</li>
 </ul>
 
 Levantados tais pontos, o problema pede para computar o menor tempo necessário para o Pintor e os três pequenos Ouriços alcançarem com segurança a toca do <b>Castor</b>. Podemos utilizar um único<b> BFS</b> para resolver tal problema. No entanto, acho mais intuitivo rodar dois <b>BFS’s</b>, um para descobrir o instante que cada campo será inundado e outro para descobrir o menor tempo necessário para o <b>Pintor e Cia</b> chegarem na toca do <b>Castor</b>.
