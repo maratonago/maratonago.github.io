@@ -3,6 +3,8 @@
  </div>
 ## A1 - Imperador Kaktus
 
+![](/_assets/images/cactus2.png ){:height="400px" width="400px" .center-image}
+
 Alguns pontos importantes que devemos observar no problema são: 
 
 <ul>
