@@ -12,7 +12,7 @@ Problemas discutidos:
 
 | Problema                                 | Dificuldade   | Técnica relacionada                 |
 |:-----------------------------------------|:-------------:|------------------------------------:|
-|<a href="#rain">	Imperador Kaktus</a>     |    ![1]![1]   |                                     |
+|<a href="#rain">	Imperador Kaktus</a>     |    ![1]![1]   |    BFS                              |
 |<a href="#artskjid">	Recruta militar</a>  |    ![1]![1]   |                                     |
 |<a href="#hungry">Entregador de pizza</a> |    ![1]       |                                     |
 |<a href="#solar">Oxigenio</a>             |    ![1]![1]   |                                     |
@@ -24,6 +24,8 @@ Problemas discutidos:
 |=====
 
 <br>
+
+{% include analises/TAP-2018-1-BOCA/imperador.md %}
 
  [1]: /_assets/images/balao.png 
  
