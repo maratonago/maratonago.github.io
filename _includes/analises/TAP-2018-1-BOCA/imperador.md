@@ -8,7 +8,7 @@
 Alguns pontos importantes que devemos observar no problema são: 
 
 <ul>
-<li>A cada minuto a inundação se expande também para todos os campos vazios que têm pelo menos um lado comum com um campo alagado.
+<li>A cada minuto a inundação se expande também para todos os campos vazios que têm pelo menos um lado comum com um campo alagado.</li>
 
 <li>O <b>Pintor e os três pequenos Ouriços</b> não podem passar através das rochas e nem por campos inundados.</li>
 
@@ -21,7 +21,7 @@ Levantados tais pontos, o problema pede para computar o menor tempo necessário 
 
 Um exemplo de execução dos BFS é mostrado na Figura abaixo. O caso de teste utilizado é o terceiro do enunciado do problema. Note que no lado esquerdo da Figura temos o preenchimento da matriz de tempos de inundação executado pelo <b>BFS (Inundação)</b>. No lado direito é apresentado a execução do <b>BFS (Pintor e Cia)</b>, onde o <b>Pintor e Cia</b> só irá mover para um campo caso o mesmo tenha sido inundado em um instante posterior ao tempo que o <b>Pintor e Cia</b> acabara de chegar. Os campos em vermelho são os que não podem ser alcançados e os verdes o que podem. Os números em azul são o tempo de inundação e os em laranja o do <b>Pintor e Cia</b>.
 
-
+![](/_assets/images/imperador.png){: .center-image 
 
 Um exemplo de implementação segue abaixo:
 
