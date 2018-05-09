@@ -13,7 +13,7 @@ A SAP irá promover um CodeJam e diversas palestras na Universidade Federal de G
  
  ---
  
-<font color="blue"><b>INSCRIÇÃO PARA PALESTRAS</b> (manhã):</font>
+<font color="#e68a00"><b>INSCRIÇÃO PARA PALESTRAS</b> (manhã):</font>
  
 Endereço: IESA - UFG: Avenida Esperança, s/n, Quadra D, Campus Samambaia (Auditório). Mapa no Google Maps, <a href="https://www.google.com.br/maps/place/IESA+-+Instituto+de+Estudos+Socioambientais/@-16.6043111,-49.2677758,17z/data=!3m1!4b1!4m5!3m4!1s0x935ef335d22f7969:0x7d0f06b97b273b22!8m2!3d-16.6043111!4d-49.2655871">clique aqui</a>.
  
@@ -29,7 +29,7 @@ Link para inscrição nas palestras: <a href="https://www.eventbrite.com/e/sap-c
 
 ---
 
-<font color = "blue"><b>INSCRIÇÃO PARA COMPETIÇÃO:</b></font>
+<font color = "#e68a00"><b>INSCRIÇÃO PARA COMPETIÇÃO:</b></font>
 
 Endereço: INF - UFG: Alameda Palmeiras, s/n, Quadra D, Campus Samambaia.  Mapa no Google Maps, <a href="https://www.google.com.br/maps/place/Instituto+de+Inform%C3%A1tica+%2F+UFG/@-16.603516,-49.2687937,17z/data=!3m1!4b1!4m5!3m4!1s0x935ef34bca719ee1:0x79210783139c2057!8m2!3d-16.603516!4d-49.266605?shorturl=1">clique aqui</a>.
 
