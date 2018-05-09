@@ -1,4 +1,4 @@
- <div id="imperador">
+ <div id="recruta">
  
  </div>
 ## B1 - Recruta militar
