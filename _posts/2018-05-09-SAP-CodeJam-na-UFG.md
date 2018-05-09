@@ -10,7 +10,9 @@ author: wellvolks
 
 A SAP irá promover um CodeJam e diversas palestras na Universidade Federal de Goiás no dia <b>23 de maio de 2018</b>!  No evento, você terá a oportunidade de conhecer as ferramentas da SAP, interagir com experts e muito mais. Para participar, você precisa ter conhecimento em programação, inglês avançado e estar pronto para aprender! O evento é gratuito, veja o melhor horário para você e inscreva-se:
  
-<b>INSCRIÇÃO PARA PALESTRAS</b> (manhã): Amplie seu conhecimento!
+ ---
+ 
+<b>INSCRIÇÃO PARA PALESTRAS</b> (manhã):
  
 Endereço: IESA - UFG: Avenida Esperança, s/n, Quadra D, Campus Samambaia (Auditório). Mapa no Google Maps, <a href="https://www.google.com.br/maps/place/IESA+-+Instituto+de+Estudos+Socioambientais/@-16.6043111,-49.2677758,17z/data=!3m1!4b1!4m5!3m4!1s0x935ef335d22f7969:0x7d0f06b97b273b22!8m2!3d-16.6043111!4d-49.2655871">clique aqui</a>.
  
@@ -35,7 +37,7 @@ Inscrição CodeJam <b>turno tarde</b> (13h00 às 17h00): <a href="https://www.e
 
 Inscrição CodeJam <b>turno noite</b> (18h50 às 21h30): <a href="https://www.eventbrite.com/e/sap-codejam-competicao-noite-tickets-45858979442">Clique aqui</a>
  
-<font color = "red">Teremos premiações para primeiro, segundo e terceiro lugar!</font>
+<font color = "blue"><b>Teremos premiações para primeiro, segundo e terceiro lugar!</b></font>
  
 Teremos certificado de participação.
  
