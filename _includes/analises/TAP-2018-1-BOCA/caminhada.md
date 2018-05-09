@@ -10,4 +10,4 @@ Ciente das restrições e movimentos possíveis, este problema pode ser resolvid
 
 Um exemplo de implementação segue abaixo:
 
-{% gist wellvolks/9b009f9aba05ff22c47a21f7001b5757 caminhada.cpp %}
+{% gist wellvolks/655bfd2ef0951bae5775b2022b1fa4a0 caminhada.cpp %}
