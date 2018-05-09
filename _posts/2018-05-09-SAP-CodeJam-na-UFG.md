@@ -6,9 +6,10 @@ categories: analise
 author: wellvolks
 ---
 
-![SAP - CodeJam UFG](/_assets/images/codejamSAP.png){: .center-image }
+![SAP - CodeJam UFG](/_assets/images/banner-codejam-sap.png){: .center-image }
 
-A SAP irá promover um CodeJam e diversas palestras na Universidade Federal de Goiás no dia <b>23 de maio de 2018</b>!  No evento, você terá a oportunidade de conhecer as ferramentas da SAP, interagir com experts e muito mais. Para participar, você precisa ter conhecimento em programação, inglês avançado e estar pronto para aprender! O evento é gratuito, veja o melhor horário para você e inscreva-se:
+A SAP irá promover um CodeJam e diversas palestras na Universidade Federal de Goiás no dia <b>23 de maio de 2018</b>!  No evento, você terá a oportunidade de conhecer as ferramentas da SAP, interagir com experts e muito mais. Para participar, você precisa ter conhecimento em programação, inglês avançado e estar pronto para aprender! O evento é gratuito, veja o melhor horário para você e inscreva-se!
+
  
  ---
  
@@ -25,6 +26,7 @@ Endereço: IESA - UFG: Avenida Esperança, s/n, Quadra D, Campus Samambaia (Audi
 
 Link para inscrição nas palestras: <a href="https://www.eventbrite.com/e/sap-codejam-palestras-tickets-45858769815">clique aqui</a>
 
+
 ---
 
 <b>INSCRIÇÃO PARA COMPETIÇÃO:</b>
@@ -37,9 +39,9 @@ Inscrição CodeJam <b>turno tarde</b> (13h00 às 17h00): <a href="https://www.e
 
 Inscrição CodeJam <b>turno noite</b> (18h50 às 21h30): <a href="https://www.eventbrite.com/e/sap-codejam-competicao-noite-tickets-45858979442">Clique aqui</a>
  
-<font color = "blue"><b>Teremos premiações para primeiro, segundo e terceiro lugar!</b></font>
+<b>Teremos premiações para primeiro, segundo e terceiro lugar!</b>
  
-Teremos certificado de participação.
+<b>Teremos certificado de participação.</b>
  
 Em caso de dúvidas, envie um e-mail para universityrelations.saplabsla@sap.com  
  
