@@ -35,7 +35,7 @@ Problemas discutidos:
 
 {% include analises/TAP-2018-1-BOCA/oxigenio.md %}
 
-{% include analises/TAP-2018-1-BOCA/labirintos.md %}
+{% include analises/TAP-2018-1-BOCA/labirinto.md %}
 
 {% include analises/TAP-2018-1-BOCA/robo.md %}
 
