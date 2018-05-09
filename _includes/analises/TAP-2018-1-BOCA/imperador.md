@@ -8,7 +8,7 @@
 Alguns pontos importantes que devemos observar no problema são: 
 
 <ul>
-<li>A cada minuto a inundação se expande também para todos os campos vazios que têm pelo menos um lado comum com um campo alagado.</li>
+<li>A cada minuto a inundação se expande para todos os campos vazios que têm pelo menos um lado em comum com um campo alagado.</li>
 
 <li>O <b>Pintor e os três pequenos Ouriços</b> não podem passar através das rochas e nem por campos inundados.</li>
 
