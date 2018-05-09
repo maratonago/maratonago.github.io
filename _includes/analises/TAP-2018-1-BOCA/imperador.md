@@ -27,3 +27,7 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/9b009f9aba05ff22c47a21f7001b5757 imperador.cpp %}
 
+Um outro exemplo de implementação (desenvolvido por Rafael Leão Ramos)  utilizando apenas um único BFS segue abaixo:
+
+{% gist wellvolks/26733a95ca0c0a73a73dfc8b9dc24a6c Imperador.cpp %} 
+
