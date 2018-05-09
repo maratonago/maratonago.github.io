@@ -10,5 +10,5 @@ Este problema pode ser resolvido com um <b>BFS</b>, uma vez que a quantidade de 
 
 Um exemplo de implementação segue abaixo:
 
-{% gist wellvolks/9b009f9aba05ff22c47a21f7001b5757 imperador.cpp %}
+{% gist wellvolks/c297bf2ddddeb4ff7715f98d82403061 entregador.cpp %}
 
