@@ -19,13 +19,13 @@ Endereço: IESA - UFG: Avenida Esperança, s/n, Quadra D, Campus Samambaia (Audi
   <li>9:30: Apresentação SAP Labs Latin America</li>
   <li>10:15: Apresentação Big Data Hub</li>
   <li>11:00: Networking Coffee com profissionais da SAP</li>
-</lu>
+</ul>
 
 Link para inscrição nas palestras: <a href="https://www.eventbrite.com/e/sap-codejam-palestras-tickets-45858769815">clique aqui</a>
 
 ---
 
-##INSCRIÇÃO PARA COMPETIÇÃO:
+<b>INSCRIÇÃO PARA COMPETIÇÃO:</b>
 
 Endereço: INF - UFG: Alameda Palmeiras, s/n, Quadra D, Campus Samambaia.  Mapa no Google Maps, <a href="https://www.google.com.br/maps/place/Instituto+de+Inform%C3%A1tica+%2F+UFG/@-16.603516,-49.2687937,17z/data=!3m1!4b1!4m5!3m4!1s0x935ef34bca719ee1:0x79210783139c2057!8m2!3d-16.603516!4d-49.266605?shorturl=1">clique aqui</a>.
 
