@@ -27,7 +27,19 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/9b009f9aba05ff22c47a21f7001b5757 imperador.cpp %}
 
-Um outro exemplo de implementação (desenvolvido por Rafael Leão Ramos)  utilizando apenas um único BFS segue abaixo:
+Uma outra abordagem, desenvolvido por <b>Rafael Leão Ramos</b>, utilizando um único <b>BFS</b> apresenta a seguinte ideia: "Cada ciclo do BFS equivale à um minuto na floresta encantada, a cada ciclo a água e o Pintor e cia se expandem, a água deve se expandir primeiro porque o Pintor e cia não podem se mover para um campo que será inundado no mesmo minuto.
+
+Só será usada uma matriz para armazenar os caracteres, também será a partir dela que os elementos irão se expandir e ela também servirá como matriz de visitados.
+
+No começo de cada ciclo <b>ans</b> é incrementado, <b>ans</b> armazena o tamanho de minutos gastos.
+
+A cada ciclo é verificado o tamanho de cada fila, e então um "for" percorre a fila de 0 até esse tamanho removendo os elementos do "front" e ignora os elementos que estão sendo adicionados nesse loop, eles só serão verificados no próximo ciclo. 
+
+Se o Pintor e cia(S) conseguirem se expandir até a toca do castor(<b>D</b>) é impresso na tela o total de minutos gastos, e programa encerra. Caso o BFS termine sem S se expandir até <b>D</b> a palavra "KAKTUS\n" é impressa;"
+
+![](/_assets/images/imperador2.png){: .center-image }
+
+O código desenvolvido por ele segue abaixo:
 
 {% gist wellvolks/26733a95ca0c0a73a73dfc8b9dc24a6c Imperador.cpp %} 
 
