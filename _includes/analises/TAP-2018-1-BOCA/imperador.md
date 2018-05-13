@@ -33,7 +33,7 @@ Só será usada uma matriz para armazenar os caracteres, também será a partir 
 
 No começo de cada ciclo <b>ans</b> é incrementado, <b>ans</b> armazena o tamanho de minutos gastos.
 
-A cada ciclo é verificado o tamanho de cada fila, e então um "for" percorre a fila de 0 até esse tamanho removendo os elementos do "front" e ignora os elementos que estão sendo adicionados nesse loop, eles só serão verificados no próximo ciclo. 
+A cada ciclo é verificado o tamanho de cada fila, e então um ''for" percorre a fila de 0 até esse tamanho removendo os elementos do ''front" e ignora os elementos que estão sendo adicionados nesse loop, eles só serão verificados no próximo ciclo. 
 
 Se o Pintor e cia(S) conseguirem se expandir até a toca do castor(<b>D</b>) é impresso na tela o total de minutos gastos, e programa encerra. Caso o BFS termine sem S se expandir até <b>D</b> a palavra "KAKTUS\n" é impressa;"
 
