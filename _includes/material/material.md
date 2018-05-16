@@ -1,7 +1,7 @@
 
-<!--## Flody-Warshall e Dijkstra-->
+## Flody-Warshall e Dijkstra
 
-<!--%[Flody-Warshall e Dijkstra][flody]-->
+%[Flody-Warshall e Dijkstra][flody]
 
 ## Busca em largura (Breadth-First Search = BFS) e Busca em profundidade (Depth-First Search = DFS)
 
