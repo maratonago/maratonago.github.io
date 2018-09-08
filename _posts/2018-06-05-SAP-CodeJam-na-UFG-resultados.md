@@ -18,7 +18,7 @@ Nos desafios, os  estudantes puderam usar qualquer linguagem ou ambiente de prog
  
 A edição vespertina da competição teve 34 participantes, já a noturna contou com 11.Os três primeiros colocados em cada uma das edições foram:
  
-CodeJam |  tarde:
+<font color = "#e68a00">CodeJam tarde:</font>
  
 1) <b>Rafael Assis</b>
  
@@ -28,7 +28,7 @@ CodeJam |  tarde:
  
 Todos eles são alunos do curso de Bacharelado em Ciência da Computação na UFG.
  
-CodeJam  | noite:
+<font color = "#e68a00">CodeJam noite:</font>
  
 1) <b>Welton Cardoso</b>
  
