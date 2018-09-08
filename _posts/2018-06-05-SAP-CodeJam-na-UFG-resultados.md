@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SAP CodeJam na UFG"
+title:  "SAP CodeJam na UFG - Resultados"
 tags: [SAP, CodeJam, UFG]
 categories: analise
 author: wellvolks
