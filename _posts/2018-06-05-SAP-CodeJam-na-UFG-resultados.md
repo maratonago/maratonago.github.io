@@ -6,7 +6,7 @@ categories: analise
 author: wellvolks
 ---
 
-![Evento é chance de demonstrar habilidades na área](/_assets/images/sap_ufg.jpg){: .center-image }
+![Evento é chance de demonstrar habilidades na área](/_assets/images/sap_ufg.JPG){: .center-image }
 
 Alunos da Universidade Federal de Goiás participaram, na quarta, 23 de maio, de uma competição de programação. Conhecido como Codejam, o evento proporcionou a estudantes da área de informática, ou mesmo aqueles que dominam algum conhecimento em programação, a chance de demonstrar suas habilidades.
  
