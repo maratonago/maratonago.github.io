@@ -159,7 +159,8 @@ $(document).ready(function() {
 jQuery(document).ready(function() {
   jQuery('.list-item').addClass("hidden").viewportChecker({
     classToAdd: 'visible animated fadeIn',
-    offset: 100
+    offset: 0,
+    repeat: true
   });
 });
 /*
