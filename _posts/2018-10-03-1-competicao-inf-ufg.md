@@ -10,13 +10,25 @@ author: wellvolks
 Aconteceu em 03 de Outubro de 2018 a 1ª Competição de Programação - 2018/2. O placar final da competição pode ser visto na imagem
 abaixo.
 
-![Placar final do Treino-1 - TAP/2018-1](/_assets/images/placar-treino-1-tap-2018-1.PNG){: .center-image }
+[Placa Final do BOCA](/_assets/scoreboard_boca_1a_comp_inf/Report Page.html).
 
 Parabéns à todos que participaram. O vencedor da competição, , ganhou um Power Bank 10000mA. Os dez primeiros participantes foram premiados com uma camiseta e brindes. Abaixo a lista dos ganhadores:
 
+<p align="justify">
+<b>1ª</b>  Renato Alves Barbosa Junior
+<b>2ª</b>   Felipe Aguiar Costa	
+<b>3ª</b>	Daniel Campos da Silva
+<b>4ª</b>	Gabriel Crispim Valentino de Siqueira
+<b>5ª</b>	Julio Cesar Freitas Bueno de Moraes
+<b>6ª</b>	Alexander Henrique Watanabe de Souza
+<b>7ª</b>	Lucas Nunes Rios
+<b>8ª</b>	Pedro Henrique Sanches Pelegrino Zambrano
+<b>9ª</b>	Gustavo Machado Leal
+<b>10ª</b>	Vinicius Fleury Barbosa
+  </p>
 A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los são apresentados na tabela abaixo.
 
-(Placa Final do BOCA)[/_assets/scoreboard_boca_1a_comp_inf/Report Page.html].
+
 
 | Problema                                            | Dificuldade   | Técnica relacionada      |
 |:----------------------------------------------------|:-------------:|-------------------------:|
@@ -29,7 +41,7 @@ A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas 
 |G - <a href="#subcadeia">Subcadeia interessante</a>  | Médio         | String + Ad hoc          |
 |H - <a href="#melancias">Melancias</a>                  | Fácil         | Ad hoc                   |
 |=====
---->
+
 
 As explicações dos problemas seguem abaixo: <br> 
 {% include analises/1aCompeticaoInf/bolo.md %} <br>
