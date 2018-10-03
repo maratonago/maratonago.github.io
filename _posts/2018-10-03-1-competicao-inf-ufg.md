@@ -40,7 +40,7 @@ A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas 
 |G - <a href="#subcadeia">Subcadeia interessante</a>  | Médio         | String + Ad hoc          |
 |H - <a href="#melancias">Melancias</a>                  | Fácil         | Ad hoc                   |
 |=====
---->
+
 
 As explicações dos problemas seguem abaixo: <br> 
 {% include analises/1aCompeticaoInf/bolo.md %} <br>
