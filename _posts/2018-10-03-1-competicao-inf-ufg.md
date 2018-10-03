@@ -7,15 +7,14 @@ author: wellvolks
 ---
 
 
-Aconteceu em 03 de Outubro de 2018 a 1ª Competição de Programação - 2018/2. O placar final da competição pode ser visto na imagem
-abaixo.
+Aconteceu em 03 de Outubro de 2018 a 1ª Competição de Programação - 2018/2. O placar final da competição pode ser visto na imagem abaixo.
 
 [Placar Final do BOCA](/_assets/scoreboard_boca_1a_comp_inf/Report Page.html).
 
-Parabéns à todos que participaram. O vencedor da competição, <b> Renato Alves Barbosa Junior </b> , ganhou um Power Bank 10000mA. Os dez primeiros participantes foram premiados com uma camiseta e brindes. Abaixo a lista dos ganhadores:
+Parabéns à todos que participaram. O vencedor da competição, <b>Renato Alves Barbosa Junior</b>, ganhou um Power Bank 10000mA. Os dez primeiros participantes foram premiados com uma camiseta e brindes. Abaixo segue a lista dos ganhadores:
 
 <p align="justify">
-<b>1ª</b>  Renato Alves Barbosa Junior
+<b><span style="color:red" > 1ª</span></b>  Renato Alves Barbosa Junior
 </p>
 <p align="justify">
 <b>2ª</b>   Felipe Aguiar Costa
