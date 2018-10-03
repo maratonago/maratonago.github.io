@@ -1,4 +1,5 @@
-## <div id="bolo">Bolo</div>
+## Bolo
+<div id="bolo"></div>
 
 Autor: Paulo Kataki
 

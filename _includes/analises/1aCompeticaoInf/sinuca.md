@@ -1,4 +1,5 @@
-## <div id="sinuca">Sinuca</div>
+## Sinuca
+<div id="sinuca"></div>
 
 Autor: Leandro Vianna
 

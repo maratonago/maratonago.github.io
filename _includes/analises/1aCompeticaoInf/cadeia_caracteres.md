@@ -1,4 +1,5 @@
-## <div id="subcadeia">Subcadeia interessante</div>
+## Subcadeia interessante
+<div id="subcadeia"></div>
 
 Autor: Paulo Kataki
 

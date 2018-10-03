@@ -1,4 +1,5 @@
-## <div id="log">Log Bactérias</div>
+## Log Bactérias
+<div id="log"></div>
 
 Autor: Misael Mateus
 
