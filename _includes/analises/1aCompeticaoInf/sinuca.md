@@ -1,0 +1,5 @@
+## <div id="sinuca">Sinuca</div>
+
+Autor: Leandro Vianna
+
+Como Thierson sempre escolhe jogar com as bolas ímpares, basta somar o valor de todos os números ímpares que estiverem na entrada, que correspondem as bolas ímpares que estão em jogo no momento. Então, caso essa soma seja ímpar, imprima S, caso contrário, imprima N.
