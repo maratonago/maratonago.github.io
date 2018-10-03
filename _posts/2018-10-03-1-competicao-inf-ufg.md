@@ -16,16 +16,34 @@ Parabéns à todos que participaram. O vencedor da competição, , ganhou um Pow
 
 <p align="justify">
 <b>1ª</b>  Renato Alves Barbosa Junior
-<b>2ª</b>   Felipe Aguiar Costa	
+</p>
+<p align="justify">
+<b>2ª</b>   Felipe Aguiar Costa
+</p>
+<p align="justify">
 <b>3ª</b>	Daniel Campos da Silva
+</p>
+<p align="justify">
 <b>4ª</b>	Gabriel Crispim Valentino de Siqueira
+</p>
+<p align="justify">
 <b>5ª</b>	Julio Cesar Freitas Bueno de Moraes
+</p>
+<p align="justify">
 <b>6ª</b>	Alexander Henrique Watanabe de Souza
+</p>
+<p align="justify">
 <b>7ª</b>	Lucas Nunes Rios
+</p>
+<p align="justify">
 <b>8ª</b>	Pedro Henrique Sanches Pelegrino Zambrano
+</p>
+<p align="justify">
 <b>9ª</b>	Gustavo Machado Leal
+</p>
+<p align="justify">
 <b>10ª</b>	Vinicius Fleury Barbosa
-  </p>
+</p>
 A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los são apresentados na tabela abaixo.
 
 
