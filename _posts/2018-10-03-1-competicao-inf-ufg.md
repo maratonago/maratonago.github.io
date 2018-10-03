@@ -10,16 +10,14 @@ author: wellvolks
 Aconteceu em 03 de Outubro de 2018 a 1ª Competição de Programação - 2018/2. O placar final da competição pode ser visto na imagem
 abaixo.
 
-<!---
 ![Placar final do Treino-1 - TAP/2018-1](/_assets/images/placar-treino-1-tap-2018-1.PNG){: .center-image }
--->
-<!---
+
 Parabéns à todos que participaram. O vencedor da competição, , ganhou um Power Bank 10000mA. Os dez primeiros participantes foram premiados com uma camiseta e brindes. Abaixo a lista dos ganhadores:
---->
-<!---
+
 A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los são apresentados na tabela abaixo.
--->
-<!---
+
+(Placa Final do BOCA)[/_assets/scoreboard_boca_1a_comp_inf/Report Page.html].
+
 | Problema                                            | Dificuldade   | Técnica relacionada      |
 |:----------------------------------------------------|:-------------:|-------------------------:|
 |A - <a href="#bolo">Bolo</a>                        | Fácil         | Ad hoc                   |
@@ -32,7 +30,7 @@ A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas 
 |H - <a href="#melancias">Melancias</a>                  | Fácil         | Ad hoc                   |
 |=====
 --->
-<!---
+
 As explicações dos problemas seguem abaixo: <br> 
 {% include analises/1aCompeticaoInf/bolo.md %} <br>
 {% include analises/1aCompeticaoInf/cadeia_caracteres.md %} <br>
@@ -42,4 +40,3 @@ As explicações dos problemas seguem abaixo: <br>
 {% include analises/1aCompeticaoInf/sinuca.md %} <br>
 {% include analises/1aCompeticaoInf/soma_maxima.md %} <br>
 {% include analises/1aCompeticaoInf/melancias.md %} <br>
--->
