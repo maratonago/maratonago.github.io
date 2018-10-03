@@ -14,34 +14,34 @@ Aconteceu em 03 de Outubro de 2018 a 1ª Competição de Programação - 2018/2.
 Parabéns à todos que participaram. O vencedor da competição, <b>Renato Alves Barbosa Junior</b>, ganhou um Power Bank 10000mA. Os dez primeiros participantes foram premiados com uma camiseta e brindes. Abaixo segue a lista dos ganhadores:
 
 <p align="justify">
-<b><span style="color:red" > 1ª</span></b>  Renato Alves Barbosa Junior
+  <b>1ª</b>  <span style="color:blue">Renato Alves Barbosa Junior</span>
 </p>
 <p align="justify">
-<b>2ª</b>   Felipe Aguiar Costa
+  <b>2ª</span></b>   <span style="color:blue">Felipe Aguiar Costa</span>
 </p>
 <p align="justify">
-<b>3ª</b>	Daniel Campos da Silva
+  <b>3ª</b>	<span style="color:blue">Daniel Campos da Silva</span>
 </p>
 <p align="justify">
-<b>4ª</b>	Gabriel Crispim Valentino de Siqueira
+  <b>4ª</b>	<span style="color:blue">Gabriel Crispim Valentino de Siqueira</span>
 </p>
 <p align="justify">
-<b>5ª</b>	Julio Cesar Freitas Bueno de Moraes
+  <b>5ª</b>	<span style="color:blue">Julio Cesar Freitas Bueno de Moraes</span>
 </p>
 <p align="justify">
-<b>6ª</b>	Alexander Henrique Watanabe de Souza
+  <b>6ª</b>	<span style="color:blue">Alexander Henrique Watanabe de Souza</span>
 </p>
 <p align="justify">
-<b>7ª</b>	Lucas Nunes Rios
+  <b>7ª</b>	<span style="color:blue">Lucas Nunes Rios</span>
 </p>
 <p align="justify">
-<b>8ª</b>	Pedro Henrique Sanches Pelegrino Zambrano
+  <b>8ª</b>	<span style="color:blue">Pedro Henrique Sanches Pelegrino Zambrano</span>
 </p>
 <p align="justify">
-<b>9ª</b>	Gustavo Machado Leal
+  <b>9ª</b>	<span style="color:blue">Gustavo Machado Leal</span>
 </p>
 <p align="justify">
-<b>10ª</b>	Vinicius Fleury Barbosa
+  <b>10ª</b>	<span style="color:blue">Vinicius Fleury Barbosa</span>
 </p>
 A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los são apresentados na tabela abaixo.
 
