@@ -14,6 +14,17 @@ abaixo.
 
 Parabéns à todos que participaram. O vencedor da competição, , ganhou um Power Bank 10000mA. Os dez primeiros participantes foram premiados com uma camiseta e brindes. Abaixo a lista dos ganhadores:
 
+<br>1ª<\br>  Renato Alves Barbosa Junior
+<br>2ª<\br>   Felipe Aguiar Costa	
+<br>3ª<\br>	Daniel Campos da Silva
+<br>4ª<\br>	Gabriel Crispim Valentino de Siqueira
+<br>5ª<\br>	Julio Cesar Freitas Bueno de Moraes
+<br>6ª<\br>	Alexander Henrique Watanabe de Souza
+<br>7ª<\br>	Lucas Nunes Rios
+<br>8ª<\br>	Pedro Henrique Sanches Pelegrino Zambrano
+<br>9ª<\br>	Gustavo Machado Leal
+<br>10ª<\br>	Vinicius Fleury Barbosa
+
 A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los são apresentados na tabela abaixo.
 
 
