@@ -12,4 +12,4 @@ Então, basta somar o logaritmo de cada elemento do array, e verificar qual dos 
 
 Um exemplo de implementação segue abaixo:
 
-{% gist wellvolks/d6bb2b8c1eeabd51ade36d72e1174d11 bolo_kataki.cpp %}
+{% gist wellvolks/ee56c94858477b2b5810d82373d8d41a log_bacterias_misael.cpp %}
