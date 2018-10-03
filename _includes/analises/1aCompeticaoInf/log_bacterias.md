@@ -9,3 +9,7 @@ Usando as propriedades do logaritmo
 log(a*b) = log(a)+log(b)
 
 Então, basta somar o logaritmo de cada elemento do array, e verificar qual dos dois arrays tem um resultado maior.
+
+Um exemplo de implementação segue abaixo:
+
+{% gist wellvolks/d6bb2b8c1eeabd51ade36d72e1174d11 bolo_kataki.cpp %}
