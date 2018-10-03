@@ -12,7 +12,7 @@ abaixo.
 
 [Placar Final do BOCA](/_assets/scoreboard_boca_1a_comp_inf/Report Page.html).
 
-Parabéns à todos que participaram. O vencedor da competição, , ganhou um Power Bank 10000mA. Os dez primeiros participantes foram premiados com uma camiseta e brindes. Abaixo a lista dos ganhadores:
+Parabéns à todos que participaram. O vencedor da competição, <b> Renato Alves Barbosa Junior </b> , ganhou um Power Bank 10000mA. Os dez primeiros participantes foram premiados com uma camiseta e brindes. Abaixo a lista dos ganhadores:
 
 <p align="justify">
 <b>1ª</b>  Renato Alves Barbosa Junior
