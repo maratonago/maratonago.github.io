@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "TAP-2018/1 - Treino 1"
-tags: [maratona de programação, tópicos avançados de programação, problemset, analise]
+title:  "1ª Competição de Programação - 2018/2"
+tags: [maratona de programação, inf, ufg, problemset, analise]
 categories: analise
 author: wellvolks
 ---
