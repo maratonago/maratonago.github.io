@@ -9,3 +9,7 @@ As cadeias com tamanho par, aa, aaab, aaaaab são cadeias interessantes. Podemos
 Para as cadeias de tamanho ímpar a análise não muda muito. Por exemplo : em aba, ababa, abababa todas já pelo menos um caractere no caso o “a” com a quantidade superior a metade. Logo a verificação é olhar se têm dois caracteres iguais a uma distância 2.
 
 A solução então é só varrer todos as posições da string s dada, e verificar se há pelo menos um posição i , tal que s[i] = s[i+1] , ou s[i] = s[i+2].
+
+Um exemplo de implementação segue abaixo:
+
+{% gist wellvolks/d2c412fa51b065613fff7cdc5aed969f subcadeia_kataki.cpp %}
