@@ -7,11 +7,13 @@ author: wellvolks
 ---
 
 
-Aconteceu em 03 de Outubro de 2018 a 1ª Competição de Programação - 2018/2. O placar final da competição pode ser visto na imagem abaixo.
+Aconteceu em 03 de Outubro de 2018 a 1ª Competição de Programação - 2018/2 do INF-UFG. O placar final da competição pode ser visto na imagem abaixo:
 
-[Placar Final do BOCA](/_assets/scoreboard_boca_1a_comp_inf/Report Page.html).
+![SAP - CodeJam UFG](/_assets/images/placar_final_1_competicao_ufg.PNG){: .center-image }
 
-Parabéns à todos que participaram. O vencedor da competição, <b>Renato Alves Barbosa Junior</b>, ganhou um Power Bank 10000mA. Os dez primeiros participantes foram premiados com uma camiseta e brindes. Abaixo segue a lista dos ganhadores:
+[Placar completo aqui](/_assets/scoreboard_boca_1a_comp_inf/Report Page.html).
+
+Parabéns à todos que participaram. O vencedor dessa competição, <b>Renato Alves Barbosa Junior</b>, ganhou um Power Bank 10000mA. Os dez primeiros participantes foram premiados com uma camiseta e brindes. Abaixo segue a lista dos ganhadores:
 
 <p align="justify">
   <b>1ª</b>  <span style="color:red">Renato Alves Barbosa Junior</span>
@@ -43,8 +45,8 @@ Parabéns à todos que participaram. O vencedor da competição, <b>Renato Alves
 <p align="justify">
   <b>10ª</b>	<span style="color:blue">Vinicius Fleury Barbosa</span>
 </p>
-A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los são apresentados na tabela abaixo.
 
+A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolvê-los são apresentados na tabela abaixo:
 
 
 | Problema                                            | Dificuldade   | Técnica relacionada      |
