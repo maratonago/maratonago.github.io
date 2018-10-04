@@ -64,10 +64,10 @@ A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas 
 
 As explicações dos problemas seguem abaixo: <br> 
 {% include analises/1aCompeticaoInf/bolo.md %} <br>
-{% include analises/1aCompeticaoInf/cadeia_caracteres.md %} <br>
 {% include analises/1aCompeticaoInf/computadores.md %} <br>
+{% include analises/1aCompeticaoInf/soma_maxima.md %} <br>
 {% include analises/1aCompeticaoInf/dados.md%} <br>
 {% include analises/1aCompeticaoInf/log_bacterias.md%} <br>
 {% include analises/1aCompeticaoInf/sinuca.md %} <br>
-{% include analises/1aCompeticaoInf/soma_maxima.md %} <br>
+{% include analises/1aCompeticaoInf/cadeia_caracteres.md %} <br>
 {% include analises/1aCompeticaoInf/melancias.md %} <br>
