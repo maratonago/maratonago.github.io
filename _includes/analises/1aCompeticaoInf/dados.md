@@ -7,7 +7,7 @@ Percebe-se que para um palíndromo de tamanho par (N % 2 == 0)  basta olhar para
 
 Para o caso de uma sequência de tamanho ímpar (N % 2 != 0 ), o processo é parecido.  Mas como o dado na posição ((N/2)+1) poderá ter qualquer valor na sua face superior, então a probabilidade será (6^((n+1)/2))/(6^n). Por exemplo, suponha N = 5, as sequências palindrômicas terão o seguinte formato abcba, com  1 <= a,b,c <= 6. 
 
-Percebe-se que se considerámos o piso de N/2, então (6<sup>(&lfloor;n/2&rfloor;)</sup>)/(6<sup>n</sup>) = (6<sup>((&lfloor;n+1&rfloor</sup>)/2);)/(6<sup>n</sup>). Assim, podemos considerar o caso geral de N como (6<sup>((&lfloor;n+1&rfloor;)/2)</sup>)/(6<sup>n</sup>).
+Percebe-se que se considerámos o piso de  <sup>N</sup>&frasl;<sub>2</sub>, então (6<sup>(&lfloor;<sup>N</sup>&frasl;<sub>2</sub>&rfloor;)</sup>)/(6<sup>N</sup>) = (6<sup>&lfloor;(<sup>(N+1)</sup>&frasl;<sub>2</sub>)&rfloor;)</sup>)/(6<sup>N</sup>). Assim, podemos considerar o caso geral de N como (6<sup>&lfloor;(<sup>(N+1)</sup>&frasl;<sub>2</sub>)&rfloor;)</sup>)/(6<sup>N</sup>).
 
 Um exemplo de implementação segue abaixo:
 
