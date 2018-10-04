@@ -1,10 +1,10 @@
-## Melâncias
+## H - Melâncias
 <div id="melancias"></div>
 
-Autor: Humberto Longo
+Autor: <font color = "blue">Humberto Longo</font>
 
-Suponha que uma camada da pilha seja um triangulo com i melancias por lado. Isso significa que esse triangulo tem i + (i-1) + ... + 1 melancias. 
-Assim, basta começar da camada superior, e a cada iteração aumentar uma camada e verificar se a quantidade total de triangulos excedeu o limite.
+Suponha que uma camada da pilha seja um triangulo com <b>i</b> melancias por lado. Isso significa que esse triangulo tem <b>i + (i-1) + ... + 1</b> melancias. 
+Assim, basta começar da camada superior e, a cada iteração, aumentar uma camada e verificar se a quantidade total de triangulos excedeu o limite.
 
 Um exemplo de implementação segue abaixo:
 
