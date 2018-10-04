@@ -3,6 +3,13 @@
 
 Autor: <font color="blue">Paulo Kataki</font>
 
+Enunciado: [Subcadeia interessante][pg]
+
+Resolva este problema: [Hackerrank][hackerrank-a]{:target="_blank"}
+
+[pg]:https://github.com/maratonago/maratonago.github.io/raw/master/_includes/pdfs/primeira_comp_inf_ufg/G.pdf
+[hackerrank-a]:		https://www.hackerrank.com/contests/ufg-contest-calouros/challenges/subcadeia-interessante
+
 Para resolver esse problema basta ter algumas observações em relação à construção das cadeias interessantes. Por exemplo:
 
 As cadeias com tamanho par, <b>aa</b>, <b>aaab</b>, <b>aaaaab</b> são cadeias interessantes. Podemos observar que todas têm pelo menos dois caracteres consecutivos iguais, no caso <b>“aa”</b>. Oberserva-se que a cadeia <b>abab</b> só poderá se tornar interessante caso se tenha <b>aaab</b>, <b>bbab</b>, <b>abaa</b> ou <b>abbb</b>, isso ocorre porque a quantidade de <b>a's</b> e <b>b’s</b> correspondem a exatamente a metade do tamanho da cadeia analisada, logo se quisermos deixar ela interessante, o número de algum desses dois caracteres deve ultrapassar a metade e então teremos pelo menos <b>1</b> caractere repetido seguido de outro.
