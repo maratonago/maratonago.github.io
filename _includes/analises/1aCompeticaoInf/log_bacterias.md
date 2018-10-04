@@ -7,7 +7,7 @@ Multiplique todos os elementos dos dois arrays e verifique qual gera o maior res
 
 Se <b>a > b</b>, onde <b>a, b</b> são positivos, então <b>log(a) > log(b)</b>.
 
-Usando as propriedades do logaritmo, temos que: <b>log(a&#9679;b) = log(a)+log(b)</b>
+Usando as propriedades do logaritmo, temos que: <b>log(a&#8226;b) = log(a)+log(b)</b>
 
 Então, basta somar o logaritmo de cada elemento do array e verificar qual dos dois arrays tem um resultado maior.
 
