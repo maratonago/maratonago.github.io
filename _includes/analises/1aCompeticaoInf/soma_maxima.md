@@ -6,6 +6,7 @@ Autor: <font color="blue"> Rafael Castro </font>
 Enunciado: [Soma][pc]
 
 Resolva este problema: [Hackerrank][hackerrank-a]{:target="_blank"}
+
 [pc]:https://github.com/maratonago/maratonago.github.io/raw/master/_includes/pdfs/primeira_comp_inf_ufg/C.pdf
 [hackerrank-a]:		https://www.hackerrank.com/contests/ufg-contest-calouros/challenges/soma-maxima
 
