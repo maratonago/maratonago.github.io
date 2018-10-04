@@ -3,6 +3,13 @@
 
 Autor: <font color = "blue">Leandro Vianna</font>
 
+Enunciado: [Computadores][pb]
+
+Resolva este problema: [Hackerrank][hackerrank-a]{:target="_blank"}
+
+[pb]:https://github.com/maratonago/maratonago.github.io/raw/master/_includes/pdfs/primeira_comp_inf_ufg/B.pdf
+[hackerrank-a]:		https://www.hackerrank.com/contests/ufg-contest-calouros/challenges/computadores
+
 Existe uma escolha de lojas que é sempre mais vantajosa para Longo, escolher a loja de menor preço e comprar o máximo de computadores com o dinheiro do momento. Portanto, basta ordenar as lojas de forma crescente pelo preço dos computadores, e percorrer em sequência da loja de menor preço para a de maior preço, sempre tentando comprar a maior quantidade de computadores possível. 
 
 Para calcular quantos computadores é possível comprar com o dinheiro atual, basta dividir o dinheiro atual pelo preço do computador da loja que está sendo testada no momento. O piso deste valor é a quantidade de computadores que poderá ser comprada. 
