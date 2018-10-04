@@ -9,7 +9,7 @@ author: wellvolks
 
 Aconteceu em 03 de Outubro de 2018 a 1ª Competição de Programação - 2018/2 do INF-UFG. O placar final da competição pode ser visto na imagem abaixo:
 
-![SAP - CodeJam UFG](/_assets/images/placar_final_1_competicao_ufg.PNG){: .center-image }
+![1ª Competição de Programação do INF-UFG](/_assets/images/placar_final_1_competicao_ufg.PNG){: .center-image }
 
 [Placar completo aqui](/_assets/scoreboard_boca_1a_comp_inf/Report Page.html).
 
@@ -45,6 +45,9 @@ Parabéns à todos que participaram. O vencedor dessa competição, <b>Renato Al
 <p align="justify">
   <b>10ª</b>	<span style="color:blue">Vinicius Fleury Barbosa</span>
 </p>
+
+Para quem deseja tentar novamente, ou submeter usando outras ideias, os problemas estão disponíveis
+para submissão no [HackerRank](https://www.hackerrank.com/ufg-contest-calouros).
 
 A prova foi composta por 8 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolvê-los são apresentados na tabela abaixo:
 
