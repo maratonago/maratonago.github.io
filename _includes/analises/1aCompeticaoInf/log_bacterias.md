@@ -1,15 +1,15 @@
-## Log Bactérias
+## E - Log Bactérias
 <div id="log"></div>
 
-Autor: Misael Mateus
+Autor: <font color = "blue">Misael Mateus</font>
 
-Multiplique todos elementos dos dois arrays e verifique qual gera maior resultado. Como o valor dos elementos pode ser até 10^8, o produto dos elementos do mesmo array pode ultrapassar o valor dos inteiros. Para lidar com isso podemos usar logaritmo.
-Se a > b, onde a, b são positivos, então log(a) > log(b)
+Multiplique todos os elementos dos dois arrays e verifique qual gera o maior resultado. Como o valor dos elementos pode ser até <b>10<sup>8</sup></b>, o produto dos elementos do mesmo array pode ultrapassar o valor suportado pelo <b>inteiro</b> de 32 bits. Para lidar com isso podemos usar o logaritmo.
 
-Usando as propriedades do logaritmo
-log(a*b) = log(a)+log(b)
+Se <b>a > b</b>, onde <b>a, b</b> são positivos, então <b>log(a) > log(b)</b>.
 
-Então, basta somar o logaritmo de cada elemento do array, e verificar qual dos dois arrays tem um resultado maior.
+Usando as propriedades do logaritmo, temos que: <b>log(a&#9679;b) = log(a)+log(b)</b>
+
+Então, basta somar o logaritmo de cada elemento do array e verificar qual dos dois arrays tem um resultado maior.
 
 Um exemplo de implementação segue abaixo:
 
