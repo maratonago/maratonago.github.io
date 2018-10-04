@@ -14,8 +14,7 @@ Existe uma escolha de lojas que é sempre mais vantajosa para Longo, escolher a 
 
 Para calcular quantos computadores é possível comprar com o dinheiro atual, basta dividir o dinheiro atual pelo preço do computador da loja que está sendo testada no momento. O piso deste valor é a quantidade de computadores que poderá ser comprada. 
 
-Assim, a cada iteração, basta retirar do dinheiro atual a quantidade de computadores comprados multiplicado pelo preço do computador nesta loja, ou seja, quanto foi gasto com computadores nesta loja. Deve ser mantida uma variável auxiliar inicializada com zero, e a cada iteração somar quantos o total de computadores comprados, após as iterações esta variável conterá a resposta do problema, ou seja, a quantidade máxima de computadores que poderá ser comprados.
-
+Assim, a cada iteração, basta retirar do dinheiro atual a quantidade de computadores comprados multiplicado pelo preço do computador nesta loja, ou seja, quanto foi gasto com computadores nesta loja. Deve ser mantida uma variável auxiliar inicializada com zero, e a cada iteração somar quantos computadores foram comprados, após as iterações esta variável conterá a resposta do problema, ou seja, a quantidade máxima de computadores que poderão ser comprados.
 
 Um exemplo de implementação segue abaixo:
 
