@@ -3,6 +3,7 @@
  </div>
 ## A1 - The Name Game
 
+Este problema é bem simples e direto, basta seguir as orientações do enunciado.
 
 Um exemplo de implementação segue abaixo:
 
