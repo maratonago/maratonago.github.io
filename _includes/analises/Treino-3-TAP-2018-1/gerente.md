@@ -9,13 +9,13 @@ O problema em si não é difícil, mas sim trabalhoso (recomendo resolver primei
 
 Observado as operações disponíveis, a primeira sugestão é trabalhar com o tamanho do disco em <b>Kb</b>, pois desta forma facilitará a manipulação dos blocos e da impressão da descrição do disco após as operações. As seguintes estruturas foram utilizadas:
 
-{% gist wellvolks/518090303067210ca2cfad8cbf88fd2a  estruturaBloco.cpp %}
+{% gist wellvolks/518090303067210ca2cfad8cbf88fd2a estruturaBloco.cpp %}
 
 Para representar o disco pode-se utilizar a estrutura de dados <a href = "http://www.cplusplus.com/reference/list/list/"> <b>list</b> </a> composta por outra estrutura <b>bloco</b>. Esta última é composta pelas variáveis: <b>tam</b> que representa o tamanho do bloco; <b>tipo</b> que armazena o tipo do bloco (LIVRE ou OCUPADO); e <b>nome</b> que mantem salvo o nome do arquivo que está armazenado no bloco em questão. A estrutura de dados <a href="http://www.cplusplus.com/reference/map/map/"><b>map</b></a>, representado por <b>arquivos</b>, é utilizada com o intuito de acelerar a segunda operação (remoção), uma vez que a mesma mantem um "ponteiro" para o bloco cujo o arquivo está armazenado, por conseguinte a remoção torna-se direta, já que não há a necessidade de percorrer todo o <b>hd</b> procurando o arquivo a ser removido.
 
 Antes de explicar em mais detalhes a solução vamos simular as três operações através de um caso de teste. Assim ficará mais simples de entender a solução empregada. Tal caso de teste é apresentado a seguir:
 
-{% gist wellvolks/63e277f25b536cd5cbbef1fdcc4fb0cc  teste.in %}
+{% gist wellvolks/63e277f25b536cd5cbbef1fdcc4fb0cc teste.in %}
 
 O primeiro passo é converter a unidade do disco de <b>8Mb</b> para <b>8192Kb</b>. No inicio o <b>hd</b> tem um único bloco livre com o tamanho da sua capacidade:
 
