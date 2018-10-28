@@ -17,7 +17,6 @@ Para resolver o problema, encontramos o centro para cada par de pontos no conjun
 
 Se precalculamos os fatoriais entre $$1$$ e $$N^2$$ e seus inversos modulo $$10^9 + 7$$ e usarmos uma estrutura de dados como o `std::map` do C++ para agregar os pares que compartilham o ponto médio a complexidade total da solução fica $$O(N^2 \log N)$$.
 
-
 [uri-2347]:     https://www.urionlinejudge.com.br/judge/pt/problems/view/2347
 [proof-square-integer]: http://paulscottinfo.ipage.com/lattice-points/5regular.html#anchor2
 

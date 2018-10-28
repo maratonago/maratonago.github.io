@@ -5,13 +5,14 @@ home: true
 
 <div id="home">
   <ul class="post-list">
-      {% for post in site.posts %}
-      <li class="list-item">
-        <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% if post.link %}<span class="icon-call-made"></span>{% endif %}{{ post.title }}</a>
-        </h2>
-      </li>
+    {% for post in site.posts %}
+    <li class="list-item">
+      <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</span>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% if post.link %}<span class="icon-call-made"></span>{%
+          endif %}{{ post.title }}</a>
+      </h2>
+    </li>
     {% endfor %}
   </ul>
 </div>

@@ -8,7 +8,6 @@ using namespace std;
 int cnt_zeroes[256][256];
 
 int main(int argc, char* argv[]) {
-
   ios::sync_with_stdio(false);
 
   int N, M;

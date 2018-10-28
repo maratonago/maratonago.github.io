@@ -8,7 +8,6 @@ using namespace std;
 int c[1<<14];
 
 int main(int argc, char* argv[]) {
-
   ios::sync_with_stdio(false);
 
   int N, M;

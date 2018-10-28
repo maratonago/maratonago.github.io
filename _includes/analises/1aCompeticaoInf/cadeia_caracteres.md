@@ -7,8 +7,8 @@ Enunciado: [Subcadeia interessante][pg]
 
 Resolva este problema: [Hackerrank][hackerrank-a]{:target="_blank"}
 
-[pg]:https://github.com/maratonago/maratonago.github.io/raw/master/_includes/pdfs/primeira_comp_inf_ufg/G.pdf
-[hackerrank-a]:		https://www.hackerrank.com/contests/ufg-contest-calouros/challenges/subcadeia-interessante
+[pg]: https://github.com/maratonago/maratonago.github.io/raw/master/_includes/pdfs/primeira_comp_inf_ufg/G.pdf
+[hackerrank-a]:	https://www.hackerrank.com/contests/ufg-contest-calouros/challenges/subcadeia-interessante
 
 Para resolver esse problema basta ter algumas observações em relação à construção das cadeias interessantes. Por exemplo:
 
