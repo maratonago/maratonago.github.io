@@ -5,7 +5,6 @@ typedef unsigned long long uint64;
 
 using namespace std;
 
-
 char cached[256][256][256];
 pair<int,int64> dp[256][256][256];
 int nxt[3][256][21];
@@ -47,10 +46,7 @@ pair<int,int64> solve(int p1, int p2, int p3) {
   return r;
 }
 
-
-
 int main(int argc, char* argv[]) {
-
   ios::sync_with_stdio(false);
 
   cin >> K;

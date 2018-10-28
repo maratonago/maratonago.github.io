@@ -52,4 +52,4 @@ melhor que uma breve análise da prova desse ano. Confira.
 {% include analises/regional2015/K-palindromo.md %} <br>
 {% include analises/regional2015/L-loteria.md %}
 
-[resultados-regional-2015]: http://maratona.ime.usp.br/vagas15.html
+[resultados-regional-2015]: http://maratona.ime.usp.br/hist/2015/primeira-fase/

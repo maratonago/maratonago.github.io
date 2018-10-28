@@ -46,7 +46,6 @@ int64 doit(int64 num) {
 }
 
 int main(int argc, char* argv[]) {
-
   ios::sync_with_stdio(false);
 
   sieve();

@@ -14,5 +14,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/d6bb2b8c1eeabd51ade36d72e1174d11 bolo_kataki.cpp %}
 
-[pa]:https://github.com/maratonago/maratonago.github.io/raw/master/_includes/pdfs/primeira_comp_inf_ufg/A.pdf
-[hackerrank-a]:		https://www.hackerrank.com/contests/ufg-contest-calouros/challenges/bolo-1
+[pa]: https://github.com/maratonago/maratonago.github.io/raw/master/_includes/pdfs/primeira_comp_inf_ufg/A.pdf
+[hackerrank-a]: https://www.hackerrank.com/contests/ufg-contest-calouros/challenges/bolo-1

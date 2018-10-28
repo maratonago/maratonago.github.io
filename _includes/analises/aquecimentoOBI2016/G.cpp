@@ -8,7 +8,6 @@ using namespace std;
 int tunnel[128];
 
 int main(int argc, char* argv[]) {
-
   ios::sync_with_stdio(false);
 
   int n;
