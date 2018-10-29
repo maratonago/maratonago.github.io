@@ -14,6 +14,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/f96480356cc94deac10e9687f0d00052 arrumandoAsTarefas.cpp %}
 
-
 [uri-1704]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1704
 

@@ -7,7 +7,7 @@ Enunciado: [Bolo][pd]
 
 Resolva este problema: [Hackerrank][hackerrank-a]{:target="_blank"}
 
-[pd]: https://github.com/maratonago/maratonago.github.io/raw/master/_includes/pdfs/primeira_comp_inf_ufg/D.pdf
+[pd]:           https://github.com/maratonago/maratonago.github.io/raw/master/_includes/pdfs/primeira_comp_inf_ufg/D.pdf
 [hackerrank-a]:	https://www.hackerrank.com/contests/ufg-contest-calouros/challenges/dados-1
 
 Percebe-se que para um palíndromo de tamanho par <b>(N % 2 == 0)</b>  basta olhar para os <b><sup>N</sup>&frasl;<sub>2</sub></b> primeiros dados, pois o restante dos <b><sup>N</sup>&frasl;<sub>2</sub></b> dados deverão refletir os <b><sup>N</sup>&frasl;<sub>2</sub></b> primeiros para que a sequência de dados seja palindrômica. Por exemplo, suponha <b>N = 6</b>, as sequências palindrômicas terão o seguinte formato <b>abccba</b>, com  <b>1 &#10877; a,b,c &#10877; 6</b>. A probabilidade de se obter, em um próximo arremesso,  uma sequência palindrômica será dado pelos eventos favoráveis sobre todas as possibilidades de eventos, ou seja, <b><sup>(6<sup>&lfloor;<sup>N</sup>&frasl;<sub>2</sub>&rfloor;</sup>)</sup>&frasl;<sub>6<sup>N</sup></sub></b>. 

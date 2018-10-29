@@ -9,7 +9,6 @@ int dx[] = { 0,+1, 0,-1};
 int dy[] = {+1, 0,-1, 0};
 
 int main(int argc, char* argv[]) {
-
   ios::sync_with_stdio(false);
   
   int64 N, B;

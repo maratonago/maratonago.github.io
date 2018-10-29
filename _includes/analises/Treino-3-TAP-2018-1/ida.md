@@ -12,5 +12,4 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/5bc3e63585b6fc2f007e621e09a16cc9 ida.cpp %}
 
-
 [uri-1281]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1281

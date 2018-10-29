@@ -12,6 +12,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/b82efe0efb54835c41bc3ff330af850c eu_posso.cpp %}
 
-
 [uri-1340]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1340
 

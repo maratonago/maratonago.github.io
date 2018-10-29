@@ -9,7 +9,6 @@ int dist[1<<15];
 vector<pair<int,int>> gr[1<<14];
 
 int main(int argc, char* argv[]) {
-	
 	ios::sync_with_stdio(false);
     
     int C, V, C1, C2, G;

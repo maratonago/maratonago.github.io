@@ -15,5 +15,4 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/dfa1a02849877b8982174276069776e7 horas_e_minutos.cpp %}
 
-
 [uri-1300]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1300

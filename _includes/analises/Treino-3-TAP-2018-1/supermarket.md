@@ -12,5 +12,4 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/bbabda6e7801a9dcd76e50995e7cb2e7 supermarket.cpp %}
 
-
 [uri-2065]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/2065

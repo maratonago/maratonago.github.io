@@ -7,7 +7,7 @@ Enunciado: [Log Bactérias][pe]
 
 Resolva este problema: [Hackerrank][hackerrank-a]{:target="_blank"}
 
-[pe]: https://github.com/maratonago/maratonago.github.io/raw/master/_includes/pdfs/primeira_comp_inf_ufg/E.pdf
+[pe]:           https://github.com/maratonago/maratonago.github.io/raw/master/_includes/pdfs/primeira_comp_inf_ufg/E.pdf
 [hackerrank-a]:	https://www.hackerrank.com/contests/ufg-contest-calouros/challenges/log-bacterias
 
 Multiplique todos os elementos dos dois arrays e verifique qual gera o maior resultado. Como o valor dos elementos pode ser até <b>10<sup>8</sup></b>, o produto dos elementos do mesmo array pode ultrapassar o valor suportado pelo <b>inteiro</b> de 32 bits. Para lidar com isso podemos usar o logaritmo.

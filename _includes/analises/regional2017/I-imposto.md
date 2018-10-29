@@ -10,6 +10,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist paulocezar/8d317179d662fbb9407bd84ef8285520 I.java %}
 
-
 [uri-2666]:     https://www.urionlinejudge.com.br/judge/pt/problems/view/2666
-[dfs]: http://maratonapuc.wikidot.com/apostilas:grafos#toc4
+[dfs]:          http://maratonapuc.wikidot.com/apostilas:grafos#toc4

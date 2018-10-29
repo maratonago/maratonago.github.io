@@ -24,13 +24,11 @@ A chave deste problema está em perceber que basta colocar a máquina de café e
 
 <p align="justify">
 A resposta será o menor tempo necessário das três opções citadas acima.
-
 </p>
 
 Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/c6b53bee1704820b50985930e7174aaa maquinaDeCafe.cpp %}
-
 
 [uri-2670]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/2670
 

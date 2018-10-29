@@ -18,7 +18,6 @@ Existem três repostas possíveis, vitória, empate ou derroa. Para ter controle
 </ul>
 Desta forma, após o BFS, se a variável <b>win</b> estiver com <b>-1</b> então o cavalo não ganhou, nesse caso deve-se verificar se a variável <b>empate</b> é diferente de <b>-1</b>, se for então ocorreu um empate. Caso contrário o cavalo perdeu com <b>max(0,(L-peao.x)-1)</b> movimentos, já que se ele não ganhou então quer dizer que o peão chegou no final, ou seja, o total de movimentos que o cavalo fez é igual a quantidade de movimentos do peão para chegar no final. O <b>-1</b> é necessário, uma vez que o peão começa jogando, então no final o cavalo irá fazer <b>1</b> movimento a menos.
 
-
 Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/30608c1fa242d5cde1b97f2f381235e3 perseguicao.cpp %}

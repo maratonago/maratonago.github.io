@@ -12,8 +12,7 @@ Um exemplo de implementação segue abaixo:
 
 {% gist paulocezar/8d317179d662fbb9407bd84ef8285520 H.java %}
 
-
 [uri-2665]:     https://www.urionlinejudge.com.br/judge/pt/problems/view/2665
-[longest-dag]: http://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/
+[longest-dag]:  http://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/
 
 

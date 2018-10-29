@@ -12,6 +12,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/55c8970fbe6cc19fa4f4f6c0fea0ec7e especies.cpp %}
 
-
 [uri-1260]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1260
 

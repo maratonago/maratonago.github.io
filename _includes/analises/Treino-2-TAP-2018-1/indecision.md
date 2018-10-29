@@ -14,6 +14,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/bf358911fab97f1bfb2d872f8e750948 indecisaoDasRenas.cpp %}
 
-
 [uri-2721]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/2721
 

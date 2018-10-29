@@ -14,5 +14,4 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/d20b1bc95a1d2d4db34b0c829cf4a1f9 media.cpp %}
 
-
 [uri-1006]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1006

@@ -25,9 +25,8 @@ Um exemplo de implementação segue abaixo:
 
 {% gist paulocezar/8d317179d662fbb9407bd84ef8285520 G.java %}
 
-
 [uri-2664]:     https://www.urionlinejudge.com.br/judge/pt/problems/view/2664
-[dp-1]: https://www.ime.usp.br/~maratona/aulas/programacao-dinamica
-[dp-2]: http://wiki.icmc.usp.br/images/1/1a/PD1.pdf
+[dp-1]:         https://www.ime.usp.br/~maratona/aulas/programacao-dinamica
+[dp-2]:         http://wiki.icmc.usp.br/images/1/1a/PD1.pdf
 
 

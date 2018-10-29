@@ -14,7 +14,6 @@ Um exemplo de implementação segue abaixo:
 
 {% gist paulocezar/8d317179d662fbb9407bd84ef8285520 L.cpp %}
 
-
-[uri-2669]:     https://www.urionlinejudge.com.br/judge/pt/problems/view/2669
-[submasses]: http://dreamboxx.com/mark/data/dam07.pdf
-[fft-codeforces]: http://codeforces.com/blog/entry/43499
+[uri-2669]:         https://www.urionlinejudge.com.br/judge/pt/problems/view/2669
+[submasses]:        http://dreamboxx.com/mark/data/dam07.pdf
+[fft-codeforces]:   http://codeforces.com/blog/entry/43499

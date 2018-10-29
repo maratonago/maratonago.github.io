@@ -33,5 +33,5 @@ Segue abaixo um exemplo de implementação:
 
 {% gist paulocezar/4d4cc4322fca30f33289 D-quebra-cabeca.cpp %}
 
-[uva-12953]:	https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=4832
-[uri-1934]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1934
+[uva-12953]:    https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=4832
+[uri-1934]:     https://www.urionlinejudge.com.br/judge/pt/problems/view/1934

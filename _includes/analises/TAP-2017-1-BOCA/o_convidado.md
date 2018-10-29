@@ -100,7 +100,6 @@ A Figura abaixo ilustra tais vetores.
   </ul>
 </p>
 
-
 <p align="justify">
   Um exemplo dos passos da atualização é mostrado no Figura abaixo.
 </p> 

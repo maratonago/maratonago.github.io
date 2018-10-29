@@ -5,7 +5,6 @@ typedef unsigned long long uint64;
 
 using namespace std;
 
-
 int P[1<<18];
 int dp[2][1<<18];
 
@@ -23,7 +22,6 @@ int solve(int has, int day) {
 }
 
 int main(int argc, char* argv[]) {
-
 	ios::sync_with_stdio(false);
 
 	cin >> N >> C;

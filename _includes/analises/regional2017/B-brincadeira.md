@@ -14,6 +14,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist paulocezar/8d317179d662fbb9407bd84ef8285520 B.cpp %}
 
-
 [uri-2659]:     https://www.urionlinejudge.com.br/judge/pt/problems/view/2659
-[casa-pombos]: https://pt.wikipedia.org/wiki/Princ%C3%ADpio_da_casa_dos_pombos
+[casa-pombos]:  https://pt.wikipedia.org/wiki/Princ%C3%ADpio_da_casa_dos_pombos
