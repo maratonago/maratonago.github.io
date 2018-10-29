@@ -7,7 +7,6 @@
 Resolva este problema:
 [URI][uri-1448]{:target="_blank"}
 
-
 <p align="justify">
 O enunciado começa explicado como funciona a brincadeira do “telefone sem fio” com dois times. Nesse problema, devemos nos atentar aos critérios de desempate: 
 </p>
@@ -21,10 +20,8 @@ Seja <b>FO</b>, <b>F1</b> e <b>F2</b> a frase original, a do primeiro e segundo 
 Apenas os <b>I</b>,<b>II</b> e <b>III</b> interferem na pontuação dos times. No caso <b>I</b> ambos recebem um ponto. No caso <b>II</b>, apenas o segundo time recebe um ponto e no caso <b>III</b> o primeiro é que recebe um ponto. Note-se que o critério de desempate leva em consideração a primeira ocorrência do caso <b>II</b> ou <b>III</b>. Portanto, se após percorrer a frase original e os times apresentam a mesma pontuação, basta verificar qual dos casos, <b>II</b> e <b>III</b>, ocorreu primeiro. Se for o caso <b>II</b> então o time 2 ganha, caso contrário o time 1 ganha. No entanto, se as pontuações dos times diferem, então o time que tiver a maior pontuação vence. 
 </p>
 
-
 Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/5f4b2672c78a54cf317b952cc0508f64 telefone.c %}
-
 
 [uri-1448]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1448

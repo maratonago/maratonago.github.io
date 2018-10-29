@@ -12,6 +12,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/5a443502b8181336b37c76b2351921be abreviacoes.cpp %}
 
-
 [uri-1519]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1519
 

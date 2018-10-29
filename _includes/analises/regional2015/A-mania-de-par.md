@@ -17,12 +17,10 @@ arestas $$C1_0 - C2_1$$ e $$C1_1 - C2_0$$ no nosso novo grafo. E agora para
 encontrar a resposta basta calcular o menor caminho entre os vértices $$1_0$$
 e $$C_0$$.
 
-
 Um exemplo de implementação segue abaixo:
 
 {% gist paulocezar/4d4cc4322fca30f33289 A-mania-de-par.cpp %}
 
-
-[uva-12950]:	https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=4829
-[uri-1931]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1931
+[uva-12950]:    https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=4829
+[uri-1931]:	    https://www.urionlinejudge.com.br/judge/pt/problems/view/1931
 [wkp-dijkstra]:	https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm

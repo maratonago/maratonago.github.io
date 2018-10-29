@@ -12,6 +12,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/5fe87dee0938a62e7aa50845eb659039 jogando.cpp %}
 
-
 [uri-1110]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1110
 

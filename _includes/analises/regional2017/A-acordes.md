@@ -10,7 +10,6 @@ Um exemplo de implementação segue abaixo:
 
 {% gist paulocezar/8d317179d662fbb9407bd84ef8285520 A.java %}
 
-
-[uri-2658]:     https://www.urionlinejudge.com.br/judge/pt/problems/view/2658
+[uri-2658]:         https://www.urionlinejudge.com.br/judge/pt/problems/view/2658
 [tutorial-segtree]: https://www.hackerearth.com/practice/notes/segment-tree-and-lazy-propagation/
-[uri-1477-homem]: https://www.urionlinejudge.com.br/judge/pt/problems/view/1477
+[uri-1477-homem]:   https://www.urionlinejudge.com.br/judge/pt/problems/view/1477

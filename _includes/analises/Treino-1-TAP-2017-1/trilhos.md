@@ -15,12 +15,10 @@ Um comboio consiste de <b>N</b> vagões, para cada um deles, de <b> 1 até N </b
 </p>
 <p align="justify">
 Após a chegada de todos os vagões, a sequência fornecida é alcançável se <b>P</b> e <b>F</b> estiverem vazias, pois não sobrou nenhum vagão na estação e a fila de vagões que saíram na direção <b>B</b> foi respeitada, portanto saída deve ser <b>Yes</b>. Caso contrário, a sequência não é alcançável e a saída deve ser <b>No</b>.
-
 </p>
 
 Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/e85c8aff230c36af931381ce30378c7c trilhos.cpp %}
-
 
 [uri-1062]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1062

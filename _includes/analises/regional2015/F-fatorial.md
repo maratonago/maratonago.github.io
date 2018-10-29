@@ -24,7 +24,7 @@ Segue um exemplo de implementação usando a solução gulosa:
 
 {% gist paulocezar/4d4cc4322fca30f33289 F-fatorial.cpp %}
 
-[uva-12955]:	https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=4834
-[uri-1936]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1936
-[wkp-greedy]:	https://en.wikipedia.org/wiki/Greedy_algorithm
-[coin-change]:	http://www.algorithmist.com/index.php/Coin_Change
+[uva-12955]:    https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=4834
+[uri-1936]:     https://www.urionlinejudge.com.br/judge/pt/problems/view/1936
+[wkp-greedy]:   https://en.wikipedia.org/wiki/Greedy_algorithm
+[coin-change]:  http://www.algorithmist.com/index.php/Coin_Change

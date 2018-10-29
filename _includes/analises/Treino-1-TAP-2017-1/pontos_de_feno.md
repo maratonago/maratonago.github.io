@@ -26,10 +26,8 @@ Seja  <b>M&lt;string,int&gt; </b> um <b>Map</b> composto pela chave  e valor do 
 <font color="blue"><b>Árvore Trie:</b></font> a <a href="http://www.geeksforgeeks.org/trie-insert-and-search/">Trie</a> é uma estrutura de dados de recuperação rápida: <i>re<b>trie</b>val</i>. A complexidade de inserção, remoção e pesquisa são todos na ordem de <b>O(K)</b>. Portanto, podemos inserir todas as palavras-chaves em uma <b>Trie</b> com complexidade <b>O(N*K)</b> e para cada palavra da descrição pesquisamos se a mesma está presente na <b>Trie</b>, se estiver adicionamos o valor desta palavra à <b>S</b>. A complexidade final com a <b>Trie</b> fica em <b>O((N*K) + (M*K))</b>. 
 </p>
 
-
 Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/644fc2c93b543ae7472c97b24ef96934 pontos_de_feno.cpp %}
-
 
 [uri-1261]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1261

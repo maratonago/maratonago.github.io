@@ -15,13 +15,10 @@ Uma outra abordagem, com complexidade <b>O(N)</b>, consiste em computar a quanti
 </p>
 <p align="justify">
 Após processamos todos os caracteres a resposta está armazenada em <b>diamantes</b>. Note-se que esse problema também pode ser resolvido substituindo a variável <b>aberto</b> pela estrutura de dados <b>pilha</b>. Caso não esteja familiarizado fica como um exercício ;D.
-
-
 </p>
 
 Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/6e3d3d8e57d5e61027ce26541f432f27 diamantes.cpp %}
-
 
 [uri-1069]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1069

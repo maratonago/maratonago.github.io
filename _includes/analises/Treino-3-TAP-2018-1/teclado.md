@@ -12,5 +12,4 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/af7dbe3e85b2ec938488fa1667c5904c teclado.cpp %}
 
-
 [uri-1451]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1451

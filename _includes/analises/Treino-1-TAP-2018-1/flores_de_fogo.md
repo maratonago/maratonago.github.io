@@ -15,5 +15,4 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/e47f1a0a5c9ef92e56bf4b24800e5572 flores_de_fogo.cpp %}
 
-
 [uri-1039]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1039

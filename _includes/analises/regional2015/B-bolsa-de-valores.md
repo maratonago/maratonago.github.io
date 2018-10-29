@@ -5,7 +5,6 @@ Resolva este problema:
 [Uva][uva-12951]{:target="_blank"},
 [URI][uri-1932]{:target="_blank"}
 
-
 Ao terminar de ler o segundo problema da prova, o competidor que já conhece
 a técnica de [programação dinâmica][wkp-dp1]{:target="_blank"} provavelmente
 fica com uma impressão de que a solução pro problema envolve o uso dessa
@@ -30,7 +29,6 @@ Um exemplo de implementação top-down segue abaixo:
 
 {% gist paulocezar/4d4cc4322fca30f33289 B-bolsa-de-valores.cpp %}
 
-
-[uva-12951]:	https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=4830
-[uri-1932]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1932
-[wkp-dp1]:		https://en.wikipedia.org/wiki/Dynamic_programming
+[uva-12951]:    https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=4830
+[uri-1932]:	    https://www.urionlinejudge.com.br/judge/pt/problems/view/1932
+[wkp-dp1]:      https://en.wikipedia.org/wiki/Dynamic_programming

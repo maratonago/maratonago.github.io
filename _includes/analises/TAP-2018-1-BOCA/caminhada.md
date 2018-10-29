@@ -7,7 +7,6 @@ O enunciado é bem claro e direto, dado um mapa de altura de uma cadeia de monta
 
 Ciente das restrições e movimentos possíveis, este problema pode ser resolvido com <b>BFS</b>. Para cada linha <b>i</b> e coluna  <b>j = 1</b>, realize um <b>BFS</b> partindo dessa posição e compute a menor distância para as posições na última coluna, ou seja, <b>j = c</b>.  
 
-
 Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/655bfd2ef0951bae5775b2022b1fa4a0 caminhada.cpp %}

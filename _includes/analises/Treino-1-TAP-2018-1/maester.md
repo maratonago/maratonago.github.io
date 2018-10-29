@@ -15,5 +15,4 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/7beb4f58e361060b491fa3238b41dc40 maester.cpp %}
 
-
 [uri-1855]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1855

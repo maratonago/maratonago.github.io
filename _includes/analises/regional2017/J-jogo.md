@@ -16,6 +16,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist paulocezar/8d317179d662fbb9407bd84ef8285520 J.java %}
 
-
 [uri-2667]:     https://www.urionlinejudge.com.br/judge/pt/problems/view/2667
-[game-theory]: https://www.topcoder.com/community/data-science/data-science-tutorials/algorithm-games/
+[game-theory]:  https://www.topcoder.com/community/data-science/data-science-tutorials/algorithm-games/

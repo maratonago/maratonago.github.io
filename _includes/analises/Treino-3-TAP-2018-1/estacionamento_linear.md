@@ -12,5 +12,4 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/874a00a9ddf48b1ef3b96da77f88de0c estacionamento_linear.cpp %}
 
-
 [uri-1523]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1523

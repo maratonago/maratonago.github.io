@@ -30,19 +30,9 @@ $$
 Onde $$N$$ é o número de elementos da sequência e $$n_x$$ é a quantidade de vezes
 que cada valor aparece. A idéia então é ter no estado da pd o elemento atual e a
 quantidade de posições que ainda não foram preenchidas, e as transições vão variar
-o número de vezes que o elemento atual aparece de $$0$$ a $$min(posições livres, K-1)$$.
-
-Para que o resultado correto seja calculado, seja $$ocorrencias$$ o número de vezes que
-
-
-
-Como o problema (felizmente) pede que as solução seja apresentada módulo $$10^9 + 7$$
-
-
-
+o número de vezes que o elemento atual aparece de $$0$$ a $$min(posições livres, K-1)$$.$$
 
 {% gist paulocezar/4d4cc4322fca30f33289 G-guardioes-curiosos.cpp %}
-
 
 Interessantes abordagens alternativas para esse problema podem ser encontradas
 nos comentários [desse post][cf-solucoes](em inglês) no Codeforces.

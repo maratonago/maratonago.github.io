@@ -14,6 +14,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/c552cdbc318ed89b2613b5886789f037 tribol.cpp %}
 
-
 [uri-1875]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1875
 

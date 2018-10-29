@@ -71,7 +71,6 @@ Após todas as operações terem sido realizadas, a útltima etapa consiste em p
 
 {% gist wellvolks/49bc54e7ef43e5e4437d38c50665f531 print.cpp %}
 
-
 A implementação completa segue abaixo:
 
 {% gist wellvolks/8c1aa815af97b7b232a159c8767dc4fa gerente.cpp %}

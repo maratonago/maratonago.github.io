@@ -14,5 +14,4 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/05d323eb7b300f2c79cf6bfb43fceb53 christamasLights.cpp %}
 
-
 [uri-2718]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/2718

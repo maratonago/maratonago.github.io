@@ -44,6 +44,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/ab669bb875a916b200ed58c1f1f26189 estacionamento.cpp %}
 
-
 [uri-1246]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1246
 

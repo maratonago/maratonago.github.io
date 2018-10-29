@@ -14,6 +14,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/6b925c0f6ada11bdb75eac3c1bd90c25 evento.cpp %}
 
-
 [uri-2172]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/2172
 

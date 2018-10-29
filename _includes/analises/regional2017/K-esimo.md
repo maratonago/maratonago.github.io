@@ -33,7 +33,6 @@ Um exemplo de implementação segue abaixo:
 
 {% gist paulocezar/8d317179d662fbb9407bd84ef8285520 K.py %}
 
-
-[uri-2668]:     https://www.urionlinejudge.com.br/judge/pt/problems/view/2668
-[binomio-newton]: https://pt.wikipedia.org/wiki/Bin%C3%B3mio_de_Newton
-[matrix-expo]: http://fusharblog.com/solving-linear-recurrence-for-programming-contest/
+[uri-2668]:         https://www.urionlinejudge.com.br/judge/pt/problems/view/2668
+[binomio-newton]:   https://pt.wikipedia.org/wiki/Bin%C3%B3mio_de_Newton
+[matrix-expo]:      http://fusharblog.com/solving-linear-recurrence-for-programming-contest/

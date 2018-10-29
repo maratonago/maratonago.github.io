@@ -14,6 +14,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/22e081ab0a885545b023845552313a8b arrayHash.cpp %}
 
-
 [uri-1257]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1257
 

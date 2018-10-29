@@ -37,7 +37,6 @@ int64 solve(int pos, int rem) {
 }
 
 int main(int argc, char* argv[]) {
-	
 	ios::sync_with_stdio(false);
     
     cin >> N >> K;

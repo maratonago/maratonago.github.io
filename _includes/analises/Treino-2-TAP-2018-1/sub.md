@@ -14,6 +14,5 @@ Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/a69aeb0ed5305b43040b44b84f829de9 sub-prime.cpp %}
 
-
 [uri-1105]:		https://www.urionlinejudge.com.br/judge/pt/problems/view/1105
 
