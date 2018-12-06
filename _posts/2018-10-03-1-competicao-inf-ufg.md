@@ -113,7 +113,7 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
-</script\>
+</script>
 
 Parabéns à todos que participaram. O vencedor dessa competição, <b>Renato Alves Barbosa Junior</b>, ganhou um Power Bank 10000mA. Os dez primeiros participantes foram premiados com uma camiseta e brindes. Abaixo segue a lista dos ganhadores:
 
