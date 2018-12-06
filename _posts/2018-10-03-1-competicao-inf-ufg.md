@@ -13,6 +13,39 @@ Aconteceu em 03 de Outubro de 2018 a 1ª Competição de Programação - 2018/2 
 
 [Placar completo aqui](/_assets/scoreboard_boca_1a_comp_inf/Report Page.html).
 
+Parabéns à todos que participaram. O vencedor dessa competição, <b>Renato Alves Barbosa Junior</b>, ganhou um Power Bank 10000mA. Os dez primeiros participantes foram premiados com uma camiseta e brindes. Abaixo segue a lista dos ganhadores:
+
+<p align="justify">
+  <b>1ª</b>  <span style="color:red">Renato Alves Barbosa Junior</span>
+</p>
+<p align="justify">
+  <b>2ª</b>   <span style="color:blue">Felipe Aguiar Costa</span>
+</p>
+<p align="justify">
+  <b>3ª</b>	<span style="color:blue">Daniel Campos da Silva</span>
+</p>
+<p align="justify">
+  <b>4ª</b>	<span style="color:blue">Gabriel Crispim Valentino de Siqueira</span>
+</p>
+<p align="justify">
+  <b>5ª</b>	<span style="color:blue">Julio Cesar Freitas Bueno de Moraes</span>
+</p>
+<p align="justify">
+  <b>6ª</b>	<span style="color:blue">Alexander Henrique Watanabe de Souza</span>
+</p>
+<p align="justify">
+  <b>7ª</b>	<span style="color:blue">Lucas Nunes Rios</span>
+</p>
+<p align="justify">
+  <b>8ª</b>	<span style="color:blue">Pedro Henrique Sanches Pelegrino Zambrano</span>
+</p>
+<p align="justify">
+  <b>9ª</b>	<span style="color:blue">Gustavo Machado Leal</span>
+</p>
+<p align="justify">
+  <b>10ª</b>	<span style="color:blue">Vinicius Fleury Barbosa</span>
+</p>
+
 
 Para quem deseja tentar novamente, ou submeter usando outras ideias, os problemas estão disponíveis
 para submissão no [HackerRank](https://www.hackerrank.com/ufg-contest-calouros).
