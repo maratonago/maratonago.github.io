@@ -41,12 +41,4 @@ A prova foi composta por 9 problemas. Os níveis dos problemas e as respectivas 
 |=====
 
 
-As explicações dos problemas seguem abaixo: <br> 
- <!--{% include analises/1aCompeticaoInf/desafio.md %} <br> -->
- <!--{% include analises/1aCompeticaoInf/forro.md %} <br> -->
- <!--{% include analises/1aCompeticaoInf/obras.md %} <br> -->
- <!--{% include analises/1aCompeticaoInf/tap.md%} <br> -->
- <!--{% include analises/1aCompeticaoInf/brincando.md%} <br> -->
- <!--{% include analises/1aCompeticaoInf/escadas.md %} <br> -->
- <!--{% include analises/1aCompeticaoInf/campeonato.md %} <br> -->
- <!--{% include analises/1aCompeticaoInf/terrenos.md %} <br> -->
+As explicações dos problemas seguem abaixo:
