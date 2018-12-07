@@ -22,19 +22,19 @@ Esse problema parece ser bastante difícil, mas na verdade é bem simples. É ne
 
 Podemos repartir esses números em blocos de tamanho 4:
 
-Bloco 1<br>
+**Bloco 1**<br>
 0 -  <span style="color:blue">00</span><br>
 1 - <span style="color:blue">01</span><br>
 2 - <span style="color:blue">10</span><br>
 3 - <span style="color:blue">11</span><br>
 
-Bloco 2<br>
+**Bloco 2**<br>
 4 - 1<span style="color:blue">00</span><br>
 5 - 1<span style="color:blue">01</span><br>
 6 - 1<span style="color:blue">10</span><br>
 7 - 1<span style="color:blue">11</span><br>
 
-Bloco 3<br>
+**Bloco 3**<br>
 8 -   10<span style="color:blue">00</span><br>
 9 -   10<span style="color:blue">01</span><br>
 10 - 10<span style="color:blue">10</span><br>
