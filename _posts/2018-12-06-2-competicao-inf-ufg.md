@@ -5,8 +5,10 @@ tags: [maratona de programação, inf, ufg, problemset, analise]
 categories: analise
 author: wellvolks
 ---
-
-<style>
+(setq markdown-xhtml-header-content
+      "<style type='text/css'>
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
 * {
     box-sizing: border-box;
 }
@@ -59,7 +61,7 @@ body {
     background-color: #666;
     color: white;
 }
-</style>
+</style>")
 
 
 Aconteceu em 06 de Outubro de 2018 a 2ª Competição de Programação - 2018/2 do INF-UFG. A participação na competição foi restringida aos alunos que ingresseram no curso nos anos de 2017 e 2018. O placar final da competição, geral ou por semestre/ano, pode ser observado abaixo:
@@ -125,7 +127,7 @@ Parabéns à todos que participaram. Como o placar da competição foi dividido 
 Os vencedores ganharam um MI BAND 2 cada. Os demais participantes ganharam, além dos brindes, uma camisa com o macote (Monkey) do INF na Maratona de Programação. 
 
 <div class="row">
-<div class="column2">
+<div class="column">
     <img src="https://lh3.googleusercontent.com/T5_mr9oqvA9v8Ofz3WCYWguDkj28gdJFLJwDvVPNcoME-tdIDUm9MBr2GdFiVH8OgCa70DtUzdGNQLv4XVkn2TdfAqDsWnRbLtV27mMoSa8gNY-sBGVjWdgk9-_5CTQ_G-Qro82PbT6vWDQg4igNb37yVTlEpliKTva_9OzQpBbSEKg1gF7IY-P1V9sP6RZPFNiQPBKinuE9e5nfQdjyZPgMxS66xg1cW4ImUibaQgCj-EdAVtF27N_rE15kp---DXOkUERKzRyvSiZtXAjPx72iAVUfjyYpzPKC-c7H2T_QJ-rHx27jdWrO-jvc-EX0ralpz04oW5ViaDzbMHJW99jbCVIQnHx4UyvF8nNcTTS2lWm0TZZLGyqrsBF3DDWJLUX4MvbWWCErUoX5-68N_2iMwHPZNDvIQmCFOxrhCHmaJ29KtoTbw2lezLRticDhwydy0PjVbod518njyUCDgNNGttnf-vRh6QRacdWNnrxG55nZQgLAa-WSVt2Dt0HWDvBKnVjsEmrGArOnejXYNm0dFenZsEVmuatru1rJDHkxf032lokSRBinIP2cqqaUdamwI9gN9oHAlu044HX_eMNGgDnMgg9mLCh1WClYXKVthslcsGhrvZXAkw4io2GUWhx368NMwsaV8yD7oTqYjLYYiKCRoF3j5HnjUsVPr33h-D_V9R3RFcXSrERVUPvHWBdFhwU7oL8ukrvGoUQ=w1242-h931-no" style="width:100%">
     <img src="https://lh3.googleusercontent.com/bBzb3TJbH9Wg5MGY_QSNlQunh_8iHUm-RsAvl_oGSKx2ejtTdxBzhKX7Ljicip_hI6XvYYYGC8Nq9ZamyHlKLIepDWkOLUX-Q1Y6PSd8ASqbtj9rgN1gJgZ-v8pQZ2gG8Zba1OvzBJ0YXOjaB5KXktyTG_cm9qMoCmejk1fpmUD1n0ZdekJoY_CP-cXAfVzx0_7QuhhIV4tZGaC19kFYsUubjF6F8BKRoUXUl7FIOOUDOd8JbPWeW4h_2yqQJTRkADnlJ9NyoY7UWR2dZ-yTGrKvFxMZIHeOyJ5OWt2uQupx86Kf7rRwzPsrWDzjZJdOBLQw26Pshg6fvi5Y0mtCLjf-GnMLqZTZgLV1EHj8d2p4QDq0zNkxiEst4--mTgQX6JdXLzjkuhBdcYafr0JvkanBfL9h9hSp3Son-e60wymWgkFw2eMz6wafCg3cufBsZcPi5zQM3ZPywcMiOQCwA87dqUt0FcpUxLS0CQRQHG-hmbZnUfgHZWQKsHTWwneSdNfo3pqz5Skn1IJLeII3YpUYCsrtSc9AA2iUHHJ_XLT1bqc5UjVuQhG8iu_NjzP-95J0Hi0oicupZzxQ-iAA1E7-DfBEpOdkrA1Cz7j0FFur49UUHQLb8PSlVMAUcAydmBVZqAR0gWaYT2tu8xkLDH2xDuEM4CWVD2yumtdDdttzQE9oR747QpFMrC4vM2b4Xxc_KpJwsHMkS-Ut4lE=w1307-h980-no" style="width:100%">
     <img src="https://lh3.googleusercontent.com/2ARcYeOeMheFCynE5LolBnSXS4jrNPNZX-Sy1BCBipAa4Q2m1wF8uZklBgGWSzLMulYSgYiHxsr7Uvy4Xg23csiS4F4bSbGwh8HfsOgnuSSFGgFc6mVxTb7whAwCNW5BNSO0LPlI99eJLC5_YCbLGwv-KsIAR8MbvbhtEAmDKU7cmSXHEK9pNwmnfsW5r3tzOL3t6sWv92-5uLgB65130wOaT3RVsH4bfkWERGJ5jADV3-JF-mOovW6cceZ2AldGZAPHd4QWYMlec636WazYRkBhPj2U-Sg-ikFHiRwTojJsJ1kvrnSb1cxGYKLLXiUgZIttwOrHZdensnR-M3Y2TKbrKsSrZfG4ZPqmqUZG2w7roYXk7Hh-_91C0R7bBi7ZxjgF1RRozLk5BlJW_30vpiNdzSOxKnVcBXxwh5MhSi1swFxHc0EMLB__3Il9nIXJ9hygjpfcKpZJJl0EcrhOxyPIQwPaH-JmU8T4UoI66FLnFlaM_07ix1ynZZoqfeH-G9zo3UuM0AP2vDSAYydX6c1YfAdg1ZDIAfEaitn0ca8vdW6x0Ey7fBQWZStR660ltAQQgU0_TsnYOfZxLvGcqF85PWnbeqHorrmHkdCIgxPO6OqVDl04FxXsDFnNi7bDgwnfzgvBGhPUNyVR9sngyLX_RjNaGdqWSkG9_mgecMIQUNq9kctRUOKNvbaPkHtIOsUaZfF5wWlaWurT1MQ=w1307-h980-no" style="width:100%">
@@ -140,7 +142,7 @@ Os vencedores ganharam um MI BAND 2 cada. Os demais participantes ganharam, alé
 </div>
 
 <script>
-var elements = document.getElementsByClassName("column2");
+var elements = document.getElementsByClassName("column");
 for (i = 0; i < elements.length; i++) {
         elements[i].style.msFlex = "50%";  // IE10
         elements[i].style.flex = "50%";
