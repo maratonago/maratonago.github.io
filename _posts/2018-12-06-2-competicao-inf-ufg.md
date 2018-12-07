@@ -42,9 +42,9 @@ body {
 
 /* Style the buttons */
 .btn {
-    border: none;
-    outline: none;https://www.w3schools.com/
-    padding: 10px 16px;
+        border: none;
+    outline: none;
+    padding: 20px 26px;
     background-color: #f1f1f1;
     cursor: pointer;
     font-size: 18px;
