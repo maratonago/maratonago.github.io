@@ -218,4 +218,5 @@ A prova foi composta por 9 problemas. Os níveis dos problemas e as respectivas 
 As explicações dos problemas seguem abaixo:<br>
 {% include analises/2aCompeticaoInf/desafio.md %} <br>
 {% include analises/2aCompeticaoInf/forro.md %} <br>
-{% include analises/2aCompeticaoInf/obras.md %}
+{% include analises/2aCompeticaoInf/obras.md %} <br>
+{% include analises/2aCompeticaoInf/brincando.md %}
