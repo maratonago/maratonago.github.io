@@ -44,7 +44,7 @@ body {
 .btn {
     border: none;
     outline: none;
-    padding: 20px 26px;
+    padding: 15px 21px;
     background-color: #ddd;
     cursor: pointer;
     font-size: 18px;
@@ -140,7 +140,7 @@ Os vencedores ganharam um MI BAND 2 cada. Os demais participantes ganharam, alé
 
 <div class="row" align="center">
 <div class="column">
-    <img id = "id_fig" src="https://lh3.googleusercontent.com/T5_mr9oqvA9v8Ofz3WCYWguDkj28gdJFLJwDvVPNcoME-tdIDUm9MBr2GdFiVH8OgCa70DtUzdGNQLv4XVkn2TdfAqDsWnRbLtV27mMoSa8gNY-sBGVjWdgk9-_5CTQ_G-Qro82PbT6vWDQg4igNb37yVTlEpliKTva_9OzQpBbSEKg1gF7IY-P1V9sP6RZPFNiQPBKinuE9e5nfQdjyZPgMxS66xg1cW4ImUibaQgCj-EdAVtF27N_rE15kp---DXOkUERKzRyvSiZtXAjPx72iAVUfjyYpzPKC-c7H2T_QJ-rHx27jdWrO-jvc-EX0ralpz04oW5ViaDzbMHJW99jbCVIQnHx4UyvF8nNcTTS2lWm0TZZLGyqrsBF3DDWJLUX4MvbWWCErUoX5-68N_2iMwHPZNDvIQmCFOxrhCHmaJ29KtoTbw2lezLRticDhwydy0PjVbod518njyUCDgNNGttnf-vRh6QRacdWNnrxG55nZQgLAa-WSVt2Dt0HWDvBKnVjsEmrGArOnejXYNm0dFenZsEVmuatru1rJDHkxf032lokSRBinIP2cqqaUdamwI9gN9oHAlu044HX_eMNGgDnMgg9mLCh1WClYXKVthslcsGhrvZXAkw4io2GUWhx368NMwsaV8yD7oTqYjLYYiKCRoF3j5HnjUsVPr33h-D_V9R3RFcXSrERVUPvHWBdFhwU7oL8ukrvGoUQ=w1242-h931-no" style="width:60%">
+    <img id = "id_fig" src="https://lh3.googleusercontent.com/T5_mr9oqvA9v8Ofz3WCYWguDkj28gdJFLJwDvVPNcoME-tdIDUm9MBr2GdFiVH8OgCa70DtUzdGNQLv4XVkn2TdfAqDsWnRbLtV27mMoSa8gNY-sBGVjWdgk9-_5CTQ_G-Qro82PbT6vWDQg4igNb37yVTlEpliKTva_9OzQpBbSEKg1gF7IY-P1V9sP6RZPFNiQPBKinuE9e5nfQdjyZPgMxS66xg1cW4ImUibaQgCj-EdAVtF27N_rE15kp---DXOkUERKzRyvSiZtXAjPx72iAVUfjyYpzPKC-c7H2T_QJ-rHx27jdWrO-jvc-EX0ralpz04oW5ViaDzbMHJW99jbCVIQnHx4UyvF8nNcTTS2lWm0TZZLGyqrsBF3DDWJLUX4MvbWWCErUoX5-68N_2iMwHPZNDvIQmCFOxrhCHmaJ29KtoTbw2lezLRticDhwydy0PjVbod518njyUCDgNNGttnf-vRh6QRacdWNnrxG55nZQgLAa-WSVt2Dt0HWDvBKnVjsEmrGArOnejXYNm0dFenZsEVmuatru1rJDHkxf032lokSRBinIP2cqqaUdamwI9gN9oHAlu044HX_eMNGgDnMgg9mLCh1WClYXKVthslcsGhrvZXAkw4io2GUWhx368NMwsaV8yD7oTqYjLYYiKCRoF3j5HnjUsVPr33h-D_V9R3RFcXSrERVUPvHWBdFhwU7oL8ukrvGoUQ=w1242-h931-no" style="width:65%">
   </div>
 </div>
 
