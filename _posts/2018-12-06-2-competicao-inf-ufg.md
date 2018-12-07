@@ -7,8 +7,6 @@ author: wellvolks
 ---
 (setq markdown-xhtml-header-content
       "<style type='text/css'>
-a { text-decoration: none; }
-a:hover { text-decoration: underline; }
 * {
     box-sizing: border-box;
 }
@@ -113,7 +111,7 @@ for (var i = 0; i < btns.length; i++) {
 </script>
 
 
-Para os(as) que desejam resolver os problemas, um replay da competição está disponível no [HackerRank](https://www.hackerrank.com/2-competicao-de-programacao-infufg-20182).
+Para os(as) alunos(as) que desejam resolver os problemas, um replay da competição está disponível no [HackerRank](https://www.hackerrank.com/2-competicao-de-programacao-infufg-20182).
 
 Parabéns à todos que participaram. Como o placar da competição foi dividido de acordo com o ano (2017 e 2018), tivemos dois vencedores:
   
