@@ -9,60 +9,6 @@ author: wellvolks
 
 Aconteceu em 06 de Outubro de 2018 a 2ª Competição de Programação - 2018/2 do INF-UFG. A participação na competição foi restringida aos alunos que ingresseram no curso nos anos de 2017 e 2018. O placar final da competição, geral ou por semestre/ano, pode ser observado abaixo:
 
-<style>
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-    text-align: center;
-    padding: 32px;
-}
-
-.row {
-    display: -ms-flexbox; /* IE 10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE 10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-    -ms-flex: 50%; /* IE 10 */
-    flex: 50%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
-/* Style the buttons */
-.btn {
-    border: none;
-    outline: none;https://www.w3schools.com/
-    padding: 10px 16px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.btn:hover {
-    background-color: #ddd;
-}
-
-.btn.active {
-    background-color: #666;
-    color: white;
-}
-</style>
 
 <!-- Header -->
 <div class="header" id="myHeader">
