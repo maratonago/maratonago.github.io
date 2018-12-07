@@ -5,6 +5,7 @@ Autor: <font color = "blue">Misael Mateus</font>
 
 Resolva este problema: [Hackerrank][hackerrank-i]{:target="_blank"}
 
+Este problema pode ser resolvido com uma matriz auxiliar que informa quais as posições já foram percorridas. Assim, quando encontrar uma posição já percorrida ou que leve para fora da matriz poderá mudar de direção. O sentido do percurso deverá respeitar o setindo da espiral, ou seja, direita -> para baixo ->  esquerda -> para cima. 
 
 Um exemplo de implementação segue abaixo:
 
