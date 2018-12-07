@@ -65,7 +65,7 @@ Aconteceu em 06 de Outubro de 2018 a 2ª Competição de Programação - 2018/2 
 
 <div class="header" id="myHeader">
   <h1>Placar Final</h1>
-  <button class="btn" onclick="one(0)">Geral</button>
+  <button class="btn active" onclick="one(0)">Geral</button>
   <button class="btn" onclick="one(1)">2017</button>
   <button class="btn" onclick="one(2)">2018</button>
   <button class="btn" onclick="one(3)">2017-1</button>
