@@ -55,7 +55,7 @@ body {
 }
 
 .btn.active {
-    background-color: #666;
+    background-color: #0099ff;
     color: white;
 }
 </style>
