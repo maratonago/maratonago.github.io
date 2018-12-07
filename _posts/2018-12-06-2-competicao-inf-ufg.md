@@ -58,6 +58,28 @@ body {
     background-color: #0099ff;
     color: white;
 }
+
+
+
+
+
+.btnn {
+    border: none;
+    outline: none;
+    padding: 15px 21px;
+    background-color: #ddd;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btnn:hover {
+    background-color: #b3b3b3;
+}
+
+.btnn.active {
+    background-color: #0099ff;
+    color: white;
+}
 </style>
 
 
@@ -109,6 +131,7 @@ for (var i = 0; i < btns.length; i++) {
 }
 </script>
 
+<br>
 
 Para os(as) alunos(as) que desejam resolver os problemas, um replay da competição está disponível no [HackerRank](https://www.hackerrank.com/2-competicao-de-programacao-infufg-20182).
 
@@ -126,16 +149,16 @@ Os vencedores ganharam um MI BAND 2 cada. Os demais participantes ganharam, alé
 
 
 <div class="header" id="myHeader2">
-  <button class="btn active" onclick="two(0)">Foto 1</button>
-  <button class="btn" onclick="two(1)">Foto 2</button>
-  <button class="btn" onclick="two(2)">Foto 3</button>
-  <button class="btn" onclick="two(3)">Foto 4</button>
-  <button class="btn" onclick="two(4)">Foto 5</button>
-  <button class="btn" onclick="two(5)">Foto 6</button>
-  <button class="btn" onclick="two(6)">Foto 7</button>
-    <button class="btn" onclick="two(7)">Foto 8</button>
-    <button class="btn" onclick="two(8)">Foto 9</button>
-    <button class="btn" onclick="two(9)">Foto 10</button>
+  <button class="btnn active" onclick="two(0)">Foto 1</button>
+  <button class="btnn" onclick="two(1)">Foto 2</button>
+  <button class="btnn" onclick="two(2)">Foto 3</button>
+  <button class="btnn" onclick="two(3)">Foto 4</button>
+  <button class="btnn" onclick="two(4)">Foto 5</button>
+  <button class="btnn" onclick="two(5)">Foto 6</button>
+  <button class="btnn" onclick="two(6)">Foto 7</button>
+    <button class="btnn" onclick="two(7)">Foto 8</button>
+    <button class="btnn" onclick="two(8)">Foto 9</button>
+    <button class="btnn" onclick="two(9)">Foto 10</button>
 </div>
 
 <div class="row" align="center">
@@ -164,7 +187,7 @@ function two(id) {
 
 // Add active class to the current button (highlight it)
 var header = document.getElementById("myHeader2");
-var btns = header.getElementsByClassName("btn");
+var btns = header.getElementsByClassName("btnn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
@@ -174,6 +197,7 @@ for (var i = 0; i < btns.length; i++) {
 }
 </script>
 
+<br>
 
 A prova foi composta por 9 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolvê-los são apresentados na tabela abaixo:
 
