@@ -5,8 +5,7 @@ tags: [maratona de programação, inf, ufg, problemset, analise]
 categories: analise
 author: wellvolks
 ---
-(setq markdown-xhtml-header-content
-      "<style type='text/css'>
+<style type='text/css'>
 * {
     box-sizing: border-box;
 }
@@ -59,7 +58,7 @@ body {
     background-color: #666;
     color: white;
 }
-</style>")
+</style>
 
 
 Aconteceu em 06 de Outubro de 2018 a 2ª Competição de Programação - 2018/2 do INF-UFG. A participação na competição foi restringida aos alunos que ingresseram no curso nos anos de 2017 e 2018. O placar final da competição, geral ou por semestre/ano, pode ser observado abaixo:
@@ -116,10 +115,10 @@ Para os(as) alunos(as) que desejam resolver os problemas, um replay da competiç
 Parabéns à todos que participaram. Como o placar da competição foi dividido de acordo com o ano (2017 e 2018), tivemos dois vencedores:
   
 <p align="justify">
-  <b>2017</b>  <span style="color:red">Joao Batista de Oliveira Netto</span>
+  <b>2017</b>  <span style="color:blue">Joao Batista de Oliveira Netto</span>
 </p>
 <p align="justify">
-  <b>2018</b>   <span style="color:red">Felipe Aguiar Costa</span>
+  <b>2018</b>   <span style="color:blue">Felipe Aguiar Costa</span>
 </p>
 
 Os vencedores ganharam um MI BAND 2 cada. Os demais participantes ganharam, além dos brindes, uma camisa com o macote (Monkey) do INF na Maratona de Programação. 
