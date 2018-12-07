@@ -222,4 +222,5 @@ As explicações dos problemas seguem abaixo:<br>
 {% include analises/2aCompeticaoInf/obras.md %} <br>
 {% include analises/2aCompeticaoInf/brincando.md %} <br>
 {% include analises/2aCompeticaoInf/escadas.md %} <br>
-{% include analises/2aCompeticaoInf/terrenos.md %}
+{% include analises/2aCompeticaoInf/terrenos.md %} <br>
+{% include analises/2aCompeticaoInf/espiral.md %}
