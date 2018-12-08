@@ -28,7 +28,7 @@ Assim, após o pré-processamento, para qualquer posição **(i,j)** da matriz *
   <li> superior direito estará na posição **Qi-1, j+1**;</li>
   <li> infeiror esquerdo estará na posição **Qi+1, j-1**;</li>
   <li> inferior direito estará na posição **Qi+1, j+1**</li>.
-</lu>
+</ul>
     
 Com esses quatro valores valores **interessantes** () é possível computar o valor **atraente** da seguinte forma:
 <ul>
