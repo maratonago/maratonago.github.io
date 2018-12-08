@@ -24,21 +24,21 @@ Note-se que esse último procedimento resolve o problema de encontrar o maior va
 
 Assim, após o pré-processamento, para qualquer posição **(i,j)** da matriz **A**, o maior valor do quadrante:
 <ul>
-  <li> superior esquerdo estará na posição **Qi-1, j-1**; </ld>
-  <li> superior direito estará na posição **Qi-1, j+1**;</ld>
-  <li> infeiror esquerdo estará na posição **Qi+1, j-1**;</ld>
-  <li> inferior direito estará na posição **Qi+1, j+1**.
+  <li> superior esquerdo estará na posição **Qi-1, j-1**; </li>
+  <li> superior direito estará na posição **Qi-1, j+1**;</li>
+  <li> infeiror esquerdo estará na posição **Qi+1, j-1**;</li>
+  <li> inferior direito estará na posição **Qi+1, j+1**</li>.
 </lu>
     
 Com esses quatro valores valores **interessantes** () é possível computar o valor **atraente** da seguinte forma:
 <ul>
-  <li> **atraente = max(Qi-1, j-1,Qi-1, j+1,Qi+1, j-1,Qi+1, j+1) - min(Qi-1, j-1,Qi-1, j+1,Qi+1, j-1,Qi+1, j+1) **; </ld>
+  <li> **atraente = max(Qi-1, j-1,Qi-1, j+1,Qi+1, j-1,Qi+1, j+1) - min(Qi-1, j-1,Qi-1, j+1,Qi+1, j-1,Qi+1, j+1) **; </li>
 </ul>
 
 Ao percorrer cada posição **(i,j)** da matriz **A**, o valor **fascinante** poderá ser comptuado da seguinte forma:
 
 <ul>
-  <li> **fascinante = max(fascinante, atraente)** </ld>
+  <li> **fascinante = max(fascinante, atraente)** </li>
 </ul>
 
 Um exemplo de implementação segue abaixo:
