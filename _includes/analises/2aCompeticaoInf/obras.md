@@ -5,7 +5,7 @@ Autor: <font color = "blue">Paulo Kataki</font>
 
 Resolva este problema: [Hackerrank][hackerrank-c]{:target="_blank"}
 
-Este problema é uma variação do problema de escalonamento de tarefas. Podemos olhar as posições das extremidades de uma viga como um intervalo (x,y). Após isso, realiza-se um ordenação destes intervalos de acordo com o valor de x e depois deve-se utilizar um algoritmo guloso para agrupar os intervalos que têm uma intersecção e adicioná-los na resposta.
+Este problema é uma variação do problema de escalonamento de tarefas. Podemos olhar as posições das extremidades de uma viga como um intervalo **(x,y)**. Após isso, realiza-se um ordenação destes intervalos de acordo com o valor de **x** e depois deve-se utilizar um algoritmo guloso para agrupar os intervalos que têm uma intersecção e adicioná-los à resposta.
 
 Um exemplo de implementação segue abaixo:
 
