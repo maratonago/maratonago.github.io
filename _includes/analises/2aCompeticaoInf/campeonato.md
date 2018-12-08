@@ -32,11 +32,11 @@ A segunda consulta é do mesmo formato que a primeira, logo, após a busca biná
 
 ![e3](/_assets/images/camp2.png){: .center-image }
 
-A terceira consulta é do segundo tipo. Ou seja, ao atualizar o valor da pontuação associado ao círculo com área **12** para **10** será necessário atualizar o vetor **Acumulado**. Tal área se encontra na posição **2** do vetor **Área**, logo o vetor **Acumulado** na posição **2** deverá ser atualizado para **Acumulado[2] = Acumulado[1] + 10**. De forma análoga, a posição **3** para **Acumulado[3] = Acumulado[2] + (-10)**.
+A terceira consulta é do segundo tipo. Ou seja, ao atualizar o valor da pontuação associado ao círculo com área **12** para **10** será necessário atualizar o vetor **Acumulado**. Tal área se encontra na posição **2** do vetor **Área**, logo o vetor **Acumulado** na posição **2** deverá ser atualizado para **Acumulado[2] = Acumulado[1] + 10**. Do mesmo modo, a posição **3** para **Acumulado[3] = Acumulado[2] + (-10)**.
 
 ![e4](/_assets/images/camp6.png){: .center-image }
 
-As demais consultas podem ser respondidas da mesma forma que as duas primeiras consultas foram.
+As demais consultas, **1 12** e **1 20**, podem ser respondidas de forma análoga às primeiras consultas.
 
 Um exemplo de implementação segue abaixo:
 
