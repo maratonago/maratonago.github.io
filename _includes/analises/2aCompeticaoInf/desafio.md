@@ -20,7 +20,7 @@ Esse problema parece ser bastante difícil, mas na verdade é bem simples. É ne
 10 - 1010<br>
 11 - 1011<br>
 
-Podemos repartir esses números em blocos de tamanho 4:
+Podemos repartir esses números em blocos de tamanho **4**:
 
 **Bloco 1**<br>
 0 -  <span style="color:blue">00</span><br>
@@ -41,7 +41,7 @@ Podemos repartir esses números em blocos de tamanho 4:
 11 - 10<span style="color:blue">11</span><br>
 
 
-Dessa forma podemos ver que sempre há a repetição dos sufixos 00</span>, <span style="color:blue">01</span>, <span style="color:blue">10</span> e <span style="color:blue">11</span>. O resto da representação é a mesma em todos os números pertencentes a esse bloco. Como a quantidade de 1's e 0's em cada posição é par, então o [XOR] de todos os números de um bloco é 0. Podemos então, dado um número N, encontrar sua posição no bloco correspondente e fazer o XOR desse valor com todos os números menores que N em tal bloco. A solução tem complexidade O(1).
+Dessa forma podemos ver que sempre há a repetição dos sufixos <span style="color:blue"> 00</span>, <span style="color:blue">01</span>, <span style="color:blue">10</span> e <span style="color:blue">11</span>. O resto da representação é a mesma em todos os números pertencentes a esse bloco. Como a quantidade de **1's** e **0's** em cada posição é par, então o [XOR] de todos os números de um bloco é **0**. Podemos então, dado um número **N**, encontrar sua posição no bloco correspondente e fazer o **XOR** desse valor com todos os números menores que **N** em tal bloco. A solução tem complexidade **O(1)**.
 
 Um exemplo de implementação segue abaixo:
 
