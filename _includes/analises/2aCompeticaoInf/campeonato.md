@@ -18,24 +18,10 @@ Essa atualizaçao apresenta complexidade, no pior caso, <b>O(Q &middot; N)</b>. 
 
 Para exemplificar a solução olhe para o primeiro caso de teste:
 
-**Entrada**<br>
-3 5<br>
-2 1<br>
-20 -10<br>
-12 5<br>
-1 2<br>
-1 20<br>
-2 12 10<br>
-1 12<br>
-1 20<br>
-**Saída**<br>
-1<br>
--4<br>
-11<br>
-1<br>
+![Entrada](/_assets/images/in.PNG){: .center-image }
 
 
-
+![e1](/_assets/images/camp1.png){: .center-image }
 
 
 Um exemplo de implementação segue abaixo:
