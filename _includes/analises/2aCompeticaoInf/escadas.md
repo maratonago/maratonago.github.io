@@ -5,7 +5,7 @@ Autor: <font color = "blue">Paulo Kataki</font>
 
 Resolva este problema: [Hackerrank][hackerrank-f]{:target="_blank"}
 
-Esse problema pode ser resolvido com uma técnica chamada [programação dinâmica]. A relação de recorrência é a mesma que gera a  sequência de Fibonacci porém calculado com o valor módulo $10^9 + 7$.
+Esse problema pode ser resolvido com uma técnica chamada [programação dinâmica]. A relação de recorrência é a mesma que gera a  sequência de Fibonacci porém calculado com o valor módulo <b>10<sup>9</sup> + 7</b>.
 
 Um exemplo de implementação segue abaixo:
 
