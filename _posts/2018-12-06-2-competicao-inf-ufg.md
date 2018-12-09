@@ -144,9 +144,7 @@ Parabéns à todos que participaram. Como o placar da competição foi dividido 
   <b>2018</b>   <span style="color:blue">Felipe Aguiar Costa</span>
 </p>
 
-Os vencedores ganharam um MI BAND 2 cada. Os demais participantes ganharam, além dos brindes, uma camisa com o macote (Monkey) do INF na Maratona de Programação. 
-
-
+Os vencedores ganharam um MI BAND 2 cada. Os demais participantes ganharam, além dos brindes, uma camisa com o mascote (Monkey) do INF na Maratona de Programação. 
 
 <div class="header" id="myHeader2">
   <button class="btnn active" onclick="two(0)">Foto 1</button>

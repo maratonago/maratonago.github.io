@@ -8,7 +8,7 @@ Resolva este problema: [Hackerrank][hackerrank-g]{:target="_blank"}
 O problema pede para que seja desenvolvido um programa que seja capaz de processar duas consultas:
 
 <ul>
-  <li><b>A1 a</b>: O competidor alvejou um círculo com área <b>a</b>. Informe a pontuação obtida por ele.</li>
+  <li><b>1 a</b>: O competidor alvejou um círculo com área <b>a</b>. Informe a pontuação obtida por ele.</li>
   <li><b>2 a v</b>: A organização alterou o valor do círculo com área <b>a</b> para o valor <b>v</b>.</li>
 </ul>
 
