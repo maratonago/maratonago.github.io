@@ -135,7 +135,7 @@ for (var i = 0; i < btns.length; i++) {
 
 Para os(as) alunos(as) que desejam resolver os problemas, um replay da competição está disponível no [HackerRank](https://www.hackerrank.com/2-competicao-de-programacao-infufg-20182).
 
-Parabéns à todos que participaram. Como o placar da competição foi dividido de acordo com o ano (2017 e 2018), tivemos dois vencedores:
+Parabéns à todos(as) que participaram. Vocês são tdos vencedores! Como o placar da competição foi dividido de acordo com o ano de ingresso (2017 e 2018), o primeiro colocado de cada no (vide abaixo) foi premiado com um MI BAND 2.
   
 <p align="justify">
   <b>2017</b>  <span style="color:blue">Joao Batista de Oliveira Netto</span>
@@ -144,7 +144,7 @@ Parabéns à todos que participaram. Como o placar da competição foi dividido 
   <b>2018</b>   <span style="color:blue">Felipe Aguiar Costa</span>
 </p>
 
-Os vencedores ganharam um MI BAND 2 cada. Os demais participantes ganharam, além dos brindes, uma camisa com o mascote (Monkey) do INF na Maratona de Programação. 
+Todos os participantes ganharam, além de brindes, uma camisa com o mascote (Monkey) do INF na Maratona de Programação.
 
 <div class="header" id="myHeader2">
   <button class="btnn active" onclick="two(0)">Foto 1</button>
