@@ -18,7 +18,7 @@ Essa atualizaçao apresenta complexidade, no pior caso, <b>O(Q &middot; N)</b>. 
 
 Para exemplificar a solução observe o primeiro caso de teste do problema:
 
-![Entrada](/_assets/images/in.PNG){: .center-image }
+![Entrada](/_assets/images/in.png){: .center-image }
 
 Será necessário armazenar as informações dos círculos e o acumulado das pontuações em vetores. Os vetores **Área**, **Pontuação** e **Acumulado** serão tais vetores nesta explicação. Note-se que o vetor **Área** mantém os valores da entrada de forma ordenada. Tal ordenação é necessária para que a busca binária possa ser realizada. 
 
