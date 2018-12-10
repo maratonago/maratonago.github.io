@@ -7,10 +7,12 @@ Resolva este problema: [Hackerrank][hackerrank-g]{:target="_blank"}
 
 O problema pede para que seja desenvolvido um programa que seja capaz de processar duas consultas:
 
+<p style="margin-left:2.5em">
 <ul>
-  &nbsp;&nbsp;&nbsp;<li><b>1 a</b>: O competidor alvejou um círculo com área <b>a</b>. Informe a pontuação obtida por ele.</li>
-  &nbsp;&nbsp;&nbsp;<li><b>2 a v</b>: A organização alterou o valor do círculo com área <b>a</b> para o valor <b>v</b>.</li>
+    <li><b>1 a</b>: O competidor alvejou um círculo com área <b>a</b>. Informe a pontuação obtida por ele.</li>
+    <li><b>2 a v</b>: A organização alterou o valor do círculo com área <b>a</b> para o valor <b>v</b>.</li>
 </ul>
+</p>
 
 Percebe-se que se fosse apenas a primeira consulta o problema seria mais simples. Uma vez que bastaria manter o acumulado do primiero círculo até o último círculo. Ou seja, cada círculo já teria a pontuação computada o que permitiria responder a consulta em **O(1)**. No entanto, a segunda consulta modifica o valor associado a um determinado círculo, por conseguinte, torna-se necessário atualizar o acumulado dos círculos posteriores com área maior.
 
