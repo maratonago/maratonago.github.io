@@ -135,7 +135,7 @@ for (var i = 0; i < btns.length; i++) {
 
 Para os(as) alunos(as) que desejam resolver os problemas, um replay da competição está disponível no [HackerRank](https://www.hackerrank.com/2-competicao-de-programacao-infufg-20182).
 
-Parabéns à todos(as) que participaram. Vocês são tdos vencedores! Como o placar da competição foi dividido de acordo com o ano de ingresso (2017 e 2018), o primeiro colocado de cada ano (vide abaixo) foi premiado com um MI BAND 2.
+Parabéns à todos(as) que participaram. Como o placar da competição foi dividido de acordo com o ano de ingresso (2017 e 2018), o primeiro colocado de cada ano (vide abaixo) foi premiado com um MI BAND 2.
   
 <p align="justify">
   <b>2017</b>  <span style="color:blue">Joao Batista de Oliveira Netto</span>
