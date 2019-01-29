@@ -83,7 +83,7 @@ body {
 </style>
 
 
-Aconteceu em 06 de Outubro de 2018 a 2ª Competição de Programação - 2018/2. A participação na competição foi restringida aos alunos que ingresseram no curso nos anos de 2017 e 2018. O placar final da competição, geral ou por semestre/ano, pode ser observado abaixo:
+Aconteceu em 6 de Outubro de 2018 a 2ª Competição de Programação - 2018/2. A participação na competição foi restringida aos alunos que ingresseram no curso nos anos de 2017 e 2018. O placar final da competição, geral ou por semestre/ano, pode ser observado abaixo:
 
 <div class="header" id="myHeader">
   <h1>Placar Final</h1>
