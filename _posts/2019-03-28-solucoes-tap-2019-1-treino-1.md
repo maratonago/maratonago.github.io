@@ -15,25 +15,25 @@ abaixo.
 
 A lista de exercícios foi composta por 17 problemas. Os níveis dos problemas e as respectivas técnicas que podem ser usadas para resolve-los são apresentados na tabela abaixo.
 
-| Problema                                                            | Dificuldade | Técnica relacionada         |
-|:--------------------------------------------------------------------|:-----------:|----------------------------:|
-| A - <a href="#macaco">Macaco rural</a>                              | ?           | ?                           |
-| B - <a href="#aerporto">Aeroporto</a>                               | ?           | ?                           |
-| C - <a href="#penta">Penta!</a>                                     | ?           | ?                           |
-| D - <a href="#monitorando">Monitorando a Amazônia</a>               | ?           | ?                           |
-| E - <a href="#jogo">Jogo da vida</a>                                | ?           | ?                           |
-| F - <a href="#linear">Linear Cellular Automata</a>                  | ?           | ?                           |
-| G - <a href="#decorder">The Decoder</a>                             | ?           | ?                           |
-| H - <a href="#kindergarten">Kindergarten Counting Game</a>          | ?           | ?                           |
-| I - <a href="#fibonacci">Fibonacci Freeze</a>                       | ?           | ?                           |
-| J - <a href="#quirksome">Quirksome Squares</a>                      | ?           | ?                           |
-| K - <a href="#divisors">Divisors</a>                                | ?           | ?                           |
-| L - <a href="#interpreting">Interpreting Control Sequences</a>      | ?           | ?                           |
-| M - <a href="#big">Big Mod</a>                                      | ?           | ?                           |
-| N - <a href="#perfect">Perfect Cubes</a>                            | ?           | ?                           |
-| N - <a href="#seasonal">The Seasonal War</a>                        | ?           | ?                           |
-| N - <a href="#interpreter">Interpreter</a>                          | ?           | ?                           |
-| N - <a href="#ananagrams">Ananagrams</a>                            | ?           | ?                           |
+| Problema                                                             | Dificuldade | Técnica relacionada         |
+|:---------------------------------------------------------------------|:-----------:|----------------------------:|
+| P1 - <a href="#macaco">Macaco rural</a>                              | ?           | ?                           |
+| P2 - <a href="#aerporto">Aeroporto</a>                               | ?           | ?                           |
+| P3 - <a href="#penta">Penta!</a>                                     | ?           | ?                           |
+| P4 - <a href="#monitorando">Monitorando a Amazônia</a>               | ?           | ?                           |
+| P5 - <a href="#jogo">Jogo da vida</a>                                | ?           | ?                           |
+| P6 - <a href="#linear">Linear Cellular Automata</a>                  | ?           | ?                           |
+| P7 - <a href="#decorder">The Decoder</a>                             | ?           | ?                           |
+| P8 - <a href="#kindergarten">Kindergarten Counting Game</a>          | ?           | ?                           |
+| P9 - <a href="#fibonacci">Fibonacci Freeze</a>                       | ?           | ?                           |
+| P10 - <a href="#quirksome">Quirksome Squares</a>                     | ?           | ?                           |
+| P11 - <a href="#divisors">Divisors</a>                               | ?           | ?                           |
+| P12 - <a href="#interpreting">Interpreting Control Sequences</a>     | ?           | ?                           |
+| P13 - <a href="#big">Big Mod</a>                                     | ?           | ?                           |
+| P14 - <a href="#perfect">Perfect Cubes</a>                           | ?           | ?                           |
+| P15 - <a href="#seasonal">The Seasonal War</a>                       | ?           | ?                           |
+| P16 - <a href="#interpreter">Interpreter</a>                         | ?           | ?                           |
+| P17 - <a href="#ananagrams">Ananagrams</a>                           | ?           | ?                           |
 | =====
 
 <br>
