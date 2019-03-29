@@ -19,7 +19,7 @@ A lista de exercícios foi composta por 17 problemas. Os níveis dos problemas e
 |:---------------------------------------------------------------------|:-----------:|----------------------------:|
 | P1 - <a href="#macaco">Macaco rural</a>                              | 1           | Ad hoc                      |
 | P2 - <a href="#aerporto">Aeroporto</a>                               | 1           | Ad hoc                      |
-| P3 - <a href="#penta">Penta!</a>                                     | ?           | ?                           |
+| P3 - <a href="#penta">Penta!</a>                                     | 3           | Priority queue              |
 | P4 - <a href="#monitorando">Monitorando a Amazônia</a>               | ?           | ?                           |
 | P5 - <a href="#jogo">Jogo da vida</a>                                | ?           | ?                           |
 | P6 - <a href="#linear">Linear Cellular Automata</a>                  | ?           | ?                           |
