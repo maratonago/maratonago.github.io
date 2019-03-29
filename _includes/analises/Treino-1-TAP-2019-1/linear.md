@@ -9,6 +9,6 @@ Resolva este problema:
 
 Um exemplo de implementação segue abaixo:
 
-{% gist wellvolks/cab1c3c3dd8c4673d0c97b6ca417fa69 linear.cppp %}
+{% gist wellvolks/cab1c3c3dd8c4673d0c97b6ca417fa69 linear.cpp %}
 
 [uva398]:		https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=398
