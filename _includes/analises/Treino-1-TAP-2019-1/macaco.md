@@ -13,5 +13,3 @@ Um exemplo de implementação segue abaixo:
 {% gist wellvolks/631e477b92755a3dbca7f6be94f79376 macaco.cpp %}
 
 [spoj-MACACOMG]:		http://br.spoj.com/problems/MACACOMG/
-
-Cabe a você
