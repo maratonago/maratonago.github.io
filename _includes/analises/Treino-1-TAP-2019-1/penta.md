@@ -19,12 +19,11 @@ Antes de explicar uma solução para esse problema, faz-se necessário apresenta
 
 Dentre as quatro situações, a única problemática é a terceira. Qual jogador deverá descer para que o próximo da lista suba no palanque? Escolher um jogador que está a mais tempo no palanque parece ser o mais justo, no entanto, uma vez que tal jogador pode aparecer logo em seguida na lista, tal escolha irá resultar em mais uma troca futuramente. Uma outra estratégia é escolher o jogador que terá que estar no palanque novamente o mais tardar possível dentre os demais jogadores no palanque. Assim, os jogadores que em breve terão que estar no palanque novamente tem uma maior prioridade dentre os outros para ficar no palanque. Desta forma, a quantidade de trocas de jogadores será reduzida. 
 
-O palanque pode ser visto como uma [fila de prioridade][pq], onde o jogador que apresentar o próximo momento, que deverá estar no palanque novamente, maior terá a maior prioridade de descer do palanque caso um jogador que não esteja no palanque tenha que subir.
-
+O controle de quem está ou não no palanque pode ser feito por um [set][s] de <b>pair < int , int ></b>, onde a primeira posiçao do pair representa o próximo momento que o jogador, cujo identificador está na segunda posição do pair, deverá estar no palanque novamente. Note-se, que na terceira situação o jogador que deverá descer estará na última posição do set, uma vez que tal jogador terá o próximo momento no palanque o mais distante possível se comparado aos demais jogadores no palanque.
 
 Um exemplo de implementação segue abaixo:
 
 {% gist wellvolks/aed27482bb451c8651131d216d9117a0 penta.cpp %}
 
 [spoj-PENTA]:		https://br.spoj.com/problems/PENTA/
-[pq]: https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/
+[s]: https://www.geeksforgeeks.org/set-in-cpp-stl/
