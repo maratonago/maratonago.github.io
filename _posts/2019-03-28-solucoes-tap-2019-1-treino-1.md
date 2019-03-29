@@ -18,7 +18,7 @@ A lista de exercícios foi composta por 17 problemas. Os níveis dos problemas e
 | Problema                                                             | Dificuldade | Técnica relacionada         |
 |:---------------------------------------------------------------------|:-----------:|----------------------------:|
 | P1 - <a href="#macaco">Macaco rural</a>                              | 1           | Ad hoc                      |
-| P2 - <a href="#aerporto">Aeroporto</a>                               | ?           | ?                           |
+| P2 - <a href="#aerporto">Aeroporto</a>                               | 1           | Ad hoc                      |
 | P3 - <a href="#penta">Penta!</a>                                     | ?           | ?                           |
 | P4 - <a href="#monitorando">Monitorando a Amazônia</a>               | ?           | ?                           |
 | P5 - <a href="#jogo">Jogo da vida</a>                                | ?           | ?                           |
