@@ -74,4 +74,3 @@ A lista de exercícios foi composta por 17 problemas. Os níveis dos problemas e
 
 
 
-
