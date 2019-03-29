@@ -37,6 +37,7 @@ A lista de exercícios foi composta por 17 problemas. Os níveis dos problemas e
 | =====
 
 <br>
+
 {% include analises/Treino-1-TAP-2019-1/macaco.md %}
 
 {% include analises/Treino-1-TAP-2019-1/aerporto.md %}
