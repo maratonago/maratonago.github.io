@@ -23,23 +23,24 @@ As dicas de soluções dos juizes podem ser encontradas [aqui][solucoes-juizes-2
 | Problema                              | Dificuldade   | Técnica relacionada                                   |
 |:--------------------------------------|:-------------:|------------------------------------------------------:|
 |A - Álbum de Figurinhas                | médio         | programação dinâmica + matemática                     |
-|B - Batalha Naval                      | difícil       | sqrt decomposition (mo algorithm), BIT, busca binária |
-|C - Concatenando Times                 | médio         | dijkstra                                              |
-|D - Dança da Divisibilidade            | fácil         | divisibilidade, lcm, gcd                              |
-|E - Empresa de Festas                  | médio         | programação dinâmica, bitmasks                        |
-|F - Fastminton                         | fácil/médio   | ad hoc, grafos, dfs                                   |
-|G - Game Show!                         | fácil         | prefix sum, busca binária, programação dinâmica       |
-|H - Hangar do SBC                      | balão++       | palindromos, strings                                  |
-|I - Interatividade                     | fácil         | ad hoc                                                |
-|J - Juntando Dados                     | difícil       | geometria, line sweep, convex hull                    |
-|K - Ká entre Nós                       | difícil       | geometria, programação dinâmica                       |
-|L - Lavaspar                           | fácil         | flood fill, bfs, dfs                                  |
-|M - Metralhadora                       | fácil         | flood fill, bfs, dfs                                  |
-|N - Números Multiplicados              | fácil         | flood fill, bfs, dfs                                  |
-|O - Ônibus Venusiano                   | fácil         | flood fill, bfs, dfs                                  |
+|B - Batalha Naval                      | balão++       | implementação                                         |
+|C - Concatenando Times                 | difícil       | strings                                               |
+|D - Dança da Divisibilidade            | difícil       | algebra, exponeciação de matriz, recorrência linear   |
+|E - Empresa de Festas                  | médio         | grafos, dfs, lca                                      |
+|F - Fastminton                         | fácil         | adhoc                                                 |
+|G - Game Show!                         | fácil         | programação dinâmica                                  |
+|H - Hangar do SBC                      | fácil/médio   | adhoc, miscellaneous                                  |
+|I - Interatividade                     | médio         | programação dinâmica, dfs                             |
+|J - Juntando Dados                     | difícil       | geometria, algebra                                    |
+|K - Ká entre Nós                       | médio/difícil | algebra, gauss                                        |
+|L - Lavaspar                           | fácil         | adhoc                                                 |
+|M - Metralhadora                       | fácil         | persistent segment tree, sweep line, binary search    |
+|N - Números Multiplicados              | fácil/médio   | crivo, matemática                                     |
+|O - Ônibus Venusiano                   | difícil       | geometria, line sweep                                 |
 |=====
 
-<br>
+<!-- nao consegui achar um local para poder submeter as soluções, por enquanto deixarei comentado -->
+<!-- <br>
 {% include analises/regional2020/A-album.md %} <br>
 {% include analises/regional2020/B-batalha.md %} <br>
 {% include analises/regional2020/C-concatenando.md %} <br>
@@ -54,7 +55,7 @@ As dicas de soluções dos juizes podem ser encontradas [aqui][solucoes-juizes-2
 {% include analises/regional2020/L-lavaspar.md %}<br>
 {% include analises/regional2020/M-metralhadora.md %} <br>
 {% include analises/regional2020/N-numeros.md %}<br>
-{% include analises/regional2020/O-onibus.md %}
+{% include analises/regional2020/O-onibus.md %} -->
 
 [resultados-regional-2020]: http://maratona.sbc.org.br/primfase20.html
 [solucoes-juizes-2020]: http://maratona.sbc.org.br/primfase20/editorial_en20.pdf
