@@ -40,7 +40,7 @@ As dicas de soluções dos juizes podem ser encontradas [aqui][solucoes-juizes-2
 |=====
 
 <!-- nao consegui achar um local para poder submeter as soluções, por enquanto deixarei comentado -->
-<!-- <br>
+<br>
 {% include analises/regional2020/A-album.md %} <br>
 {% include analises/regional2020/B-batalha.md %} <br>
 {% include analises/regional2020/C-concatenando.md %} <br>
@@ -55,7 +55,7 @@ As dicas de soluções dos juizes podem ser encontradas [aqui][solucoes-juizes-2
 {% include analises/regional2020/L-lavaspar.md %}<br>
 {% include analises/regional2020/M-metralhadora.md %} <br>
 {% include analises/regional2020/N-numeros.md %}<br>
-{% include analises/regional2020/O-onibus.md %} -->
+{% include analises/regional2020/O-onibus.md %}
 
 [resultados-regional-2020]: http://maratona.sbc.org.br/primfase20.html
 [solucoes-juizes-2020]: http://maratona.sbc.org.br/primfase20/editorial_en20.pdf
